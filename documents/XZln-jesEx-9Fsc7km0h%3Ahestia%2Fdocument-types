@@ -1,0 +1,988 @@
+{
+  "__": "hxAmLnCuXvhugs",
+  "_id": "XZln-jesEx-9Fsc7km0h:hestia/document-types",
+  "__id": "EjVplLXTKL",
+  "__ok": true,
+  "icon": "",
+  "name": "Client Questionnaires",
+  "tags": [],
+  "_type": "document",
+  "table": "ss_ClientQuestionnaires",
+  "theme": {
+    "other": {
+      "opacity": {
+        "AlcOpacity_001": "10%",
+        "AlcOpacity_002": "25%",
+        "AlcOpacity_003": "50%",
+        "AlcOpacity_004": "75%"
+      },
+      "palette": {
+        "gold": "gold",
+        "type": "light",
+        "bronze": "#853",
+        "silver": "silver",
+        "primary": {
+          "main": "#1da7e0",
+          "contrastText": "#fff"
+        },
+        "AlcSys_001": "#FFFFFF",
+        "AlcSys_002": "#F7F8F9",
+        "AlcSys_003": "#F4F5F6",
+        "AlcSys_004": "#EBEBED",
+        "AlcSys_005": "#CCCCCC",
+        "AlcSys_006": "rgba(125, 125, 125, 1)",
+        "AlcSys_007": "#263836",
+        "AlcSys_008": "#000000",
+        "AlcBrand_001": "#1da7e0",
+        "AlcBrand_002": "#0081AF",
+        "AlcBrand_003": "#294A76",
+        "AlcBrand_004": "#0099B3",
+        "AlcBrand_005": "#604696",
+        "AlcBrand_006": "#D26A37",
+        "AlcBrand_007": "#679861",
+        "AlcBrand_008": "#EBBA00",
+        "AlcBrand_009": "#8C1D82",
+        "AlcBrand_010": "#DC840A",
+        "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+        "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+        "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+        "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+        "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+        "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+        "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+        "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+        "AlcSysState_green": "rgba(63, 195, 128, 1)",
+        "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+        "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+        "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+        "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+        "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+        "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+        "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+        "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+        "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+        "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+        "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+        "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+        "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+        "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+        "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+        "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+        "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+      },
+      "document": {
+        "form": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "child": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "fontSize": 16,
+        "fontFamily": "Roboto, sans-serif"
+      },
+      "typography": {
+        "h1": {
+          "fontSize": "2.8em",
+          "fontFamily": "Montserrat, sans-serif",
+          "fontWeight": 700
+        },
+        "h2": {
+          "fontSize": "2.3em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h3": {
+          "fontSize": "2em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h4": {
+          "fontSize": "1.667em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h5": {
+          "fontSize": "1.333em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h6": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "body1": {
+          "fontSize": "1.167em",
+          "fontFamily": "Roboto"
+        },
+        "body2": {
+          "fontSize": "1em",
+          "fontFamily": "Roboto"
+        },
+        "body3": {
+          "fontSize": "0.9em",
+          "fontFamily": "Roboto"
+        },
+        "body4": {
+          "fontSize": "14px",
+          "fontFamily": "Roboto"
+        },
+        "overline": {
+          "fontSize": "0.917em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500,
+          "textTransform": "uppercase"
+        },
+        "Action1_Medium": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action2_Medium": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action1_Regular": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat"
+        },
+        "Action2_Regular": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat"
+        },
+        "Action1_SemiBold": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        },
+        "Action2_SemiBold": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        }
+      }
+    },
+    "theme": "Alcumus",
+    "permanentTheme": ""
+  },
+  "__size": 17139,
+  "__warn": false,
+  "client": "rsihYJKKDVyaYN",
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
+  "demands": [],
+  "$creator": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+  "__cached": 1618240921519,
+  "_created": 1604651781000,
+  "_deleted": 0,
+  "database": "newss_ClientQuestionnaires",
+  "maxWidth": 1000,
+  "_modified": 1618335886886,
+  "__modified": 1613484061886,
+  "components": "",
+  "isLockedBy": null,
+  "navigation": [],
+  "__namespace": "",
+  "_behaviours": {
+    "_state": "",
+    "instances": {
+      "form": [
+        {
+          "id": "oDu-lV5W3n-d78",
+          "name": "Admin",
+          "sections": [
+            {
+              "id": "1618239861073-9gSuKGMMplh6Ot",
+              "_id": "1618239861073-9gSuKGMMplh6Ot:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "jbs1xsETkkTH-D",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "iSOrSqVJslSrn2",
+                  "name": "verificationExpiryDate",
+                  "type": "date",
+                  "hints": {},
+                  "question": "",
+                  "_selectId": "vLGlDlzjhxmznD",
+                  "condition": "",
+                  "inputLabel": "",
+                  "iconOffsetX": "",
+                  "iconOffsetY": "",
+                  "localFormat": "",
+                  "dialogHeader": "Help",
+                  "useMaterialUI": true,
+                  "preventNullify": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "4s3divPUJ9JMBQ",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "card2_0": [
+        {
+          "id": "U62lxi-eCVj9rH",
+          "name": "Copy of \"Supplier Account Card 2.0\"",
+          "bands": [
+            {
+              "id": "uTdBFYMmnP",
+              "type": "flex",
+              "wrap": "",
+              "align": "center",
+              "justify": "center",
+              "contents": [
+                {
+                  "id": "sCt2xkgUM",
+                  "type": "flex",
+                  "wrap": "",
+                  "align": "center",
+                  "justify": "center",
+                  "contents": [
+                    {
+                      "id": "bGZb0e_rb",
+                      "text": "<h2>{supplierAccount.accountName}</h2>\n<p><span style=\"color: rgb(204,204,204);font-family: Montserrat;\">{supplierAccount.referenceNumber}</span></p>\n",
+                      "type": "richtext",
+                      "_selectId": "vR84qlqlOd",
+                      "topMargin": "",
+                      "leftMargin": "",
+                      "rightMargin": "",
+                      "bottomMargin": "",
+                      "enableEllipsis": "",
+                      "standardTextColor": ""
+                    }
+                  ],
+                  "growLast": "",
+                  "_selectId": "ZIw89C4iO7",
+                  "growFirst": true
+                },
+                {
+                  "id": "jP61CcRyt",
+                  "type": "flex",
+                  "wrap": "",
+                  "align": "center",
+                  "justify": "center",
+                  "contents": [
+                    {
+                      "id": "OUvUjVRbc",
+                      "icon": "FaHeart",
+                      "type": "navigate",
+                      "color": "#131c1b",
+                      "caption": "",
+                      "variant": "text",
+                      "_selectId": "uAlzu2vrap",
+                      "topMargin": "",
+                      "background": "#ffffff",
+                      "leftMargin": "",
+                      "rightMargin": "",
+                      "bottomMargin": ""
+                    }
+                  ],
+                  "growLast": "",
+                  "_selectId": "QRDi9Xxi84",
+                  "growFirst": ""
+                }
+              ],
+              "growLast": "",
+              "_selectId": "Kq7tqQKDLV",
+              "growFirst": true
+            },
+            {
+              "id": "tVB51bV5v",
+              "type": "flex",
+              "wrap": "",
+              "align": "center",
+              "justify": "center",
+              "contents": [
+                {
+                  "id": "sCt2xkgUM",
+                  "type": "flex",
+                  "wrap": "",
+                  "align": "center",
+                  "justify": "center",
+                  "contents": [
+                    {
+                      "id": "vDfCPnRMf",
+                      "type": "capsules",
+                      "fields": [
+                        {
+                          "id": "eno3rtAtv",
+                          "field": "supplierType",
+                          "defaultValue": ""
+                        }
+                      ],
+                      "_selectId": "w7QnPGN8uC",
+                      "topMargin": "",
+                      "leftMargin": "",
+                      "rightMargin": "",
+                      "bottomMargin": "",
+                      "defaultColor": "#f1f1f1"
+                    }
+                  ],
+                  "growLast": "",
+                  "_selectId": "ZIw89C4iO7",
+                  "growFirst": true
+                },
+                {
+                  "id": "jP61CcRyt",
+                  "type": "flex",
+                  "wrap": "",
+                  "align": "center",
+                  "justify": "center",
+                  "contents": [
+                    {
+                      "id": "KRjpj21qD",
+                      "icon": "FaAngleDown",
+                      "type": "navigate",
+                      "color": "#131c1b",
+                      "caption": "Contact Info",
+                      "variant": "text",
+                      "_selectId": "5-U6fKdqxD",
+                      "topMargin": "",
+                      "background": "#ffffff",
+                      "leftMargin": "",
+                      "navigation": [],
+                      "rightMargin": "",
+                      "bottomMargin": ""
+                    }
+                  ],
+                  "growLast": "",
+                  "_selectId": "QRDi9Xxi84",
+                  "growFirst": ""
+                }
+              ],
+              "growLast": "",
+              "_selectId": "MQjupRKOXd",
+              "growFirst": true
+            },
+            {
+              "id": "NTyJvbhaGe",
+              "type": "divider",
+              "_selectId": "oHZnVUDK7l",
+              "backgroundColor": "",
+              "foregroundColor": "#d9d9d9"
+            },
+            {
+              "id": "-zBya1m2G2",
+              "type": "flex",
+              "wrap": "",
+              "align": "center",
+              "justify": "center",
+              "contents": [
+                {
+                  "id": "eg6RAnNNg",
+                  "type": "flex",
+                  "wrap": "",
+                  "align": "center",
+                  "justify": "center",
+                  "contents": [
+                    {
+                      "id": "TWsafsQF6",
+                      "icon": "FaCheckDouble",
+                      "size": "large",
+                      "type": "fixedicon",
+                      "margin": "",
+                      "_selectId": "Utv15EM3lI",
+                      "backgroundColor": "#ffffff",
+                      "foregroundColor": "#4caf50"
+                    },
+                    {
+                      "id": "k8HSPz4Lr",
+                      "text": "<p><span style=\"color: rgb(97,189,109);\">VERIFIED</span></p>\n",
+                      "type": "richtext",
+                      "_selectId": "a6BTm4-SeT",
+                      "topMargin": "",
+                      "leftMargin": "",
+                      "rightMargin": "",
+                      "bottomMargin": "",
+                      "standardTextColor": ""
+                    }
+                  ],
+                  "growLast": true,
+                  "_selectId": "Q88RNiBPui",
+                  "growFirst": false
+                },
+                {
+                  "id": "dSVaAa3x4",
+                  "type": "flex",
+                  "wrap": "",
+                  "align": "center",
+                  "justify": "center",
+                  "contents": [
+                    {
+                      "id": "9r_wKbOwu",
+                      "icon": "",
+                      "type": "navigate",
+                      "color": "#ffffff",
+                      "caption": "VIEW PROFILE",
+                      "variant": "contained",
+                      "_selectId": "PTuH2Xbexx",
+                      "topMargin": "",
+                      "background": "#009fda",
+                      "leftMargin": "",
+                      "navigation": [],
+                      "rightMargin": "",
+                      "bottomMargin": ""
+                    },
+                    {
+                      "id": "ZrvM5uwQ74j2aD",
+                      "icon": "",
+                      "type": "navigate",
+                      "color": "",
+                      "caption": "",
+                      "variant": "text",
+                      "_selectId": "QucDvcYhGcavB3",
+                      "topMargin": "",
+                      "background": "",
+                      "leftMargin": "",
+                      "navigation": [],
+                      "rightMargin": "",
+                      "bottomMargin": ""
+                    }
+                  ],
+                  "growLast": false,
+                  "_selectId": "6YTu3G8pGd",
+                  "growFirst": false
+                }
+              ],
+              "growLast": false,
+              "_selectId": "fLQXCAYn8P",
+              "growFirst": true
+            }
+          ],
+          "__init": true,
+          "_selectId": "YkxF_DgPF7LRDB",
+          "elevation": 1,
+          "topMargin": "",
+          "leftMargin": "",
+          "topPadding": "",
+          "leftPadding": "",
+          "rightMargin": "",
+          "bottomMargin": "",
+          "rightPadding": "",
+          "bottomPadding": "",
+          "$behaviourType": "card2_0",
+          "requiredFields": [],
+          "clickToNavigate": ""
+        },
+        {
+          "id": "AQwJl9kcFoiWGX",
+          "name": "List of Suppliers for Clients",
+          "bands": [
+            {
+              "id": "2NG-9yR5BukDDO",
+              "text": "<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 18px;font-family: Montserrat;\"><strong>{supplierAccount.accountName}</strong></span>&nbsp;</p>\n",
+              "type": "richtext",
+              "width": "",
+              "height": "",
+              "moreText": "... Read More",
+              "_selectId": "td7zHfO7Y839Tm",
+              "topMargin": 2,
+              "wordCount": "",
+              "leftMargin": 2,
+              "rightMargin": 2,
+              "bottomMargin": 2,
+              "moreTextColor": "",
+              "enableEllipsis": false,
+              "standardTextColor": ""
+            },
+            {
+              "id": "sFFyQysadOm064",
+              "text": "<p>Membership Number: {supplierAccount.crmAccountNumber}</p>\n",
+              "type": "richtext",
+              "width": "",
+              "height": "",
+              "_selectId": "mVKUHkTnVoTTZ2",
+              "topMargin": "",
+              "leftMargin": "",
+              "rightMargin": "",
+              "bottomMargin": "",
+              "enableEllipsis": "",
+              "standardTextColor": ""
+            },
+            {
+              "id": "HGJ-BL1nz7GDd4",
+              "type": "capsules",
+              "fields": [
+                {
+                  "id": "vKp4hw4iE_Qulk",
+                  "field": "supplierType",
+                  "defaultValue": ""
+                }
+              ],
+              "_selectId": "JG1tpPFtwi_0ax",
+              "topMargin": "",
+              "leftMargin": "",
+              "rightMargin": "",
+              "bottomMargin": "",
+              "defaultColor": "#f1f1f1",
+              "displayCustomText": false
+            },
+            {
+              "id": "tQOMKTDzgBjmcy",
+              "text": "<p><span style=\"font-family: Montserrat;\"><strong>Verification Score: {questionnaireID._verificationScore}</strong></span></p>\n",
+              "type": "richtext",
+              "width": "",
+              "height": "",
+              "moreText": "... Read More",
+              "_selectId": "5a7Mg90Udy9Lkn",
+              "topMargin": "",
+              "wordCount": "",
+              "leftMargin": "",
+              "rightMargin": "",
+              "bottomMargin": "",
+              "moreTextColor": "",
+              "enableEllipsis": false,
+              "standardTextColor": ""
+            },
+            {
+              "id": "g3rHhB0tOKG8kD",
+              "text": "<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Montserrat;\"><strong>Phone Number: {supplierAccount.paymentContactId.phone}</strong></span>&nbsp;</p>\n",
+              "type": "richtext",
+              "width": "",
+              "height": "",
+              "_selectId": "Vrrkv-m2DA-vwv",
+              "topMargin": "",
+              "leftMargin": "",
+              "rightMargin": "",
+              "bottomMargin": "",
+              "enableEllipsis": "",
+              "standardTextColor": ""
+            },
+            {
+              "id": "Ybb7rHg3TtY6WE",
+              "text": "<p><span style=\"font-family: Montserrat;\"><strong>Email: {supplierAccount.paymentContactId.email}</strong></span></p>\n",
+              "type": "richtext",
+              "width": "",
+              "height": "",
+              "_selectId": "NyUqmJjedoZui0",
+              "topMargin": "",
+              "leftMargin": "",
+              "rightMargin": "",
+              "bottomMargin": "",
+              "enableEllipsis": "",
+              "standardTextColor": ""
+            },
+            {
+              "id": "nCVrWmgjd2Nh_-",
+              "text": "<p><span style=\"font-family: Montserrat;\"><strong>Website: {supplierAccount.companyWebsite}</strong></span></p>\n",
+              "type": "richtext",
+              "width": "",
+              "height": "",
+              "_selectId": "n6Liv-cCGaowk5",
+              "topMargin": "",
+              "leftMargin": "",
+              "rightMargin": "",
+              "bottomMargin": "",
+              "enableEllipsis": "",
+              "standardTextColor": ""
+            },
+            {
+              "id": "dIyc_OTV3e2sFm",
+              "text": "<p>Questionnaire State: {supplierAccount.supplierQuestionnaire.behaviours._state}</p>\n",
+              "type": "richtext",
+              "width": "",
+              "height": "",
+              "_selectId": "8hMIeY7PHpUB2a",
+              "topMargin": "",
+              "leftMargin": "",
+              "rightMargin": "",
+              "bottomMargin": "",
+              "enableEllipsis": "",
+              "standardTextColor": ""
+            },
+            {
+              "id": "5HWiD-eNjR6KDo",
+              "type": "date",
+              "field": "verificationExpiryDate",
+              "_selectId": "dr1s6y1OUfoc9O",
+              "topMargin": "",
+              "dateFormat": "date=medium",
+              "leftMargin": "",
+              "rightMargin": "",
+              "bottomMargin": "",
+              "pastDateColor": "red",
+              "pastDatePrefix": "",
+              "showAsRelative": "",
+              "futureDateColor": "#679861",
+              "futureDatePrefix": ""
+            },
+            {
+              "id": "idcagEwRNLXc_A",
+              "icon": "",
+              "type": "navigate",
+              "color": "#ffffff",
+              "caption": "VIEW QUESTIONNAIRE",
+              "variant": "contained",
+              "_selectId": "Mmu5jz5zY2HsI1",
+              "topMargin": "",
+              "background": "#1da7e0",
+              "leftMargin": "",
+              "navigation": [
+                {
+                  "mode": "view",
+                  "value": "quest"
+                }
+              ],
+              "rightMargin": "",
+              "bottomMargin": ""
+            },
+            {
+              "id": "tomN0ilv0VrZUi",
+              "edge": "left",
+              "type": "sideColor",
+              "color": "#009fda",
+              "_selectId": "XbtIenWp4fbsxy"
+            }
+          ],
+          "__init": true,
+          "useBox": "",
+          "variant": "elevation",
+          "_selectId": "0OfAnBEmV7TBCy",
+          "elevation": 2,
+          "topMargin": "",
+          "leftMargin": "",
+          "navigation": [],
+          "topPadding": "",
+          "leftPadding": "",
+          "rightMargin": "",
+          "bottomMargin": "",
+          "rightPadding": "",
+          "bottomPadding": "",
+          "$behaviourType": "card2_0",
+          "navigationPath": "{_id}",
+          "requiredFields": [],
+          "clickToNavigate": false
+        }
+      ],
+      "derivation": [
+        {
+          "id": "HmdhEYmXT",
+          "name": "From TSO Questionnaires",
+          "_selectId": "PXV9CthPbVmoPN",
+          "derivedFrom": "X9hE0iQ_GB-9Fsc7km0h:hestia/document-types",
+          "description": "",
+          "textOverride": {},
+          "typeOverride": {},
+          "stateOverride": {},
+          "derivedFromName": "Base Questionnaire"
+        }
+      ],
+      "formAction": [
+        {
+          "id": "X0HZek3Jqr",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "CE3T0HDkn",
+              "form": "wVO7Euuq-",
+              "readOnly": true,
+              "_selectId": "WW_L1prXeE"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "storeIn": "",
+          "_selectId": "1rt6lFC7iW-_Lo",
+          "editDemands": [],
+          "inputStates": [
+            "New"
+          ],
+          "visibleDemands": []
+        }
+      ]
+    }
+  },
+  "createOnNew": true,
+  "description": "",
+  "displayName": "Client Questionnaires",
+  "__originalId": "ddgZEmcep:hestia/document-types",
+  "defaultState": "New",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "4UcIxg2_QWbnbO",
+  "_parentVersion": "yyYcZBGh5Z2Ty9",
+  "currentVersion": {
+    "development": "2.9",
+    "live": "2.9"
+  },
+  "tabsBackground": "#f4f4f4",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "X0HZek3Jqr",
+  "devices-allowed": "",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#f4f4f4",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#f4f4f4",
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false,
+  "versions": [
+    {
+      "id": "UoDhyFvgj39kT_",
+      "name": "SS-888",
+      "time": 1614092236676,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "-R86FhLjqJwjBh"
+    },
+    {
+      "id": "BTPZvGDujGXLdO",
+      "name": "SS-880",
+      "time": 1614337529889,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "UoDhyFvgj39kT_"
+    },
+    {
+      "id": "2KiWw06aTtLLw2",
+      "name": "Chase Tasks 1",
+      "time": 1614697818531,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "parentVersion": "BTPZvGDujGXLdO"
+    },
+    {
+      "id": "4I9LIlcp8Brbnh",
+      "name": "Query Weirdness",
+      "time": 1614860412759,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "2KiWw06aTtLLw2"
+    },
+    {
+      "id": "9xCiAcpOglGPnY",
+      "name": "TSO Task Changes for Main Branch",
+      "time": 1614933844752,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "4I9LIlcp8Brbnh"
+    },
+    {
+      "id": "MeOotTcyRMSe42",
+      "name": "SS-1774 Fixes",
+      "time": 1615194057995,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "9xCiAcpOglGPnY"
+    },
+    {
+      "id": "qH8se6F_QcEG5u",
+      "name": "SS-914",
+      "time": 1615203067100,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "MeOotTcyRMSe42"
+    },
+    {
+      "id": "ewqY90hPhMnJge",
+      "name": "16th March 21",
+      "time": 1615912066592,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "qH8se6F_QcEG5u"
+    },
+    {
+      "id": "LofNjnx_U4trtr",
+      "name": "18th March 21 End of Day Bulk",
+      "time": 1616084218605,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "-rK5xNy0H0Hqn4",
+      "parentVersion": "ewqY90hPhMnJge"
+    },
+    {
+      "id": "LhkAEogUOSXN23",
+      "name": "22 March First Thing",
+      "time": 1616402516528,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "h7pDckxeq6UDZt",
+      "parentVersion": "LofNjnx_U4trtr"
+    },
+    {
+      "id": "m1MO-WzMMa8EwO",
+      "name": "Pre 884 Merge",
+      "time": 1616582160426,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "fEfQ8PYaruo8yJ",
+      "parentVersion": "LhkAEogUOSXN23"
+    },
+    {
+      "id": "p7W2j1ycu4R6Ka",
+      "name": "SLAs and CRM ID Integration",
+      "time": 1616601217838,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "95CObANWgJ72qF",
+      "parentVersion": "m1MO-WzMMa8EwO"
+    },
+    {
+      "id": "xskBso8q6dTSCo",
+      "name": "SS-1945 Changes",
+      "time": 1617701913277,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "7sCMQcSup6ffmd",
+      "parentVersion": "p7W2j1ycu4R6Ka"
+    },
+    {
+      "id": "k4J3BNwvBg8K6o",
+      "name": "SS-1957 Changes",
+      "time": 1617706961507,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "FzgJVJvrrGaaWm",
+      "parentVersion": "xskBso8q6dTSCo"
+    },
+    {
+      "id": "Xz0G8Jd_ztTdnx",
+      "name": "SS-1982 Done",
+      "time": 1617868809334,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "0oepdW-9RZsUqL",
+      "parentVersion": "k4J3BNwvBg8K6o"
+    },
+    {
+      "id": "DlleCGeGwax90V",
+      "name": "09Apr21 AM",
+      "time": 1617957430790,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "1AFcBGe3orzsgG",
+      "parentVersion": "Xz0G8Jd_ztTdnx"
+    },
+    {
+      "id": "jMfUGFYjKp7YnZ",
+      "name": "Post Layout Changes",
+      "time": 1618213619347,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "-299H84UDIHSo9",
+      "parentVersion": "DlleCGeGwax90V"
+    },
+    {
+      "id": "coUWJsvzb5jCeG",
+      "name": "Clean Up of Updaters",
+      "time": 1618221067961,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "11sD4mk-HBp8Sn",
+      "parentVersion": "jMfUGFYjKp7YnZ"
+    },
+    {
+      "id": "KEFgdIVVvNuaaQ",
+      "name": "Added Admin Form",
+      "time": 1618241167899,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "fsxLYJybLF7gAj",
+      "parentVersion": "coUWJsvzb5jCeG"
+    },
+    {
+      "id": "QCR-Sm3Q8LAbdQ",
+      "name": "1.1",
+      "time": 1618318819732,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "KEFgdIVVvNuaaQ"
+    },
+    {
+      "id": "PeRR3LyZeakUaJ",
+      "name": "1.2",
+      "time": 1618318941700,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "QCR-Sm3Q8LAbdQ"
+    },
+    {
+      "id": "co-zo7QDhZ3Bt4",
+      "name": "1.3",
+      "time": 1618319052487,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "PeRR3LyZeakUaJ"
+    },
+    {
+      "id": "JqPmq2cAJy7LCd",
+      "name": "1.4",
+      "time": 1618319150939,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "co-zo7QDhZ3Bt4"
+    },
+    {
+      "id": "wXXhRDcKbx_yPD",
+      "name": "1.5",
+      "time": 1618319231235,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "JqPmq2cAJy7LCd"
+    },
+    {
+      "id": "TFFNxaQnN-yoeI",
+      "name": "1.6",
+      "time": 1618319476643,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "wXXhRDcKbx_yPD"
+    },
+    {
+      "id": "ZIai3ZD_gNrHpP",
+      "name": "2.1",
+      "time": 1618320288555,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "TFFNxaQnN-yoeI"
+    },
+    {
+      "id": "1TLFTHbVtQglCV",
+      "name": "2.3",
+      "time": 1618320833875,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "ZIai3ZD_gNrHpP"
+    },
+    {
+      "id": "XFcUNy2iWS3ulR",
+      "name": "2.4",
+      "time": 1618320957742,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "1TLFTHbVtQglCV"
+    },
+    {
+      "id": "-Q0MoAzhOyx14M",
+      "name": "2.7",
+      "time": 1618335885847,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "XFcUNy2iWS3ulR"
+    },
+    {
+      "content": "{\"__\":\"hxAmLnCuXvhugs\",\"_id\":\"XZln-jesEx-9Fsc7km0h:hestia/document-types\",\"__id\":\"EjVplLXTKL\",\"__ok\":true,\"icon\":\"\",\"name\":\"Client Questionnaires\",\"tags\":[],\"_type\":\"document\",\"table\":\"ss_ClientQuestionnaires\",\"theme\":{\"other\":{\"opacity\":{\"AlcOpacity_001\":\"10%\",\"AlcOpacity_002\":\"25%\",\"AlcOpacity_003\":\"50%\",\"AlcOpacity_004\":\"75%\"},\"palette\":{\"gold\":\"gold\",\"type\":\"light\",\"bronze\":\"#853\",\"silver\":\"silver\",\"primary\":{\"main\":\"#1da7e0\",\"contrastText\":\"#fff\"},\"AlcSys_001\":\"#FFFFFF\",\"AlcSys_002\":\"#F7F8F9\",\"AlcSys_003\":\"#F4F5F6\",\"AlcSys_004\":\"#EBEBED\",\"AlcSys_005\":\"#CCCCCC\",\"AlcSys_006\":\"rgba(125, 125, 125, 1)\",\"AlcSys_007\":\"#263836\",\"AlcSys_008\":\"#000000\",\"AlcBrand_001\":\"#1da7e0\",\"AlcBrand_002\":\"#0081AF\",\"AlcBrand_003\":\"#294A76\",\"AlcBrand_004\":\"#0099B3\",\"AlcBrand_005\":\"#604696\",\"AlcBrand_006\":\"#D26A37\",\"AlcBrand_007\":\"#679861\",\"AlcBrand_008\":\"#EBBA00\",\"AlcBrand_009\":\"#8C1D82\",\"AlcBrand_010\":\"#DC840A\",\"AlcSys_006_10\":\"rgba(125, 125, 125, .1)\",\"AlcSys_006_25\":\"rgba(125, 125, 125, .25)\",\"AlcSys_006_50\":\"rgba(125, 125, 125, .50)\",\"AlcSys_006_75\":\"rgba(125, 125, 125, .75)\",\"AlcSys_Grad001\":\"linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)\",\"AlcSys_Grad002\":\"linear-gradient(55deg, #1da7e0 100%, #604696 100%)\",\"AlcSysState_prog\":\"rgba(235, 186, 0, 1)\",\"AlcSysState_risk\":\"rgba(233, 75, 75, 1)\",\"AlcSysState_green\":\"rgba(63, 195, 128, 1)\",\"AlcSysState_issue\":\"rgba(233, 165, 75, 1)\",\"AlcSysState_prog_10\":\"rgba(235, 186, 0, .1)\",\"AlcSysState_prog_25\":\"rgba(235, 186, 0,.251)\",\"AlcSysState_prog_50\":\"rgba(235, 186, 0,.5)\",\"AlcSysState_prog_75\":\"rgba(235, 186, 0, .75)\",\"AlcSysState_risk_10\":\"rgba(233, 75, 75, .1)\",\"AlcSysState_risk_25\":\"rgba(233, 75, 75, .25)\",\"AlcSysState_risk_50\":\"rgba(233, 75, 75, .50)\",\"AlcSysState_risk_75\":\"rgba(233, 75, 75, .75)\",\"AlcSysState_green_10\":\"rgba(63, 195, 128, 0.1)\",\"AlcSysState_green_25\":\"rgba(63, 195, 128, 0.25)\",\"AlcSysState_green_50\":\"rgba(63, 195, 128, 0.5)\",\"AlcSysState_green_75\":\"rgba(63, 195, 128, 0.75)\",\"AlcSysState_issue_10\":\"rgba(233, 165, 75, .1)\",\"AlcSysState_issue_25\":\"rgba(233, 165, 75, .25)\",\"AlcSysState_issue_50\":\"rgba(233, 165, 75, .50)\",\"AlcSysState_issue_75\":\"rgba(233, 165, 75, .75)\"},\"document\":{\"form\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"child\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"typography\":{\"h1\":{\"fontSize\":\"2.8em\",\"fontFamily\":\"Montserrat, sans-serif\",\"fontWeight\":700},\"h2\":{\"fontSize\":\"2.3em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h3\":{\"fontSize\":\"2em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h4\":{\"fontSize\":\"1.667em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h5\":{\"fontSize\":\"1.333em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h6\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"body1\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Roboto\"},\"body2\":{\"fontSize\":\"1em\",\"fontFamily\":\"Roboto\"},\"body3\":{\"fontSize\":\"0.9em\",\"fontFamily\":\"Roboto\"},\"body4\":{\"fontSize\":\"14px\",\"fontFamily\":\"Roboto\"},\"overline\":{\"fontSize\":\"0.917em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500,\"textTransform\":\"uppercase\"},\"Action1_Medium\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action2_Medium\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action1_Regular\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\"},\"Action2_Regular\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\"},\"Action1_SemiBold\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600},\"Action2_SemiBold\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600}}},\"theme\":\"Alcumus\",\"permanentTheme\":\"\"},\"__size\":17139,\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[],\"$creator\":\"f389cfaa-0b2a-4653-8c35-32aa5486efe7\",\"__cached\":1618240921519,\"_created\":1604651781000,\"_deleted\":0,\"database\":\"newss_ClientQuestionnaires\",\"maxWidth\":1000,\"_modified\":1618335886886,\"__modified\":1613484061886,\"components\":\"\",\"isLockedBy\":null,\"navigation\":[],\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"oDu-lV5W3n-d78\",\"name\":\"Admin\",\"sections\":[{\"id\":\"1618239861073-9gSuKGMMplh6Ot\",\"_id\":\"1618239861073-9gSuKGMMplh6Ot:hestia/form-sections\",\"name\":\"...\",\"_expanded\":true,\"_selectId\":\"jbs1xsETkkTH-D\",\"condition\":\"\",\"questions\":[{\"id\":\"iSOrSqVJslSrn2\",\"name\":\"verificationExpiryDate\",\"type\":\"date\",\"hints\":{},\"question\":\"\",\"_selectId\":\"vLGlDlzjhxmznD\",\"condition\":\"\",\"inputLabel\":\"\",\"iconOffsetX\":\"\",\"iconOffsetY\":\"\",\"localFormat\":\"\",\"dialogHeader\":\"Help\",\"useMaterialUI\":true,\"preventNullify\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}],\"description\":\"\"}],\"_selectId\":\"4s3divPUJ9JMBQ\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"card2_0\":[{\"id\":\"U62lxi-eCVj9rH\",\"name\":\"Copy of \\\"Supplier Account Card 2.0\\\"\",\"bands\":[{\"id\":\"uTdBFYMmnP\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"sCt2xkgUM\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"bGZb0e_rb\",\"text\":\"<h2>{supplierAccount.accountName}</h2>\\n<p><span style=\\\"color: rgb(204,204,204);font-family: Montserrat;\\\">{supplierAccount.referenceNumber}</span></p>\\n\",\"type\":\"richtext\",\"_selectId\":\"vR84qlqlOd\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"enableEllipsis\":\"\",\"standardTextColor\":\"\"}],\"growLast\":\"\",\"_selectId\":\"ZIw89C4iO7\",\"growFirst\":true},{\"id\":\"jP61CcRyt\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"OUvUjVRbc\",\"icon\":\"FaHeart\",\"type\":\"navigate\",\"color\":\"#131c1b\",\"caption\":\"\",\"variant\":\"text\",\"_selectId\":\"uAlzu2vrap\",\"topMargin\":\"\",\"background\":\"#ffffff\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\"}],\"growLast\":\"\",\"_selectId\":\"QRDi9Xxi84\",\"growFirst\":\"\"}],\"growLast\":\"\",\"_selectId\":\"Kq7tqQKDLV\",\"growFirst\":true},{\"id\":\"tVB51bV5v\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"sCt2xkgUM\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"vDfCPnRMf\",\"type\":\"capsules\",\"fields\":[{\"id\":\"eno3rtAtv\",\"field\":\"supplierType\",\"defaultValue\":\"\"}],\"_selectId\":\"w7QnPGN8uC\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"defaultColor\":\"#f1f1f1\"}],\"growLast\":\"\",\"_selectId\":\"ZIw89C4iO7\",\"growFirst\":true},{\"id\":\"jP61CcRyt\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"KRjpj21qD\",\"icon\":\"FaAngleDown\",\"type\":\"navigate\",\"color\":\"#131c1b\",\"caption\":\"Contact Info\",\"variant\":\"text\",\"_selectId\":\"5-U6fKdqxD\",\"topMargin\":\"\",\"background\":\"#ffffff\",\"leftMargin\":\"\",\"navigation\":[],\"rightMargin\":\"\",\"bottomMargin\":\"\"}],\"growLast\":\"\",\"_selectId\":\"QRDi9Xxi84\",\"growFirst\":\"\"}],\"growLast\":\"\",\"_selectId\":\"MQjupRKOXd\",\"growFirst\":true},{\"id\":\"NTyJvbhaGe\",\"type\":\"divider\",\"_selectId\":\"oHZnVUDK7l\",\"backgroundColor\":\"\",\"foregroundColor\":\"#d9d9d9\"},{\"id\":\"-zBya1m2G2\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"eg6RAnNNg\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"TWsafsQF6\",\"icon\":\"FaCheckDouble\",\"size\":\"large\",\"type\":\"fixedicon\",\"margin\":\"\",\"_selectId\":\"Utv15EM3lI\",\"backgroundColor\":\"#ffffff\",\"foregroundColor\":\"#4caf50\"},{\"id\":\"k8HSPz4Lr\",\"text\":\"<p><span style=\\\"color: rgb(97,189,109);\\\">VERIFIED</span></p>\\n\",\"type\":\"richtext\",\"_selectId\":\"a6BTm4-SeT\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"standardTextColor\":\"\"}],\"growLast\":true,\"_selectId\":\"Q88RNiBPui\",\"growFirst\":false},{\"id\":\"dSVaAa3x4\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"9r_wKbOwu\",\"icon\":\"\",\"type\":\"navigate\",\"color\":\"#ffffff\",\"caption\":\"VIEW PROFILE\",\"variant\":\"contained\",\"_selectId\":\"PTuH2Xbexx\",\"topMargin\":\"\",\"background\":\"#009fda\",\"leftMargin\":\"\",\"navigation\":[],\"rightMargin\":\"\",\"bottomMargin\":\"\"},{\"id\":\"ZrvM5uwQ74j2aD\",\"icon\":\"\",\"type\":\"navigate\",\"color\":\"\",\"caption\":\"\",\"variant\":\"text\",\"_selectId\":\"QucDvcYhGcavB3\",\"topMargin\":\"\",\"background\":\"\",\"leftMargin\":\"\",\"navigation\":[],\"rightMargin\":\"\",\"bottomMargin\":\"\"}],\"growLast\":false,\"_selectId\":\"6YTu3G8pGd\",\"growFirst\":false}],\"growLast\":false,\"_selectId\":\"fLQXCAYn8P\",\"growFirst\":true}],\"__init\":true,\"_selectId\":\"YkxF_DgPF7LRDB\",\"elevation\":1,\"topMargin\":\"\",\"leftMargin\":\"\",\"topPadding\":\"\",\"leftPadding\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"rightPadding\":\"\",\"bottomPadding\":\"\",\"$behaviourType\":\"card2_0\",\"requiredFields\":[],\"clickToNavigate\":\"\"},{\"id\":\"AQwJl9kcFoiWGX\",\"name\":\"List of Suppliers for Clients\",\"bands\":[{\"id\":\"2NG-9yR5BukDDO\",\"text\":\"<p><span style=\\\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 18px;font-family: Montserrat;\\\"><strong>{supplierAccount.accountName}</strong></span>&nbsp;</p>\\n\",\"type\":\"richtext\",\"width\":\"\",\"height\":\"\",\"moreText\":\"... Read More\",\"_selectId\":\"td7zHfO7Y839Tm\",\"topMargin\":2,\"wordCount\":\"\",\"leftMargin\":2,\"rightMargin\":2,\"bottomMargin\":2,\"moreTextColor\":\"\",\"enableEllipsis\":false,\"standardTextColor\":\"\"},{\"id\":\"sFFyQysadOm064\",\"text\":\"<p>Membership Number: {supplierAccount.crmAccountNumber}</p>\\n\",\"type\":\"richtext\",\"width\":\"\",\"height\":\"\",\"_selectId\":\"mVKUHkTnVoTTZ2\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"enableEllipsis\":\"\",\"standardTextColor\":\"\"},{\"id\":\"HGJ-BL1nz7GDd4\",\"type\":\"capsules\",\"fields\":[{\"id\":\"vKp4hw4iE_Qulk\",\"field\":\"supplierType\",\"defaultValue\":\"\"}],\"_selectId\":\"JG1tpPFtwi_0ax\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"defaultColor\":\"#f1f1f1\",\"displayCustomText\":false},{\"id\":\"tQOMKTDzgBjmcy\",\"text\":\"<p><span style=\\\"font-family: Montserrat;\\\"><strong>Verification Score: {questionnaireID._verificationScore}</strong></span></p>\\n\",\"type\":\"richtext\",\"width\":\"\",\"height\":\"\",\"moreText\":\"... Read More\",\"_selectId\":\"5a7Mg90Udy9Lkn\",\"topMargin\":\"\",\"wordCount\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"moreTextColor\":\"\",\"enableEllipsis\":false,\"standardTextColor\":\"\"},{\"id\":\"g3rHhB0tOKG8kD\",\"text\":\"<p><span style=\\\"color: rgba(0,0,0,0.87);background-color: rgb(255,255,255);font-size: 14px;font-family: Montserrat;\\\"><strong>Phone Number: {supplierAccount.paymentContactId.phone}</strong></span>&nbsp;</p>\\n\",\"type\":\"richtext\",\"width\":\"\",\"height\":\"\",\"_selectId\":\"Vrrkv-m2DA-vwv\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"enableEllipsis\":\"\",\"standardTextColor\":\"\"},{\"id\":\"Ybb7rHg3TtY6WE\",\"text\":\"<p><span style=\\\"font-family: Montserrat;\\\"><strong>Email: {supplierAccount.paymentContactId.email}</strong></span></p>\\n\",\"type\":\"richtext\",\"width\":\"\",\"height\":\"\",\"_selectId\":\"NyUqmJjedoZui0\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"enableEllipsis\":\"\",\"standardTextColor\":\"\"},{\"id\":\"nCVrWmgjd2Nh_-\",\"text\":\"<p><span style=\\\"font-family: Montserrat;\\\"><strong>Website: {supplierAccount.companyWebsite}</strong></span></p>\\n\",\"type\":\"richtext\",\"width\":\"\",\"height\":\"\",\"_selectId\":\"n6Liv-cCGaowk5\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"enableEllipsis\":\"\",\"standardTextColor\":\"\"},{\"id\":\"dIyc_OTV3e2sFm\",\"text\":\"<p>Questionnaire State: {supplierAccount.supplierQuestionnaire.behaviours._state}</p>\\n\",\"type\":\"richtext\",\"width\":\"\",\"height\":\"\",\"_selectId\":\"8hMIeY7PHpUB2a\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"enableEllipsis\":\"\",\"standardTextColor\":\"\"},{\"id\":\"5HWiD-eNjR6KDo\",\"type\":\"date\",\"field\":\"verificationExpiryDate\",\"_selectId\":\"dr1s6y1OUfoc9O\",\"topMargin\":\"\",\"dateFormat\":\"date=medium\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"pastDateColor\":\"red\",\"pastDatePrefix\":\"\",\"showAsRelative\":\"\",\"futureDateColor\":\"#679861\",\"futureDatePrefix\":\"\"},{\"id\":\"idcagEwRNLXc_A\",\"icon\":\"\",\"type\":\"navigate\",\"color\":\"#ffffff\",\"caption\":\"VIEW QUESTIONNAIRE\",\"variant\":\"contained\",\"_selectId\":\"Mmu5jz5zY2HsI1\",\"topMargin\":\"\",\"background\":\"#1da7e0\",\"leftMargin\":\"\",\"navigation\":[{\"mode\":\"view\",\"value\":\"quest\"}],\"rightMargin\":\"\",\"bottomMargin\":\"\"},{\"id\":\"tomN0ilv0VrZUi\",\"edge\":\"left\",\"type\":\"sideColor\",\"color\":\"#009fda\",\"_selectId\":\"XbtIenWp4fbsxy\"}],\"__init\":true,\"useBox\":\"\",\"variant\":\"elevation\",\"_selectId\":\"0OfAnBEmV7TBCy\",\"elevation\":2,\"topMargin\":\"\",\"leftMargin\":\"\",\"navigation\":[],\"topPadding\":\"\",\"leftPadding\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"rightPadding\":\"\",\"bottomPadding\":\"\",\"$behaviourType\":\"card2_0\",\"navigationPath\":\"{_id}\",\"requiredFields\":[],\"clickToNavigate\":false}],\"derivation\":[{\"id\":\"HmdhEYmXT\",\"name\":\"From TSO Questionnaires\",\"_selectId\":\"PXV9CthPbVmoPN\",\"derivedFrom\":\"X9hE0iQ_GB-9Fsc7km0h:hestia/document-types\",\"description\":\"\",\"textOverride\":{},\"typeOverride\":{},\"stateOverride\":{},\"derivedFromName\":\"Base Questionnaire\"}],\"formAction\":[{\"id\":\"X0HZek3Jqr\",\"name\":\"Main\",\"forms\":[{\"id\":\"CE3T0HDkn\",\"form\":\"wVO7Euuq-\",\"readOnly\":true,\"_selectId\":\"WW_L1prXeE\"}],\"inline\":true,\"actions\":[],\"storeIn\":\"\",\"_selectId\":\"1rt6lFC7iW-_Lo\",\"editDemands\":[],\"inputStates\":[\"New\"],\"visibleDemands\":[]}]}},\"createOnNew\":true,\"description\":\"\",\"displayName\":\"Client Questionnaires\",\"__originalId\":\"ddgZEmcep:hestia/document-types\",\"defaultState\":\"New\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"yyYcZBGh5Z2Ty9\",\"_parentVersion\":\"-Q0MoAzhOyx14M\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"tabsBackground\":\"#f4f4f4\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"X0HZek3Jqr\",\"devices-allowed\":\"\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#f4f4f4\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#f4f4f4\",\"devices-allowed-html\":\"\",\"isLockedByCurrentUser\":false}",
+      "parentVersion": "-Q0MoAzhOyx14M",
+      "id": "yyYcZBGh5Z2Ty9",
+      "time": 1618337312438,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "name": "2.9",
+      "locked": true
+    }
+  ]
+}

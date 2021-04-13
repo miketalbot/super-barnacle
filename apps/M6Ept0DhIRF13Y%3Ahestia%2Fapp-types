@@ -1,0 +1,908 @@
+{
+  "__": "Qb8lCOwm_MhrMD",
+  "_id": "M6Ept0DhIRF13Y:hestia/app-types",
+  "__ok": true,
+  "icon": "AiFillWindows",
+  "name": "CRM Debug App",
+  "_type": "application",
+  "table": "CRM Debug App-OrR_6y94Nh",
+  "theme": {
+    "other": {
+      "opacity": {
+        "AlcOpacity_001": "10%",
+        "AlcOpacity_002": "25%",
+        "AlcOpacity_003": "50%",
+        "AlcOpacity_004": "75%"
+      },
+      "palette": {
+        "gold": "gold",
+        "type": "light",
+        "bronze": "#853",
+        "silver": "silver",
+        "primary": {
+          "main": "#1da7e0",
+          "contrastText": "#fff"
+        },
+        "AlcSys_001": "#FFFFFF",
+        "AlcSys_002": "#F7F8F9",
+        "AlcSys_003": "#F4F5F6",
+        "AlcSys_004": "#EBEBED",
+        "AlcSys_005": "#CCCCCC",
+        "AlcSys_006": "rgba(125, 125, 125, 1)",
+        "AlcSys_007": "#263836",
+        "AlcSys_008": "#000000",
+        "AlcBrand_001": "#1da7e0",
+        "AlcBrand_002": "#0081AF",
+        "AlcBrand_003": "#294A76",
+        "AlcBrand_004": "#0099B3",
+        "AlcBrand_005": "#604696",
+        "AlcBrand_006": "#D26A37",
+        "AlcBrand_007": "#679861",
+        "AlcBrand_008": "#EBBA00",
+        "AlcBrand_009": "#8C1D82",
+        "AlcBrand_010": "#DC840A",
+        "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+        "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+        "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+        "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+        "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+        "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+        "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+        "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+        "AlcSysState_green": "rgba(63, 195, 128, 1)",
+        "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+        "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+        "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+        "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+        "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+        "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+        "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+        "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+        "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+        "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+        "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+        "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+        "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+        "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+        "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+        "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+        "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+      },
+      "document": {
+        "form": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "child": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "fontSize": 16,
+        "fontFamily": "Roboto, sans-serif"
+      },
+      "typography": {
+        "h1": {
+          "fontSize": "2.8em",
+          "fontFamily": "Montserrat, sans-serif",
+          "fontWeight": 700
+        },
+        "h2": {
+          "fontSize": "2.3em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h3": {
+          "fontSize": "2em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h4": {
+          "fontSize": "1.667em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h5": {
+          "fontSize": "1.333em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h6": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "body1": {
+          "fontSize": "1.167em",
+          "fontFamily": "Roboto"
+        },
+        "body2": {
+          "fontSize": "1em",
+          "fontFamily": "Roboto"
+        },
+        "body3": {
+          "fontSize": "0.9em",
+          "fontFamily": "Roboto"
+        },
+        "body4": {
+          "fontSize": "14px",
+          "fontFamily": "Roboto"
+        },
+        "overline": {
+          "fontSize": "0.917em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500,
+          "textTransform": "uppercase"
+        },
+        "Action1_Medium": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action2_Medium": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action1_Regular": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat"
+        },
+        "Action2_Regular": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat"
+        },
+        "Action1_SemiBold": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        },
+        "Action2_SemiBold": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        }
+      }
+    },
+    "theme": "Alcumus",
+    "permanentTheme": ""
+  },
+  "__size": 15548,
+  "__warn": false,
+  "client": "rsihYJKKDVyaYN",
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
+  "demands": [
+    "CRMDebug"
+  ],
+  "__cached": 1615917412371,
+  "_created": 1615914152000,
+  "_deleted": 0,
+  "database": "applications",
+  "maxWidth": 1000,
+  "uniqueId": "OrR_6y94Nh",
+  "_modified": 1618335894772,
+  "__modified": 1614167252957,
+  "components": "",
+  "isLockedBy": null,
+  "navigation": [],
+  "showOnMenu": true,
+  "__namespace": "",
+  "_behaviours": {
+    "_state": "",
+    "instances": {
+      "form": [
+        {
+          "id": "C0xcY8D1pF",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "lOU9X45sx4",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "ySSVJUqQ7jlMvD",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "FaLink",
+                  "tabName": "CRM Connections",
+                  "question": "",
+                  "_selectId": "Oiglc-wVds8faZ",
+                  "condition": ""
+                },
+                {
+                  "id": "W1O0yMCcBm",
+                  "name": "",
+                  "type": "title",
+                  "color": "",
+                  "hints": {},
+                  "title": "CRM Connections",
+                  "question": "",
+                  "_selectId": "QGEMrmcYtS",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "brEcsbcTV",
+                  "name": "s",
+                  "rows": 20,
+                  "type": "documentList",
+                  "hints": {},
+                  "where": {
+                    "$and": []
+                  },
+                  "listType": "sTKeU_KZbkSQBZ:hestia/document-types",
+                  "question": "",
+                  "_selectId": "m9OQ_W9Efk",
+                  "condition": "",
+                  "emptyView": "jQ1692lCV",
+                  "filterText": "",
+                  "navigation": [],
+                  "displayView": "jQ1692lCV",
+                  "sortColumns": [],
+                  "listTypeName": "CRM Connections",
+                  "displayFields": [],
+                  "filterColumns": [],
+                  "useDataSource": "",
+                  "emptyView_name": "ConnectionList",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "ConnectionList",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "GIWsTXO1CFd61T",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "FaDatabase",
+                  "tabName": "Blackboards",
+                  "question": "",
+                  "_selectId": "EcQK0BvYafXgmY",
+                  "condition": ""
+                },
+                {
+                  "id": "g8ZZvcG55Q",
+                  "name": "",
+                  "type": "title",
+                  "color": "",
+                  "hints": {},
+                  "title": "Blackboards",
+                  "question": "",
+                  "_selectId": "jJtZ9xY2HK",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "A62g4Rqbk",
+                  "name": "searchstring",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "<p>Search blackboards for text:</p>\n",
+                  "_selectId": "Q2T7emfes0",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "k7xrks4BAF",
+                  "name": "bb",
+                  "rows": 20,
+                  "type": "documentList",
+                  "hints": {
+                    "paginateAbove": true
+                  },
+                  "where": {
+                    "$and": [
+                      {
+                        "records": {
+                          "$like": "%{searchstring}%"
+                        }
+                      }
+                    ]
+                  },
+                  "listType": "wF7lZt-SUyBkCm:hestia/document-types",
+                  "question": "",
+                  "_selectId": "pgsRC7pdEi",
+                  "condition": "",
+                  "emptyView": "z_CnQTlGv",
+                  "dataSource": "",
+                  "filterText": "",
+                  "navigation": [],
+                  "displayView": "z_CnQTlGv",
+                  "sortColumns": [],
+                  "listTypeName": "Blackboards",
+                  "displayFields": [],
+                  "filterColumns": [],
+                  "useDataSource": false,
+                  "emptyView_name": "New \"View As List\"",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "New \"View As List\"",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "u04O-V8bJTsVHN",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "FaBuilding",
+                  "tabName": "Accounts",
+                  "question": "",
+                  "_selectId": "0_zqU6uUZ-lfmq",
+                  "condition": ""
+                },
+                {
+                  "id": "8NuOyBx__",
+                  "name": "",
+                  "type": "title",
+                  "color": "",
+                  "hints": {},
+                  "title": "Accounts",
+                  "question": "",
+                  "_selectId": "1ShdSM0Z9b",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "-N8n-C37g",
+                  "name": "accountsearch",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "IIbcFRJaQ1",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "_0Twi-6FZ",
+                  "name": "ss",
+                  "rows": 20,
+                  "type": "documentList",
+                  "hints": {},
+                  "where": {
+                    "$and": [
+                      {
+                        "$or": [
+                          {
+                            "$and": [
+                              {
+                                "$or": [
+                                  {
+                                    "$and": [
+                                      {
+                                        "accountName": {
+                                          "$like": "%{accountsearch}%"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$and": [
+                                      {
+                                        "companyEmail": {
+                                          "$like": "%{accountsearch}%"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "clientRef": {
+                                  "$like": "%{accountsearch}%"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "listType": "qtp5ZEvMXw-xkWJtZvh93:hestia/document-types",
+                  "question": "",
+                  "_selectId": "j_h_E04x2D",
+                  "condition": "",
+                  "emptyView": "PTvDPeMjieZxhV",
+                  "filterText": "",
+                  "navigation": [],
+                  "displayView": "PTvDPeMjieZxhV",
+                  "sortColumns": [],
+                  "listTypeName": "Supplier Account",
+                  "displayFields": [],
+                  "filterColumns": [],
+                  "useDataSource": "",
+                  "emptyView_name": "Supplier Account List",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Supplier Account List",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "0cP-AZxdupzG5y",
+                  "html": "",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "MdTagFaces",
+                  "tabName": "Contacts",
+                  "question": "",
+                  "_selectId": "6D7GqdekAL8wzF",
+                  "condition": ""
+                },
+                {
+                  "id": "D9dhqFj7G",
+                  "name": "",
+                  "type": "title",
+                  "color": "",
+                  "hints": {},
+                  "title": "Contacts",
+                  "question": "",
+                  "_selectId": "G8OG61aAzt",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "-z5m-70fD",
+                  "name": "contactsearch",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "Uy5fHQ_j4p",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "taZdj9BIBI",
+                  "name": "contact_table",
+                  "rows": 20,
+                  "type": "documentList",
+                  "hints": {},
+                  "where": {
+                    "$and": [
+                      {
+                        "$or": [
+                          {
+                            "$and": [
+                              {
+                                "firstname": {
+                                  "$like": "%{contactsearch}%"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "lastname": {
+                                  "$like": "%{contactsearch}%"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "email": {
+                                  "$like": "%{contactsearch}%"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "clientRef": {
+                                  "$like": "%{contactsearch}%"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "listType": "_HoIdkVKwip9gc:hestia/document-types",
+                  "question": "",
+                  "_selectId": "-5n5ZVmYvA",
+                  "condition": "",
+                  "emptyView": "p57DZnQ9s",
+                  "filterText": "",
+                  "navigation": [],
+                  "displayView": "p57DZnQ9s",
+                  "sortColumns": [],
+                  "listTypeName": "Safe Contact",
+                  "displayFields": [],
+                  "filterColumns": [],
+                  "useDataSource": "",
+                  "emptyView_name": "Contact List",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Contact List",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "pA3phiXm016IsK",
+                  "html": "",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "MdTagFaces",
+                  "tabName": "CRM Updates",
+                  "question": "",
+                  "_selectId": "kfZyYfeAKvKKoO",
+                  "condition": ""
+                },
+                {
+                  "id": "NcWCCLfHhDVI9i",
+                  "name": "",
+                  "type": "title",
+                  "color": "",
+                  "hints": {},
+                  "title": "CRM Updates",
+                  "question": "",
+                  "_selectId": "X3UXpZwJXPXWQy",
+                  "condition": "",
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "j-nISw-EUI0nQ0",
+                  "name": "updatessearch",
+                  "type": "text",
+                  "hints": {
+                    "search_box": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "4ayvfYTcgAb_hD",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "14uYC_YQz-64pf",
+                  "name": "crmUpdates",
+                  "rows": 20,
+                  "type": "documentList",
+                  "hints": {},
+                  "where": {
+                    "$and": []
+                  },
+                  "listType": "iJ5pk5vd18uvT_:hestia/document-types",
+                  "question": "",
+                  "_selectId": "f1LH8NXh7cw0qv",
+                  "condition": "",
+                  "emptyView": "H3bvfGeCOYMU4-",
+                  "filterText": "{updatessearch}",
+                  "navigation": [],
+                  "displayView": "H3bvfGeCOYMU4-",
+                  "sortColumns": [],
+                  "listTypeName": "CRM Updates",
+                  "displayFields": [],
+                  "filterColumns": [
+                    {
+                      "id": "6Rc96xzbtOWEUH",
+                      "field": "_id",
+                      "defaultValue": ""
+                    }
+                  ],
+                  "useDataSource": "",
+                  "emptyView_name": "New \"View As List\"",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "New \"View As List\"",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "7kWK_Nh5vm",
+          "condition": "",
+          "tabsOnTop": true,
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "formAction": [
+        {
+          "id": "R4_ioNmzdK",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "L_51_e3SzY",
+              "form": "C0xcY8D1pF"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "$readOnly": false,
+          "_selectId": "PG4-iUR5o6",
+          "inputStates": [
+            "default"
+          ]
+        }
+      ]
+    }
+  },
+  "createOnNew": true,
+  "description": "",
+  "displayName": "CRM Debug App",
+  "specificUrl": false,
+  "__originalId": "QvGyWp4AER-IoESTLn2g-1614692661634-IoESTLn2g-1615474420091:hestia/app-types",
+  "defaultState": "default",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "2iQsLsXPFPHjcu",
+  "_parentVersion": "dRBDfHts2FjiST",
+  "currentVersion": {
+    "development": "2.9",
+    "live": "2.9"
+  },
+  "showOnLauncher": true,
+  "tabsBackground": "#fafafa",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "R4_ioNmzdK",
+  "launcherCaption": "CRM Debug App",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#fafafa",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#fff",
+  "launcherBackground": "#00796b",
+  "launcherForeground": "#fff176",
+  "isLockedByCurrentUser": false,
+  "versions": [
+    {
+      "id": "N7ZgwSdbVeexQg",
+      "name": "1",
+      "time": 1615914166442,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "vlw-WjxX1pFP2e"
+    },
+    {
+      "id": "_LTT9mSeLePYTR",
+      "name": "1 - merged",
+      "time": 1615917548894,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "-YzPjekrwyiqn8",
+      "parentVersion": "N7ZgwSdbVeexQg"
+    },
+    {
+      "id": "SJh7-Hgp75HqHe",
+      "name": "18th March 21 End of Day Bulk",
+      "time": 1616084221944,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "ZlFy3_Yxp2Ue2Y",
+      "parentVersion": "_LTT9mSeLePYTR"
+    },
+    {
+      "id": "RsrH1Dc4I1yk1y",
+      "name": "22 March First Thing",
+      "time": 1616402520787,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "FkZa5hIG9J7Svt",
+      "parentVersion": "SJh7-Hgp75HqHe"
+    },
+    {
+      "id": "VZQdTD6xFtuKbJ",
+      "name": "Pre 884 Merge",
+      "time": 1616582163281,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "zjfxS88ugYqLjV",
+      "parentVersion": "RsrH1Dc4I1yk1y"
+    },
+    {
+      "id": "t18xYno1phpMQ7",
+      "name": "SLAs and CRM ID Integration",
+      "time": 1616601220281,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "10ShYko2O9IdKQ",
+      "parentVersion": "VZQdTD6xFtuKbJ"
+    },
+    {
+      "id": "EefEqYJ5p9kWZJ",
+      "name": "CRM Updates App",
+      "time": 1617187059711,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "DGk8oZV9HIP_Rt",
+      "parentVersion": "t18xYno1phpMQ7"
+    },
+    {
+      "id": "H5KgGUC5TLfeyy",
+      "name": "SS-1945 Changes",
+      "time": 1617701916493,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "EefEqYJ5p9kWZJ"
+    },
+    {
+      "id": "I47SCOKAziSG9P",
+      "name": "SS-1957 Changes",
+      "time": 1617706963788,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "H5KgGUC5TLfeyy"
+    },
+    {
+      "id": "E1DeUcqh9PG2XQ",
+      "name": "SS-1982 Done",
+      "time": 1617868811435,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "I47SCOKAziSG9P"
+    },
+    {
+      "id": "LdcJ85bnbn81HW",
+      "name": "09Apr21 AM",
+      "time": 1617957434545,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "E1DeUcqh9PG2XQ"
+    },
+    {
+      "id": "KfMKp-Pq1UuuOb",
+      "name": "Post Layout Changes",
+      "time": 1618213621883,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "LdcJ85bnbn81HW"
+    },
+    {
+      "id": "4QXkYIIjNv05N2",
+      "name": "Clean Up of Updaters",
+      "time": 1618221071156,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "KfMKp-Pq1UuuOb"
+    },
+    {
+      "id": "p4OiOdorTBnXcg",
+      "name": "1.1",
+      "time": 1618318822825,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "4QXkYIIjNv05N2"
+    },
+    {
+      "id": "UaGudna7u9YUX5",
+      "name": "1.2",
+      "time": 1618318945554,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "p4OiOdorTBnXcg"
+    },
+    {
+      "id": "_79kNm96lqx5vj",
+      "name": "1.3",
+      "time": 1618319056992,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "UaGudna7u9YUX5"
+    },
+    {
+      "id": "eDEb00WjxvYlrl",
+      "name": "1.4",
+      "time": 1618319155579,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "_79kNm96lqx5vj"
+    },
+    {
+      "id": "uBTfg67w6Bzw43",
+      "name": "1.5",
+      "time": 1618319235319,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "eDEb00WjxvYlrl"
+    },
+    {
+      "id": "r0q_L8Ux2PHuWg",
+      "name": "1.6",
+      "time": 1618319480383,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "uBTfg67w6Bzw43"
+    },
+    {
+      "id": "RarTE1kWyHEDzQ",
+      "name": "2.1",
+      "time": 1618320292439,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "r0q_L8Ux2PHuWg"
+    },
+    {
+      "id": "5oWfaFel6GLZMG",
+      "name": "2.3",
+      "time": 1618320838184,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "RarTE1kWyHEDzQ"
+    },
+    {
+      "id": "iRaUppgk8ETRAw",
+      "name": "2.4",
+      "time": 1618320962501,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "5oWfaFel6GLZMG"
+    },
+    {
+      "id": "XJVEYbs6t8Hpwg",
+      "name": "2.7",
+      "time": 1618335894276,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "iRaUppgk8ETRAw"
+    },
+    {
+      "content": "{\"__\":\"Qb8lCOwm_MhrMD\",\"_id\":\"M6Ept0DhIRF13Y:hestia/app-types\",\"__ok\":true,\"icon\":\"AiFillWindows\",\"name\":\"CRM Debug App\",\"_type\":\"application\",\"table\":\"CRM Debug App-OrR_6y94Nh\",\"theme\":{\"other\":{\"opacity\":{\"AlcOpacity_001\":\"10%\",\"AlcOpacity_002\":\"25%\",\"AlcOpacity_003\":\"50%\",\"AlcOpacity_004\":\"75%\"},\"palette\":{\"gold\":\"gold\",\"type\":\"light\",\"bronze\":\"#853\",\"silver\":\"silver\",\"primary\":{\"main\":\"#1da7e0\",\"contrastText\":\"#fff\"},\"AlcSys_001\":\"#FFFFFF\",\"AlcSys_002\":\"#F7F8F9\",\"AlcSys_003\":\"#F4F5F6\",\"AlcSys_004\":\"#EBEBED\",\"AlcSys_005\":\"#CCCCCC\",\"AlcSys_006\":\"rgba(125, 125, 125, 1)\",\"AlcSys_007\":\"#263836\",\"AlcSys_008\":\"#000000\",\"AlcBrand_001\":\"#1da7e0\",\"AlcBrand_002\":\"#0081AF\",\"AlcBrand_003\":\"#294A76\",\"AlcBrand_004\":\"#0099B3\",\"AlcBrand_005\":\"#604696\",\"AlcBrand_006\":\"#D26A37\",\"AlcBrand_007\":\"#679861\",\"AlcBrand_008\":\"#EBBA00\",\"AlcBrand_009\":\"#8C1D82\",\"AlcBrand_010\":\"#DC840A\",\"AlcSys_006_10\":\"rgba(125, 125, 125, .1)\",\"AlcSys_006_25\":\"rgba(125, 125, 125, .25)\",\"AlcSys_006_50\":\"rgba(125, 125, 125, .50)\",\"AlcSys_006_75\":\"rgba(125, 125, 125, .75)\",\"AlcSys_Grad001\":\"linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)\",\"AlcSys_Grad002\":\"linear-gradient(55deg, #1da7e0 100%, #604696 100%)\",\"AlcSysState_prog\":\"rgba(235, 186, 0, 1)\",\"AlcSysState_risk\":\"rgba(233, 75, 75, 1)\",\"AlcSysState_green\":\"rgba(63, 195, 128, 1)\",\"AlcSysState_issue\":\"rgba(233, 165, 75, 1)\",\"AlcSysState_prog_10\":\"rgba(235, 186, 0, .1)\",\"AlcSysState_prog_25\":\"rgba(235, 186, 0,.251)\",\"AlcSysState_prog_50\":\"rgba(235, 186, 0,.5)\",\"AlcSysState_prog_75\":\"rgba(235, 186, 0, .75)\",\"AlcSysState_risk_10\":\"rgba(233, 75, 75, .1)\",\"AlcSysState_risk_25\":\"rgba(233, 75, 75, .25)\",\"AlcSysState_risk_50\":\"rgba(233, 75, 75, .50)\",\"AlcSysState_risk_75\":\"rgba(233, 75, 75, .75)\",\"AlcSysState_green_10\":\"rgba(63, 195, 128, 0.1)\",\"AlcSysState_green_25\":\"rgba(63, 195, 128, 0.25)\",\"AlcSysState_green_50\":\"rgba(63, 195, 128, 0.5)\",\"AlcSysState_green_75\":\"rgba(63, 195, 128, 0.75)\",\"AlcSysState_issue_10\":\"rgba(233, 165, 75, .1)\",\"AlcSysState_issue_25\":\"rgba(233, 165, 75, .25)\",\"AlcSysState_issue_50\":\"rgba(233, 165, 75, .50)\",\"AlcSysState_issue_75\":\"rgba(233, 165, 75, .75)\"},\"document\":{\"form\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"child\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"typography\":{\"h1\":{\"fontSize\":\"2.8em\",\"fontFamily\":\"Montserrat, sans-serif\",\"fontWeight\":700},\"h2\":{\"fontSize\":\"2.3em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h3\":{\"fontSize\":\"2em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h4\":{\"fontSize\":\"1.667em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h5\":{\"fontSize\":\"1.333em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h6\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"body1\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Roboto\"},\"body2\":{\"fontSize\":\"1em\",\"fontFamily\":\"Roboto\"},\"body3\":{\"fontSize\":\"0.9em\",\"fontFamily\":\"Roboto\"},\"body4\":{\"fontSize\":\"14px\",\"fontFamily\":\"Roboto\"},\"overline\":{\"fontSize\":\"0.917em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500,\"textTransform\":\"uppercase\"},\"Action1_Medium\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action2_Medium\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action1_Regular\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\"},\"Action2_Regular\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\"},\"Action1_SemiBold\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600},\"Action2_SemiBold\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600}}},\"theme\":\"Alcumus\",\"permanentTheme\":\"\"},\"__size\":15548,\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[\"CRMDebug\"],\"__cached\":1615917412371,\"_created\":1615914152000,\"_deleted\":0,\"database\":\"applications\",\"maxWidth\":1000,\"uniqueId\":\"OrR_6y94Nh\",\"_modified\":1618335894772,\"__modified\":1614167252957,\"components\":\"\",\"isLockedBy\":null,\"navigation\":[],\"showOnMenu\":true,\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"C0xcY8D1pF\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"lOU9X45sx4\",\"condition\":\"\",\"questions\":[{\"id\":\"ySSVJUqQ7jlMvD\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"FaLink\",\"tabName\":\"CRM Connections\",\"question\":\"\",\"_selectId\":\"Oiglc-wVds8faZ\",\"condition\":\"\"},{\"id\":\"W1O0yMCcBm\",\"name\":\"\",\"type\":\"title\",\"color\":\"\",\"hints\":{},\"title\":\"CRM Connections\",\"question\":\"\",\"_selectId\":\"QGEMrmcYtS\",\"condition\":\"\",\"questionHeight\":\"\",\"backgroundColor\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"brEcsbcTV\",\"name\":\"s\",\"rows\":20,\"type\":\"documentList\",\"hints\":{},\"where\":{\"$and\":[]},\"listType\":\"sTKeU_KZbkSQBZ:hestia/document-types\",\"question\":\"\",\"_selectId\":\"m9OQ_W9Efk\",\"condition\":\"\",\"emptyView\":\"jQ1692lCV\",\"filterText\":\"\",\"navigation\":[],\"displayView\":\"jQ1692lCV\",\"sortColumns\":[],\"listTypeName\":\"CRM Connections\",\"displayFields\":[],\"filterColumns\":[],\"useDataSource\":\"\",\"emptyView_name\":\"ConnectionList\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"ConnectionList\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"GIWsTXO1CFd61T\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"FaDatabase\",\"tabName\":\"Blackboards\",\"question\":\"\",\"_selectId\":\"EcQK0BvYafXgmY\",\"condition\":\"\"},{\"id\":\"g8ZZvcG55Q\",\"name\":\"\",\"type\":\"title\",\"color\":\"\",\"hints\":{},\"title\":\"Blackboards\",\"question\":\"\",\"_selectId\":\"jJtZ9xY2HK\",\"condition\":\"\",\"questionHeight\":\"\",\"backgroundColor\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"A62g4Rqbk\",\"name\":\"searchstring\",\"type\":\"text\",\"hints\":{},\"maxWidth\":\"\",\"question\":\"<p>Search blackboards for text:</p>\\n\",\"_selectId\":\"Q2T7emfes0\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"k7xrks4BAF\",\"name\":\"bb\",\"rows\":20,\"type\":\"documentList\",\"hints\":{\"paginateAbove\":true},\"where\":{\"$and\":[{\"records\":{\"$like\":\"%{searchstring}%\"}}]},\"listType\":\"wF7lZt-SUyBkCm:hestia/document-types\",\"question\":\"\",\"_selectId\":\"pgsRC7pdEi\",\"condition\":\"\",\"emptyView\":\"z_CnQTlGv\",\"dataSource\":\"\",\"filterText\":\"\",\"navigation\":[],\"displayView\":\"z_CnQTlGv\",\"sortColumns\":[],\"listTypeName\":\"Blackboards\",\"displayFields\":[],\"filterColumns\":[],\"useDataSource\":false,\"emptyView_name\":\"New \\\"View As List\\\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"New \\\"View As List\\\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"u04O-V8bJTsVHN\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"FaBuilding\",\"tabName\":\"Accounts\",\"question\":\"\",\"_selectId\":\"0_zqU6uUZ-lfmq\",\"condition\":\"\"},{\"id\":\"8NuOyBx__\",\"name\":\"\",\"type\":\"title\",\"color\":\"\",\"hints\":{},\"title\":\"Accounts\",\"question\":\"\",\"_selectId\":\"1ShdSM0Z9b\",\"condition\":\"\",\"questionHeight\":\"\",\"backgroundColor\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"-N8n-C37g\",\"name\":\"accountsearch\",\"type\":\"text\",\"hints\":{},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"IIbcFRJaQ1\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"_0Twi-6FZ\",\"name\":\"ss\",\"rows\":20,\"type\":\"documentList\",\"hints\":{},\"where\":{\"$and\":[{\"$or\":[{\"$and\":[{\"$or\":[{\"$and\":[{\"accountName\":{\"$like\":\"%{accountsearch}%\"}}]},{\"$and\":[{\"companyEmail\":{\"$like\":\"%{accountsearch}%\"}}]}]}]},{\"$and\":[{\"clientRef\":{\"$like\":\"%{accountsearch}%\"}}]}]}]},\"listType\":\"qtp5ZEvMXw-xkWJtZvh93:hestia/document-types\",\"question\":\"\",\"_selectId\":\"j_h_E04x2D\",\"condition\":\"\",\"emptyView\":\"PTvDPeMjieZxhV\",\"filterText\":\"\",\"navigation\":[],\"displayView\":\"PTvDPeMjieZxhV\",\"sortColumns\":[],\"listTypeName\":\"Supplier Account\",\"displayFields\":[],\"filterColumns\":[],\"useDataSource\":\"\",\"emptyView_name\":\"Supplier Account List\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"Supplier Account List\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"0cP-AZxdupzG5y\",\"html\":\"\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"MdTagFaces\",\"tabName\":\"Contacts\",\"question\":\"\",\"_selectId\":\"6D7GqdekAL8wzF\",\"condition\":\"\"},{\"id\":\"D9dhqFj7G\",\"name\":\"\",\"type\":\"title\",\"color\":\"\",\"hints\":{},\"title\":\"Contacts\",\"question\":\"\",\"_selectId\":\"G8OG61aAzt\",\"condition\":\"\",\"questionHeight\":\"\",\"backgroundColor\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"-z5m-70fD\",\"name\":\"contactsearch\",\"type\":\"text\",\"hints\":{},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"Uy5fHQ_j4p\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"taZdj9BIBI\",\"name\":\"contact_table\",\"rows\":20,\"type\":\"documentList\",\"hints\":{},\"where\":{\"$and\":[{\"$or\":[{\"$and\":[{\"firstname\":{\"$like\":\"%{contactsearch}%\"}}]},{\"$and\":[{\"lastname\":{\"$like\":\"%{contactsearch}%\"}}]},{\"$and\":[{\"email\":{\"$like\":\"%{contactsearch}%\"}}]},{\"$and\":[{\"clientRef\":{\"$like\":\"%{contactsearch}%\"}}]}]}]},\"listType\":\"_HoIdkVKwip9gc:hestia/document-types\",\"question\":\"\",\"_selectId\":\"-5n5ZVmYvA\",\"condition\":\"\",\"emptyView\":\"p57DZnQ9s\",\"filterText\":\"\",\"navigation\":[],\"displayView\":\"p57DZnQ9s\",\"sortColumns\":[],\"listTypeName\":\"Safe Contact\",\"displayFields\":[],\"filterColumns\":[],\"useDataSource\":\"\",\"emptyView_name\":\"Contact List\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"Contact List\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"pA3phiXm016IsK\",\"html\":\"\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"MdTagFaces\",\"tabName\":\"CRM Updates\",\"question\":\"\",\"_selectId\":\"kfZyYfeAKvKKoO\",\"condition\":\"\"},{\"id\":\"NcWCCLfHhDVI9i\",\"name\":\"\",\"type\":\"title\",\"color\":\"\",\"hints\":{},\"title\":\"CRM Updates\",\"question\":\"\",\"_selectId\":\"X3UXpZwJXPXWQy\",\"condition\":\"\",\"questionHeight\":\"\",\"backgroundColor\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"j-nISw-EUI0nQ0\",\"name\":\"updatessearch\",\"type\":\"text\",\"hints\":{\"search_box\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"4ayvfYTcgAb_hD\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"14uYC_YQz-64pf\",\"name\":\"crmUpdates\",\"rows\":20,\"type\":\"documentList\",\"hints\":{},\"where\":{\"$and\":[]},\"listType\":\"iJ5pk5vd18uvT_:hestia/document-types\",\"question\":\"\",\"_selectId\":\"f1LH8NXh7cw0qv\",\"condition\":\"\",\"emptyView\":\"H3bvfGeCOYMU4-\",\"filterText\":\"{updatessearch}\",\"navigation\":[],\"displayView\":\"H3bvfGeCOYMU4-\",\"sortColumns\":[],\"listTypeName\":\"CRM Updates\",\"displayFields\":[],\"filterColumns\":[{\"id\":\"6Rc96xzbtOWEUH\",\"field\":\"_id\",\"defaultValue\":\"\"}],\"useDataSource\":\"\",\"emptyView_name\":\"New \\\"View As List\\\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"New \\\"View As List\\\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}],\"description\":\"\"}],\"_selectId\":\"7kWK_Nh5vm\",\"condition\":\"\",\"tabsOnTop\":true,\"description\":\"\",\"duplicateNames\":{}}],\"formAction\":[{\"id\":\"R4_ioNmzdK\",\"name\":\"Main\",\"forms\":[{\"id\":\"L_51_e3SzY\",\"form\":\"C0xcY8D1pF\"}],\"inline\":true,\"actions\":[],\"$readOnly\":false,\"_selectId\":\"PG4-iUR5o6\",\"inputStates\":[\"default\"]}]}},\"createOnNew\":true,\"description\":\"\",\"displayName\":\"CRM Debug App\",\"specificUrl\":false,\"__originalId\":\"QvGyWp4AER-IoESTLn2g-1614692661634-IoESTLn2g-1615474420091:hestia/app-types\",\"defaultState\":\"default\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"dRBDfHts2FjiST\",\"_parentVersion\":\"XJVEYbs6t8Hpwg\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"showOnLauncher\":true,\"tabsBackground\":\"#fafafa\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"R4_ioNmzdK\",\"launcherCaption\":\"CRM Debug App\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#fafafa\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#fff\",\"launcherBackground\":\"#00796b\",\"launcherForeground\":\"#fff176\",\"isLockedByCurrentUser\":false}",
+      "parentVersion": "XJVEYbs6t8Hpwg",
+      "id": "dRBDfHts2FjiST",
+      "time": 1618337316627,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "name": "2.9",
+      "locked": true
+    }
+  ]
+}

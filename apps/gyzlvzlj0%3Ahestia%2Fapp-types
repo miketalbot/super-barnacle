@@ -1,0 +1,649 @@
+{
+  "__": "doeNLvQhRBjrqy",
+  "_id": "gyzlvzlj0:hestia/app-types",
+  "__ok": true,
+  "icon": "MdSupervisorAccount",
+  "name": "Supplier Account",
+  "_type": "application",
+  "table": "Supplier Account-ThK_Julwx-",
+  "theme": {
+    "other": {
+      "opacity": {
+        "AlcOpacity_001": "10%",
+        "AlcOpacity_002": "25%",
+        "AlcOpacity_003": "50%",
+        "AlcOpacity_004": "75%"
+      },
+      "palette": {
+        "gold": "gold",
+        "type": "light",
+        "bronze": "#853",
+        "silver": "silver",
+        "primary": {
+          "main": "#1da7e0",
+          "contrastText": "#fff"
+        },
+        "AlcSys_001": "#FFFFFF",
+        "AlcSys_002": "#F7F8F9",
+        "AlcSys_003": "#F4F5F6",
+        "AlcSys_004": "#EBEBED",
+        "AlcSys_005": "#CCCCCC",
+        "AlcSys_006": "rgba(125, 125, 125, 1)",
+        "AlcSys_007": "#263836",
+        "AlcSys_008": "#000000",
+        "AlcBrand_001": "#1da7e0",
+        "AlcBrand_002": "#0081AF",
+        "AlcBrand_003": "#294A76",
+        "AlcBrand_004": "#0099B3",
+        "AlcBrand_005": "#604696",
+        "AlcBrand_006": "#D26A37",
+        "AlcBrand_007": "#679861",
+        "AlcBrand_008": "#EBBA00",
+        "AlcBrand_009": "#8C1D82",
+        "AlcBrand_010": "#DC840A",
+        "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+        "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+        "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+        "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+        "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+        "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+        "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+        "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+        "AlcSysState_green": "rgba(63, 195, 128, 1)",
+        "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+        "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+        "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+        "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+        "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+        "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+        "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+        "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+        "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+        "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+        "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+        "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+        "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+        "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+        "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+        "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+        "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+      },
+      "document": {
+        "form": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "child": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "fontSize": 16,
+        "fontFamily": "Roboto, sans-serif"
+      },
+      "typography": {
+        "h1": {
+          "fontSize": "2.8em",
+          "fontFamily": "Montserrat, sans-serif",
+          "fontWeight": 700
+        },
+        "h2": {
+          "fontSize": "2.3em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h3": {
+          "fontSize": "2em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h4": {
+          "fontSize": "1.667em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h5": {
+          "fontSize": "1.333em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h6": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "body1": {
+          "fontSize": "1.167em",
+          "fontFamily": "Roboto"
+        },
+        "body2": {
+          "fontSize": "1em",
+          "fontFamily": "Roboto"
+        },
+        "body3": {
+          "fontSize": "0.9em",
+          "fontFamily": "Roboto"
+        },
+        "body4": {
+          "fontSize": "14px",
+          "fontFamily": "Roboto"
+        },
+        "overline": {
+          "fontSize": "0.917em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500,
+          "textTransform": "uppercase"
+        },
+        "Action1_Medium": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action2_Medium": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action1_Regular": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat"
+        },
+        "Action2_Regular": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat"
+        },
+        "Action1_SemiBold": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        },
+        "Action2_SemiBold": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        }
+      }
+    },
+    "theme": "Alcumus",
+    "permanentTheme": ""
+  },
+  "__size": 9715,
+  "__warn": false,
+  "client": "rsihYJKKDVyaYN",
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
+  "demands": [
+    "SupplierAccount"
+  ],
+  "$creator": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+  "__cached": 1615970732026,
+  "_created": 1605871340000,
+  "_deleted": 0,
+  "database": "applications",
+  "maxWidth": 1000,
+  "uniqueId": "ThK_Julwx-",
+  "__version": "09DEC20.BULK01",
+  "_modified": 1618335895672,
+  "__modified": 1614241452992,
+  "components": "",
+  "isLockedBy": null,
+  "navigation": [],
+  "showOnMenu": true,
+  "__namespace": "",
+  "_behaviours": {
+    "_state": "",
+    "instances": {
+      "form": [
+        {
+          "id": "yXQEyaJJYB",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "dGt-cMolvt",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "nlhD1lkyb",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<h1>This is for internal users only during configuration please ignore</h1>\n",
+                  "_selectId": "5oyRFDjwHl",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "JilLOMuNKgCBJS",
+                  "name": "search",
+                  "type": "text",
+                  "hints": {
+                    "search_box": true,
+                    "placeholder": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "m_s4rRZiRhzEVV",
+                  "condition": "",
+                  "inputLabel": " ",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "inputPlaceholder": "Search by Company Name...",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "P-do0CcLL",
+                  "name": "supplierAccountList",
+                  "rows": 10,
+                  "type": "documentList",
+                  "hints": {
+                    "paginateAbove": true,
+                    "paginateBelow": true
+                  },
+                  "where": {
+                    "$and": []
+                  },
+                  "listType": "qtp5ZEvMXw-xkWJtZvh93:hestia/document-types",
+                  "question": "",
+                  "_selectId": "3O-Qe_Xg4I",
+                  "condition": "",
+                  "emptyView": "PTvDPeMjieZxhV",
+                  "dataSource": "DSToYsLFR4",
+                  "filterText": "{search}",
+                  "navigation": [],
+                  "displayView": "PTvDPeMjieZxhV",
+                  "sortColumns": [
+                    {
+                      "id": "78qo0VicAsSwlM",
+                      "field": "_modified",
+                      "defaultValue": "",
+                      "sortDirection": "asc"
+                    }
+                  ],
+                  "listTypeName": "Supplier Account",
+                  "displayFields": [],
+                  "filterColumns": [
+                    {
+                      "id": "d4pqPH6DDr7Nla",
+                      "field": "accountName",
+                      "defaultValue": ""
+                    }
+                  ],
+                  "useDataSource": false,
+                  "dataSourceName": "supplierLists",
+                  "emptyView_name": "Supplier Account List",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Supplier Account List for Account App",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "_ER93BN7gt",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "styled": [
+        {
+          "id": "qFG_TpYF4-1sl0",
+          "css": " .documentList .MuiCard-root{\n        margin-bottom: 10px;\n }\n",
+          "name": "Copy of \"\"",
+          "_init": true,
+          "_selectId": "LAoPBNNRdNbb7_",
+          "loadTailWind": "",
+          "$behaviourType": "styled"
+        }
+      ],
+      "formAction": [
+        {
+          "id": "5KudyjoaI1",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "0orlyitqoZ",
+              "form": "yXQEyaJJYB"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "$readOnly": false,
+          "_selectId": "k84mZiHZGT",
+          "inputStates": [
+            "default"
+          ]
+        }
+      ]
+    }
+  },
+  "createOnNew": true,
+  "description": "",
+  "displayName": "Supplier Account Details",
+  "specificUrl": false,
+  "__originalId": "gyzlvzlj0:hestia/app-types",
+  "defaultState": "default",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "TzbE59znW6B8oR",
+  "_parentVersion": "0AR68XyilNxbpr",
+  "currentVersion": {
+    "development": "2.9",
+    "live": "2.9"
+  },
+  "showOnLauncher": true,
+  "tabsBackground": "#fafafa",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "5KudyjoaI1",
+  "devices-allowed": "",
+  "launcherCaption": "Supplier Account Details",
+  "sideBarMinWidth": 150,
+  "supplierAccount": "IoESTLn2g:ss_SupplierAccount/ss_SupplierAccount",
+  "documentBackdrop": "#ffffff",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#fff",
+  "launcherBackground": "#009fda",
+  "launcherForeground": "#ffffff",
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false,
+  "versions": [
+    {
+      "id": "MTiA6zZ4MUbRu5",
+      "name": "SS-1730 Merge",
+      "time": 1614241809182,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "EUSxnOttcD1MqK",
+      "parentVersion": "tzNyFTXUB5k5QN"
+    },
+    {
+      "id": "R8-8Xon0AWjnP_",
+      "name": "SS-880",
+      "time": 1614337532737,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "G65peeyu_r-6rp",
+      "parentVersion": "MTiA6zZ4MUbRu5"
+    },
+    {
+      "id": "cv4VU1Vj97kWK-",
+      "name": "Chase Tasks 1",
+      "time": 1614697823532,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "3Nb8okL29ITn4F",
+      "parentVersion": "R8-8Xon0AWjnP_"
+    },
+    {
+      "id": "_MbdsxEVAuiNMj",
+      "name": "Query Weirdness",
+      "time": 1614860415542,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "aMRR5AeX1JD2nF",
+      "parentVersion": "cv4VU1Vj97kWK-"
+    },
+    {
+      "id": "EaKpaEG2oPp0SN",
+      "name": "TSO Task Changes for Main Branch",
+      "time": 1614933847354,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "yaA3ZUUss8714y",
+      "parentVersion": "_MbdsxEVAuiNMj"
+    },
+    {
+      "id": "qpZzoOL66muPua",
+      "name": "SS-1774 Fixes",
+      "time": 1615194060924,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "td3urs6qkH-nVs",
+      "parentVersion": "EaKpaEG2oPp0SN"
+    },
+    {
+      "id": "0V16_EwYuzND7t",
+      "name": "SS-914",
+      "time": 1615203069625,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "qXQAhZ0YHxplHf",
+      "parentVersion": "qpZzoOL66muPua"
+    },
+    {
+      "id": "A571yt_Nqvx_o3",
+      "name": "SS-894 Merged",
+      "time": 1615464567783,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "H9wLSvUhOcwsAQ",
+      "parentVersion": "0V16_EwYuzND7t"
+    },
+    {
+      "id": "K7p4o7myU37sjW",
+      "name": "16th March 21",
+      "time": 1615912069259,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "sPtdLmbNdlQuV-",
+      "parentVersion": "A571yt_Nqvx_o3"
+    },
+    {
+      "id": "6zsxL_67xLoPWw",
+      "name": "17th March 2021 - 1",
+      "time": 1615988604618,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "veD1cQEqP0Pr7D",
+      "parentVersion": "K7p4o7myU37sjW"
+    },
+    {
+      "id": "MVwvcdkn_Sdrvh",
+      "name": "18th March 21 End of Day Bulk",
+      "time": 1616084221937,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "Op4trAM8Iy5ujE",
+      "parentVersion": "6zsxL_67xLoPWw"
+    },
+    {
+      "id": "ASerEdGj_nKDDu",
+      "name": "22 March First Thing",
+      "time": 1616402520782,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "6Qx_Jk4fDAkHQF",
+      "parentVersion": "MVwvcdkn_Sdrvh"
+    },
+    {
+      "id": "zrSPCp5DooKiNU",
+      "name": "Pre 884 Merge",
+      "time": 1616582163275,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "bvRjR-a9xU_JSd",
+      "parentVersion": "ASerEdGj_nKDDu"
+    },
+    {
+      "id": "6ZOF6Mx6JhxOBT",
+      "name": "SLAs and CRM ID Integration",
+      "time": 1616601220271,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "fhRgHkCS3-KJRg",
+      "parentVersion": "zrSPCp5DooKiNU"
+    },
+    {
+      "id": "reFqby-UHYWG5T",
+      "name": "Added Pagination",
+      "time": 1616668482042,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "_uvVyRdAOlzT7T",
+      "parentVersion": "6ZOF6Mx6JhxOBT"
+    },
+    {
+      "id": "QybQDYJmX0TJ1R",
+      "name": "SS-1945 Changes",
+      "time": 1617701916486,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "9F-96r6dO7utco",
+      "parentVersion": "reFqby-UHYWG5T"
+    },
+    {
+      "id": "qSJ0Bg83AzaSo8",
+      "name": "SS-1957 Changes",
+      "time": 1617706963781,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "rYPgwvhn1W4QhB",
+      "parentVersion": "QybQDYJmX0TJ1R"
+    },
+    {
+      "id": "3I3fZE1DMHMX_9",
+      "name": "SS-1982 Done",
+      "time": 1617868811428,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "Rbz0-9OBoO4puq",
+      "parentVersion": "qSJ0Bg83AzaSo8"
+    },
+    {
+      "id": "RbSUaUvVCpj0P3",
+      "name": "09Apr21 AM",
+      "time": 1617957434539,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "wxGZZu70S2U0Bp",
+      "parentVersion": "3I3fZE1DMHMX_9"
+    },
+    {
+      "id": "vya7TYFZNkLO_M",
+      "name": "Post Layout Changes",
+      "time": 1618213621876,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "Wjp6MsP1Givw88",
+      "parentVersion": "RbSUaUvVCpj0P3"
+    },
+    {
+      "id": "VrcRSOjOmKSiaK",
+      "name": "Clean Up of Updaters",
+      "time": 1618221071142,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "28CQFHdFrPwB-F",
+      "parentVersion": "vya7TYFZNkLO_M"
+    },
+    {
+      "id": "kid_tEt-oswy9E",
+      "name": "Updated View",
+      "time": 1618241029400,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "jYxxSUnefk2sQd",
+      "parentVersion": "VrcRSOjOmKSiaK"
+    },
+    {
+      "id": "T9dR9zhZaIziDJ",
+      "name": "1.1",
+      "time": 1618318822837,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "kid_tEt-oswy9E"
+    },
+    {
+      "id": "AdiiHiGbCwUTqh",
+      "name": "1.2",
+      "time": 1618318945570,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "T9dR9zhZaIziDJ"
+    },
+    {
+      "id": "pzJQ7nNpjSqklo",
+      "name": "1.3",
+      "time": 1618319057006,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "AdiiHiGbCwUTqh"
+    },
+    {
+      "id": "Lnxe3qgtcC87xG",
+      "name": "1.4",
+      "time": 1618319155592,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "pzJQ7nNpjSqklo"
+    },
+    {
+      "id": "-I05bzlhK4W5Xf",
+      "name": "1.5",
+      "time": 1618319235332,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "Lnxe3qgtcC87xG"
+    },
+    {
+      "id": "LViorl4lbqu0ik",
+      "name": "1.6",
+      "time": 1618319480396,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "-I05bzlhK4W5Xf"
+    },
+    {
+      "id": "3hmrIossM5iB2F",
+      "name": "2.1",
+      "time": 1618320292454,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "LViorl4lbqu0ik"
+    },
+    {
+      "id": "qPthrYLI7Tq_dj",
+      "name": "2.3",
+      "time": 1618320838197,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "3hmrIossM5iB2F"
+    },
+    {
+      "id": "7g3gqTHWZJxV52",
+      "name": "2.4",
+      "time": 1618320962518,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "qPthrYLI7Tq_dj"
+    },
+    {
+      "id": "M4jQIR4PAqcw92",
+      "name": "2.7",
+      "time": 1618335894292,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "7g3gqTHWZJxV52"
+    },
+    {
+      "content": "{\"__\":\"doeNLvQhRBjrqy\",\"_id\":\"gyzlvzlj0:hestia/app-types\",\"__ok\":true,\"icon\":\"MdSupervisorAccount\",\"name\":\"Supplier Account\",\"_type\":\"application\",\"table\":\"Supplier Account-ThK_Julwx-\",\"theme\":{\"other\":{\"opacity\":{\"AlcOpacity_001\":\"10%\",\"AlcOpacity_002\":\"25%\",\"AlcOpacity_003\":\"50%\",\"AlcOpacity_004\":\"75%\"},\"palette\":{\"gold\":\"gold\",\"type\":\"light\",\"bronze\":\"#853\",\"silver\":\"silver\",\"primary\":{\"main\":\"#1da7e0\",\"contrastText\":\"#fff\"},\"AlcSys_001\":\"#FFFFFF\",\"AlcSys_002\":\"#F7F8F9\",\"AlcSys_003\":\"#F4F5F6\",\"AlcSys_004\":\"#EBEBED\",\"AlcSys_005\":\"#CCCCCC\",\"AlcSys_006\":\"rgba(125, 125, 125, 1)\",\"AlcSys_007\":\"#263836\",\"AlcSys_008\":\"#000000\",\"AlcBrand_001\":\"#1da7e0\",\"AlcBrand_002\":\"#0081AF\",\"AlcBrand_003\":\"#294A76\",\"AlcBrand_004\":\"#0099B3\",\"AlcBrand_005\":\"#604696\",\"AlcBrand_006\":\"#D26A37\",\"AlcBrand_007\":\"#679861\",\"AlcBrand_008\":\"#EBBA00\",\"AlcBrand_009\":\"#8C1D82\",\"AlcBrand_010\":\"#DC840A\",\"AlcSys_006_10\":\"rgba(125, 125, 125, .1)\",\"AlcSys_006_25\":\"rgba(125, 125, 125, .25)\",\"AlcSys_006_50\":\"rgba(125, 125, 125, .50)\",\"AlcSys_006_75\":\"rgba(125, 125, 125, .75)\",\"AlcSys_Grad001\":\"linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)\",\"AlcSys_Grad002\":\"linear-gradient(55deg, #1da7e0 100%, #604696 100%)\",\"AlcSysState_prog\":\"rgba(235, 186, 0, 1)\",\"AlcSysState_risk\":\"rgba(233, 75, 75, 1)\",\"AlcSysState_green\":\"rgba(63, 195, 128, 1)\",\"AlcSysState_issue\":\"rgba(233, 165, 75, 1)\",\"AlcSysState_prog_10\":\"rgba(235, 186, 0, .1)\",\"AlcSysState_prog_25\":\"rgba(235, 186, 0,.251)\",\"AlcSysState_prog_50\":\"rgba(235, 186, 0,.5)\",\"AlcSysState_prog_75\":\"rgba(235, 186, 0, .75)\",\"AlcSysState_risk_10\":\"rgba(233, 75, 75, .1)\",\"AlcSysState_risk_25\":\"rgba(233, 75, 75, .25)\",\"AlcSysState_risk_50\":\"rgba(233, 75, 75, .50)\",\"AlcSysState_risk_75\":\"rgba(233, 75, 75, .75)\",\"AlcSysState_green_10\":\"rgba(63, 195, 128, 0.1)\",\"AlcSysState_green_25\":\"rgba(63, 195, 128, 0.25)\",\"AlcSysState_green_50\":\"rgba(63, 195, 128, 0.5)\",\"AlcSysState_green_75\":\"rgba(63, 195, 128, 0.75)\",\"AlcSysState_issue_10\":\"rgba(233, 165, 75, .1)\",\"AlcSysState_issue_25\":\"rgba(233, 165, 75, .25)\",\"AlcSysState_issue_50\":\"rgba(233, 165, 75, .50)\",\"AlcSysState_issue_75\":\"rgba(233, 165, 75, .75)\"},\"document\":{\"form\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"child\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"typography\":{\"h1\":{\"fontSize\":\"2.8em\",\"fontFamily\":\"Montserrat, sans-serif\",\"fontWeight\":700},\"h2\":{\"fontSize\":\"2.3em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h3\":{\"fontSize\":\"2em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h4\":{\"fontSize\":\"1.667em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h5\":{\"fontSize\":\"1.333em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h6\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"body1\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Roboto\"},\"body2\":{\"fontSize\":\"1em\",\"fontFamily\":\"Roboto\"},\"body3\":{\"fontSize\":\"0.9em\",\"fontFamily\":\"Roboto\"},\"body4\":{\"fontSize\":\"14px\",\"fontFamily\":\"Roboto\"},\"overline\":{\"fontSize\":\"0.917em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500,\"textTransform\":\"uppercase\"},\"Action1_Medium\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action2_Medium\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action1_Regular\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\"},\"Action2_Regular\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\"},\"Action1_SemiBold\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600},\"Action2_SemiBold\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600}}},\"theme\":\"Alcumus\",\"permanentTheme\":\"\"},\"__size\":9715,\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[\"SupplierAccount\"],\"$creator\":\"f389cfaa-0b2a-4653-8c35-32aa5486efe7\",\"__cached\":1615970732026,\"_created\":1605871340000,\"_deleted\":0,\"database\":\"applications\",\"maxWidth\":1000,\"uniqueId\":\"ThK_Julwx-\",\"__version\":\"09DEC20.BULK01\",\"_modified\":1618335895672,\"__modified\":1614241452992,\"components\":\"\",\"isLockedBy\":null,\"navigation\":[],\"showOnMenu\":true,\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"yXQEyaJJYB\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"dGt-cMolvt\",\"condition\":\"\",\"questions\":[{\"id\":\"nlhD1lkyb\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<h1>This is for internal users only during configuration please ignore</h1>\\n\",\"_selectId\":\"5oyRFDjwHl\",\"condition\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"JilLOMuNKgCBJS\",\"name\":\"search\",\"type\":\"text\",\"hints\":{\"search_box\":true,\"placeholder\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"m_s4rRZiRhzEVV\",\"condition\":\"\",\"inputLabel\":\" \",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"inputPlaceholder\":\"Search by Company Name...\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"P-do0CcLL\",\"name\":\"supplierAccountList\",\"rows\":10,\"type\":\"documentList\",\"hints\":{\"paginateAbove\":true,\"paginateBelow\":true},\"where\":{\"$and\":[]},\"listType\":\"qtp5ZEvMXw-xkWJtZvh93:hestia/document-types\",\"question\":\"\",\"_selectId\":\"3O-Qe_Xg4I\",\"condition\":\"\",\"emptyView\":\"PTvDPeMjieZxhV\",\"dataSource\":\"DSToYsLFR4\",\"filterText\":\"{search}\",\"navigation\":[],\"displayView\":\"PTvDPeMjieZxhV\",\"sortColumns\":[{\"id\":\"78qo0VicAsSwlM\",\"field\":\"_modified\",\"defaultValue\":\"\",\"sortDirection\":\"asc\"}],\"listTypeName\":\"Supplier Account\",\"displayFields\":[],\"filterColumns\":[{\"id\":\"d4pqPH6DDr7Nla\",\"field\":\"accountName\",\"defaultValue\":\"\"}],\"useDataSource\":false,\"dataSourceName\":\"supplierLists\",\"emptyView_name\":\"Supplier Account List\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"Supplier Account List for Account App\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}],\"description\":\"\"}],\"_selectId\":\"_ER93BN7gt\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"styled\":[{\"id\":\"qFG_TpYF4-1sl0\",\"css\":\" .documentList .MuiCard-root{\\n        margin-bottom: 10px;\\n }\\n\",\"name\":\"Copy of \\\"\\\"\",\"_init\":true,\"_selectId\":\"LAoPBNNRdNbb7_\",\"loadTailWind\":\"\",\"$behaviourType\":\"styled\"}],\"formAction\":[{\"id\":\"5KudyjoaI1\",\"name\":\"Main\",\"forms\":[{\"id\":\"0orlyitqoZ\",\"form\":\"yXQEyaJJYB\"}],\"inline\":true,\"actions\":[],\"$readOnly\":false,\"_selectId\":\"k84mZiHZGT\",\"inputStates\":[\"default\"]}]}},\"createOnNew\":true,\"description\":\"\",\"displayName\":\"Supplier Account Details\",\"specificUrl\":false,\"__originalId\":\"gyzlvzlj0:hestia/app-types\",\"defaultState\":\"default\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"0AR68XyilNxbpr\",\"_parentVersion\":\"M4jQIR4PAqcw92\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"showOnLauncher\":true,\"tabsBackground\":\"#fafafa\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"5KudyjoaI1\",\"devices-allowed\":\"\",\"launcherCaption\":\"Supplier Account Details\",\"sideBarMinWidth\":150,\"supplierAccount\":\"IoESTLn2g:ss_SupplierAccount/ss_SupplierAccount\",\"documentBackdrop\":\"#ffffff\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#fff\",\"launcherBackground\":\"#009fda\",\"launcherForeground\":\"#ffffff\",\"devices-allowed-html\":\"\",\"isLockedByCurrentUser\":false}",
+      "parentVersion": "M4jQIR4PAqcw92",
+      "id": "0AR68XyilNxbpr",
+      "time": 1618337316641,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "name": "2.9",
+      "locked": true
+    }
+  ]
+}

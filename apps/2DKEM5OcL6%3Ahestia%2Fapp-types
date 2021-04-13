@@ -1,0 +1,1579 @@
+{
+  "__": "fnFNboT9_qbWiR",
+  "_id": "2DKEM5OcL6:hestia/app-types",
+  "__ok": true,
+  "icon": "BiListCheck",
+  "name": "TSO Dashboard",
+  "_type": "application",
+  "table": "TSO Dashboard-rtM4yh_fWC",
+  "theme": {
+    "other": {
+      "opacity": {
+        "AlcOpacity_001": "10%",
+        "AlcOpacity_002": "25%",
+        "AlcOpacity_003": "50%",
+        "AlcOpacity_004": "75%"
+      },
+      "palette": {
+        "gold": "gold",
+        "type": "light",
+        "bronze": "#853",
+        "silver": "silver",
+        "primary": {
+          "main": "#1da7e0",
+          "contrastText": "#fff"
+        },
+        "AlcSys_001": "#FFFFFF",
+        "AlcSys_002": "#F7F8F9",
+        "AlcSys_003": "#F4F5F6",
+        "AlcSys_004": "#EBEBED",
+        "AlcSys_005": "#CCCCCC",
+        "AlcSys_006": "rgba(125, 125, 125, 1)",
+        "AlcSys_007": "#263836",
+        "AlcSys_008": "#000000",
+        "AlcBrand_001": "#1da7e0",
+        "AlcBrand_002": "#0081AF",
+        "AlcBrand_003": "#294A76",
+        "AlcBrand_004": "#0099B3",
+        "AlcBrand_005": "#604696",
+        "AlcBrand_006": "#D26A37",
+        "AlcBrand_007": "#679861",
+        "AlcBrand_008": "#EBBA00",
+        "AlcBrand_009": "#8C1D82",
+        "AlcBrand_010": "#DC840A",
+        "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+        "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+        "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+        "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+        "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+        "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+        "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+        "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+        "AlcSysState_green": "rgba(63, 195, 128, 1)",
+        "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+        "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+        "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+        "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+        "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+        "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+        "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+        "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+        "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+        "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+        "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+        "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+        "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+        "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+        "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+        "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+        "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+      },
+      "document": {
+        "form": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "child": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "fontSize": 16,
+        "fontFamily": "Roboto, sans-serif"
+      },
+      "typography": {
+        "h1": {
+          "fontSize": "2.8em",
+          "fontFamily": "Montserrat, sans-serif",
+          "fontWeight": 700
+        },
+        "h2": {
+          "fontSize": "2.3em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h3": {
+          "fontSize": "2em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h4": {
+          "fontSize": "1.667em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h5": {
+          "fontSize": "1.333em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h6": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "body1": {
+          "fontSize": "1.167em",
+          "fontFamily": "Roboto"
+        },
+        "body2": {
+          "fontSize": "1em",
+          "fontFamily": "Roboto"
+        },
+        "body3": {
+          "fontSize": "0.9em",
+          "fontFamily": "Roboto"
+        },
+        "body4": {
+          "fontSize": "14px",
+          "fontFamily": "Roboto"
+        },
+        "overline": {
+          "fontSize": "0.917em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500,
+          "textTransform": "uppercase"
+        },
+        "Action1_Medium": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action2_Medium": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action1_Regular": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat"
+        },
+        "Action2_Regular": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat"
+        },
+        "Action1_SemiBold": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        },
+        "Action2_SemiBold": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        }
+      }
+    },
+    "theme": "Alcumus",
+    "permanentTheme": ""
+  },
+  "__size": 52219,
+  "__warn": false,
+  "client": "rsihYJKKDVyaYN",
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
+  "demands": [
+    "TSOAppAccess"
+  ],
+  "$creator": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+  "__cached": 1618219368077,
+  "_created": 1612348256000,
+  "_deleted": 0,
+  "database": "applications",
+  "maxWidth": 1000,
+  "uniqueId": "rtM4yh_fWC",
+  "_modified": 1618335896402,
+  "__modified": 1614613780411,
+  "_versionId": "2DKEM5OcL6-gn4UzDX8Rvzbnj:hestia/versions",
+  "components": "filters,navigation,extra-layout,account-allocator,data-summary,card 2.0",
+  "isLockedBy": null,
+  "navigation": [],
+  "showOnMenu": true,
+  "__namespace": "",
+  "_behaviours": {
+    "_state": "",
+    "instances": {
+      "form": [
+        {
+          "id": "99jS4tiHdH",
+          "name": "Main",
+          "sections": [
+            {
+              "id": "1614611003933-My45W03LsVcbzs",
+              "_id": "1614611003933-My45W03LsVcbzs:hestia/form-sections",
+              "name": "...",
+              "_expanded": false,
+              "_selectId": "8sHTJdAeNHwwj4",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "orgQPSWwt1TTw1",
+                  "icon": "",
+                  "name": "",
+                  "type": "pageTitle",
+                  "color": "",
+                  "hints": {},
+                  "caption": "<p>TSO Dashboard</p>\n",
+                  "question": "",
+                  "_selectId": "qpgZtpbG5FZLfo",
+                  "condition": "",
+                  "iconColor": "",
+                  "removeTitle": "",
+                  "backgroundColor": ""
+                }
+              ],
+              "description": ""
+            },
+            {
+              "id": "1615217080854-eiTh7nyNOMVHhT",
+              "_id": "1615217080854-eiTh7nyNOMVHhT:hestia/form-sections",
+              "name": "Supplier Search",
+              "_expanded": false,
+              "_selectId": "JNVj2wLGPhcH7L",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "WWlILXgdoHXbUU",
+                  "html": "",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "",
+                  "tabName": "Supplier Search",
+                  "question": "",
+                  "_selectId": "JLBWQf4t497E93",
+                  "condition": ""
+                },
+                {
+                  "id": "OibA1MES6uEwSy",
+                  "name": "supplierSearch",
+                  "type": "text",
+                  "hints": {
+                    "search_box": true,
+                    "placeholder": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "Sjn-4oDLk4CMgi",
+                  "condition": "",
+                  "inputLabel": " ",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "inputPlaceholder": "Search by Company Name or Membership Number",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "WvN86xhpr57psl",
+                  "name": "supplierAccountRecords",
+                  "rows": 10,
+                  "type": "documentList",
+                  "hints": {
+                    "paginateAbove": true,
+                    "paginateBelow": true
+                  },
+                  "where": {
+                    "$and": []
+                  },
+                  "listType": "qtp5ZEvMXw-xkWJtZvh93:hestia/document-types",
+                  "question": "",
+                  "_selectId": "hdlZRmv0LfQewu",
+                  "condition": "",
+                  "emptyView": "Hhy8KKSF2OmwZ0",
+                  "filterText": "{supplierSearch}",
+                  "navigation": [],
+                  "displayView": "Hhy8KKSF2OmwZ0",
+                  "sortColumns": [
+                    {
+                      "id": "uRT-Y7IowHCnBq",
+                      "field": "accountName",
+                      "defaultValue": "",
+                      "sortDirection": "asc"
+                    }
+                  ],
+                  "listTypeName": "Supplier Account",
+                  "displayFields": [],
+                  "filterColumns": [
+                    {
+                      "id": "g2suQxBzro-PHS",
+                      "field": "accountName",
+                      "defaultValue": ""
+                    },
+                    {
+                      "id": "mo8gRY9a1IhOan",
+                      "field": "referenceNumber",
+                      "defaultValue": ""
+                    }
+                  ],
+                  "useDataSource": "",
+                  "emptyView_name": "Supplier Account List for Dashboard",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Supplier Account List for Dashboard",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "EINyKePFyIo85T",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p><span style=\"font-family: Montserrat;\">There are no results matching your search....</span></p>\n",
+                  "_selectId": "rM525TKINrMP1s",
+                  "condition": "valueLT(supplierAccountRecords, 1)",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "WUBdyrHQVD6kH6",
+                  "name": "",
+                  "type": "stop",
+                  "hints": {},
+                  "question": "",
+                  "stopWhat": [
+                    "tab"
+                  ],
+                  "_selectId": "i9d2VyDLb266cm",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            },
+            {
+              "id": "xpjyeRHv8n2WhH",
+              "_id": "1608739548394-azwDNHN1u:hestia/form-sections",
+              "name": "Todays Tasks",
+              "_expanded": true,
+              "_selectId": "meOalvfIlMdlY7",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "TbNpv4RhKV4z9q",
+                  "html": "<p>Todays Tasks <strong>{todayCallTasksCount}</strong></p>\n",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "",
+                  "tabName": "Todays Tasks",
+                  "question": "",
+                  "_selectId": "Da-vKzrd_qLC9C",
+                  "condition": ""
+                },
+                {
+                  "id": "SlR8myDrbD__Sd",
+                  "name": "taskSearch",
+                  "type": "text",
+                  "hints": {
+                    "search_box": true,
+                    "placeholder": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "x0Mef4zXbjNNdq",
+                  "condition": "",
+                  "inputLabel": " ",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "inputPlaceholder": "Search for a Company Name or Membership Number",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "EeHfpirBFFiqnG",
+                  "name": "todaysTasks",
+                  "rows": 5,
+                  "type": "documentList",
+                  "hints": {
+                    "streamed": true
+                  },
+                  "where": {
+                    "$and": [
+                      {
+                        "$or": [
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Call Task Assigned"
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Product Task Assigned"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "due": {
+                          "$lt": "$now(-1)"
+                        }
+                      }
+                    ]
+                  },
+                  "listType": "hestia-activetasks",
+                  "question": "",
+                  "_selectId": "rbRgSnvgzvgtiz",
+                  "condition": "",
+                  "emptyView": "",
+                  "dataSource": "",
+                  "filterText": "{taskSearch}",
+                  "navigation": [],
+                  "displayView": "due",
+                  "sortColumns": [
+                    {
+                      "id": "oT2XOJxYmoZbXx",
+                      "field": "due",
+                      "defaultValue": "",
+                      "sortDirection": "asc"
+                    }
+                  ],
+                  "listTypeName": "Active Tasks",
+                  "displayFields": [],
+                  "filterColumns": [
+                    {
+                      "id": "tNdbCbHBMqGkV9",
+                      "field": "owner.parentRecord.accountName",
+                      "defaultValue": ""
+                    },
+                    {
+                      "id": "iVoZ5PNL3iMAFq",
+                      "field": "owner.parentRecord.referenceNumber",
+                      "defaultValue": ""
+                    }
+                  ],
+                  "useDataSource": false,
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Due",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "QXsoL6j7kPojgZ",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p><span style=\"font-family: Montserrat;\">There are no results matching your search....</span></p>\n",
+                  "_selectId": "FcBbN6GFYmrFfZ",
+                  "condition": "isSet(taskSearch) AND valueLT(todaysTasks, 1)",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "iSH56U8u7UzGrm",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p><span style=\"font-family: Montserrat;\">There are no tasks</span></p>\n",
+                  "_selectId": "Dqez8HgTk0-TuK",
+                  "condition": "valueLT(todaysTasks, 1) AND notSet(taskSearch)",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "ZbQatwgB2jRO6k",
+                  "name": "",
+                  "type": "stop",
+                  "hints": {},
+                  "question": "",
+                  "stopWhat": [
+                    "tab"
+                  ],
+                  "_selectId": "nZeWIVAzGNIrtg",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            },
+            {
+              "id": "KlJzrziyEBb1vM",
+              "_id": "1608739548394-azwDNHN1u:hestia/form-sections",
+              "name": "Future Tasks",
+              "_expanded": false,
+              "_selectId": "3t5iOwj6sp5rYC",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "diReB1Xq13-zKl",
+                  "html": "<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\">Future Tasks <strong>{futureTasksCount}</strong></span><span style=\"background-color: rgba(0,0,0,0);\"><strong> </strong></span></p>\n",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "",
+                  "tabName": "Future Tasks",
+                  "question": "",
+                  "_selectId": "-WhFmuT0EJ8nhx",
+                  "condition": ""
+                },
+                {
+                  "id": "JrDJkdwaRlC4v8",
+                  "name": "taskSearch",
+                  "type": "text",
+                  "hints": {
+                    "search_box": true,
+                    "placeholder": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "_n2ivsjupv-Gvl",
+                  "condition": "",
+                  "inputLabel": " ",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "inputPlaceholder": "Search for a Company Name or Membership Number",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "xt_IIruxZVAqFl",
+                  "name": "futureTasks",
+                  "rows": 5,
+                  "type": "documentList",
+                  "hints": {},
+                  "where": {
+                    "$and": [
+                      {
+                        "$or": [
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Call Task Assigned"
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Product Task Assigned"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "due": {
+                          "$gte": "$now(-1)"
+                        }
+                      }
+                    ]
+                  },
+                  "listType": "hestia-activetasks",
+                  "question": "",
+                  "_selectId": "FP_UkAyGAAJazb",
+                  "condition": "",
+                  "emptyView": "",
+                  "dataSource": "",
+                  "filterText": "{taskSearch}",
+                  "navigation": [],
+                  "displayView": "due",
+                  "sortColumns": [
+                    {
+                      "id": "oT2XOJxYmoZbXx",
+                      "field": "due",
+                      "defaultValue": "",
+                      "sortDirection": "asc"
+                    }
+                  ],
+                  "listTypeName": "Active Tasks",
+                  "displayFields": [],
+                  "filterColumns": [
+                    {
+                      "id": "tNdbCbHBMqGkV9",
+                      "field": "owner.parentRecord.accountName",
+                      "defaultValue": ""
+                    },
+                    {
+                      "id": "iVoZ5PNL3iMAFq",
+                      "field": "owner.parentRecord.referenceNumber",
+                      "defaultValue": ""
+                    }
+                  ],
+                  "useDataSource": false,
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Due",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "b_TWpNkyLOhhRi",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p><span style=\"font-family: Montserrat;\">There are no results matching your search....</span></p>\n",
+                  "_selectId": "jrz1SIc2doyp6F",
+                  "condition": "isSet(taskSearch) AND valueLT(futureTasks, 1)",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "QSEt1eSY5x6yC5",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p><span style=\"font-family: Montserrat;\">There are no tasks</span></p>\n",
+                  "_selectId": "rgtDqFZXmDwFdK",
+                  "condition": "valueLT(futureTasks, 1) AND notSet(taskSearch)",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "DgPDaYk1CW9n2v",
+                  "name": "",
+                  "type": "stop",
+                  "hints": {},
+                  "question": "",
+                  "stopWhat": [
+                    "tab"
+                  ],
+                  "_selectId": "CoXAhTht-qUCfj",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            },
+            {
+              "id": "1608739548394-azwDNHN1u",
+              "_id": "1608739548394-azwDNHN1u:hestia/form-sections",
+              "name": "Main Queue",
+              "_expanded": false,
+              "_selectId": "lWwLOkjVxq",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "VtB36L50I",
+                  "html": "<p><span style=\"color: #263836;background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\">Main Queue <strong>{unassignedTaskListCount}</strong></span></p>\n",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "",
+                  "tabName": "Main Queue",
+                  "question": "",
+                  "_selectId": "etTHowHvl0",
+                  "condition": ""
+                },
+                {
+                  "id": "SCc2sKeOo8umcn",
+                  "name": "taskSearch",
+                  "type": "text",
+                  "hints": {
+                    "search_box": true,
+                    "placeholder": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "namF62TNTqCXp4",
+                  "condition": "",
+                  "inputLabel": " ",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "inputPlaceholder": "Search for a Company Name or Membership Number",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "BGFOFUqEQX",
+                  "name": "unassignedTaskList",
+                  "rows": 5,
+                  "type": "documentList",
+                  "hints": {
+                    "paginateAbove": true,
+                    "paginateBelow": true
+                  },
+                  "where": {
+                    "$and": [
+                      {
+                        "$or": [
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Call Tasks"
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Product Task"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "listType": "hestia-tasks",
+                  "question": "",
+                  "_selectId": "IgJKQ_e5XM",
+                  "condition": "",
+                  "emptyView": "",
+                  "dataSource": "",
+                  "filterText": "{taskSearch}",
+                  "navigation": [],
+                  "displayView": "due",
+                  "sortColumns": [
+                    {
+                      "id": "oT2XOJxYmoZbXx",
+                      "field": "due",
+                      "defaultValue": "",
+                      "sortDirection": "asc"
+                    }
+                  ],
+                  "listTypeName": "Tasks",
+                  "displayFields": [],
+                  "filterColumns": [
+                    {
+                      "id": "tNdbCbHBMqGkV9",
+                      "field": "owner.parentRecord.accountName",
+                      "defaultValue": ""
+                    },
+                    {
+                      "id": "iVoZ5PNL3iMAFq",
+                      "field": "owner.parentRecord.referenceNumber",
+                      "defaultValue": ""
+                    }
+                  ],
+                  "useDataSource": false,
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Due",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "EuKtYxudY68-Qr",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p><span style=\"font-family: Montserrat;\">There are no results matching your search....</span></p>\n",
+                  "_selectId": "KLkvbDMt61tmnx",
+                  "condition": "isSet(taskSearch) AND valueLT(unassignedTaskList, 1)",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "YoRQvazBzliBjC",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<p><span style=\"font-family: Montserrat;\">There are no tasks</span></p>\n",
+                  "_selectId": "Kni_H_KEtDIeor",
+                  "condition": "valueLT(unassignedTaskList, 1) AND notSet(taskSearch)",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "on8n4sLjlY",
+                  "name": "",
+                  "type": "stop",
+                  "hints": {},
+                  "question": "",
+                  "stopWhat": [
+                    "tab"
+                  ],
+                  "_selectId": "Kh-BZ9Ao1Y",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            },
+            {
+              "id": "1615799952813-FJCIyY1U_dhGbb",
+              "_id": "1615799952813-FJCIyY1U_dhGbb:hestia/form-sections",
+              "name": "Statistics",
+              "_expanded": false,
+              "_selectId": "Y77FUSuAGzWQTr",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "MXswK-Sk2YCPbg",
+                  "html": "",
+                  "name": "",
+                  "type": "tab",
+                  "hints": {},
+                  "tabIcon": "",
+                  "tabName": "Statistics",
+                  "question": "",
+                  "_selectId": "ohp3pIQ7sKBaqg",
+                  "condition": ""
+                },
+                {
+                  "id": "u2FPq_etdERLox",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<h3>Verification Count {$currentUser.Employee._id.verificationCount}</h3>\n",
+                  "_selectId": "pNXgzzJIuBlmOW",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "zlta68oF2TjbwJ",
+                  "name": "",
+                  "type": "stop",
+                  "hints": {},
+                  "question": "",
+                  "stopWhat": [
+                    "tab"
+                  ],
+                  "_selectId": "R29omvCcdDBXna",
+                  "condition": ""
+                }
+              ],
+              "description": ""
+            },
+            {
+              "id": "1614609863836-0Fh95wE-rm1Wgx",
+              "_id": "1614609863836-0Fh95wE-rm1Wgx:hestia/form-sections",
+              "name": "Queries",
+              "_expanded": true,
+              "_selectId": "qXjjMz9_WF--Wy",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "wtTrW540vG",
+                  "name": "personalTasks",
+                  "type": "filterQuery",
+                  "hints": {
+                    "countQuery": true
+                  },
+                  "where": {
+                    "$and": [
+                      {
+                        "$or": [
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Call Task Assigned"
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Product Task Assigned"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "caption": "",
+                  "question": "",
+                  "_selectId": "N2WlAzCtxP",
+                  "condition": "",
+                  "lookupType": "hestia-activetasks",
+                  "lookupTypeName": "Active Tasks"
+                },
+                {
+                  "id": "28zvV79JACyGZk",
+                  "name": "futureTasksQuery",
+                  "type": "filterQuery",
+                  "hints": {
+                    "countQuery": true
+                  },
+                  "where": {
+                    "$and": [
+                      {
+                        "$or": [
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Call Task Assigned"
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Product Task Assigned"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "due": {
+                          "$gte": "$now(-1)"
+                        }
+                      }
+                    ]
+                  },
+                  "caption": "",
+                  "question": "",
+                  "_selectId": "YeVE90YZTZqmf_",
+                  "condition": "",
+                  "lookupType": "hestia-activetasks",
+                  "lookupTypeName": "Active Tasks"
+                },
+                {
+                  "id": "Q5KOwMxNu",
+                  "name": "todayCallTasks",
+                  "type": "filterQuery",
+                  "hints": {
+                    "countQuery": true
+                  },
+                  "where": {
+                    "$and": [
+                      {
+                        "due": {
+                          "$lt": "$now(-1)"
+                        }
+                      },
+                      {
+                        "taskTypeName": {
+                          "$in": [
+                            "Call Tasks"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "caption": "",
+                  "question": "",
+                  "_selectId": "XWpS6ian5j",
+                  "condition": "",
+                  "lookupType": "hestia-activetasks",
+                  "lookupTypeName": "Active Tasks"
+                },
+                {
+                  "id": "EC0naPk4NSQLdc",
+                  "name": "todayProductTasks",
+                  "type": "filterQuery",
+                  "hints": {
+                    "countQuery": true
+                  },
+                  "where": {
+                    "$and": [
+                      {
+                        "due": {
+                          "$lt": "$now(-1)"
+                        }
+                      },
+                      {
+                        "taskTypeName": {
+                          "$in": [
+                            "Product Task"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "caption": "",
+                  "question": "",
+                  "_selectId": "Dhi2MAlStiM4ku",
+                  "condition": "",
+                  "lookupType": "hestia-activetasks",
+                  "lookupTypeName": "Active Tasks"
+                },
+                {
+                  "id": "M4qkx2m1KP",
+                  "name": "unassignedTasks",
+                  "type": "filterQuery",
+                  "hints": {
+                    "countQuery": true
+                  },
+                  "where": {
+                    "$and": [
+                      {
+                        "$or": [
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Product Task"
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$and": [
+                              {
+                                "taskTypeName": {
+                                  "$in": [
+                                    "Call Tasks"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "caption": "",
+                  "question": "",
+                  "_selectId": "NdizyY4skB",
+                  "condition": "",
+                  "lookupType": "hestia-tasks",
+                  "lookupTypeName": "Tasks"
+                },
+                {
+                  "id": "tzYEtG_92njAHP",
+                  "name": "allocatedTSO",
+                  "type": "filterQuery",
+                  "hints": {},
+                  "where": {
+                    "$and": [
+                      {
+                        "user": {
+                          "$in": [
+                            "{$currentUser}:test/employee_db"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "caption": "",
+                  "question": "",
+                  "_selectId": "X7-c7fKpoXRZXF",
+                  "condition": "",
+                  "lookupType": "LVXn6NLGMR:hestia/document-types",
+                  "lookupTypeName": "Conversation"
+                }
+              ],
+              "description": ""
+            },
+            {
+              "id": "1608724848964-HTXcKLGr3",
+              "_id": "1608724848964-HTXcKLGr3:hestia/form-sections",
+              "name": "Task Nav Bar",
+              "_expanded": false,
+              "_selectId": "pgeZp4AcH9",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "UQM1ZTJXd",
+                  "name": "",
+                  "side": "bottom",
+                  "type": "navigation",
+                  "color": "",
+                  "hints": {},
+                  "width": "",
+                  "leftSlot": {
+                    "id": "N5Nm4kSoN_4V6U",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\"><strong>Call tasks to complete today </strong></span><span style=\"color: rgb(0,159,218);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\"><strong>{todayCallTasksCount}</strong></span><span style=\"background-color: rgba(0,0,0,0);\"> </span></p>\n",
+                    "_selectId": "zzIvJHIEQPJPrI",
+                    "condition": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "iD_bDGU87F",
+                  "condition": "",
+                  "permanent": "",
+                  "rightSlot": {
+                    "id": "g7TBujJkyZcyAD",
+                    "icon": "",
+                    "name": "",
+                    "type": "plainButton",
+                    "color": "#f5f5f5",
+                    "hints": {},
+                    "modes": [
+                      {
+                        "mode": "form",
+                        "value": "call"
+                      }
+                    ],
+                    "width": "",
+                    "events": [
+                      "allocateCallTask"
+                    ],
+                    "height": "",
+                    "variant": "contained",
+                    "question": "",
+                    "_selectId": "bzg57QwJ85b3h_",
+                    "condition": "",
+                    "buttonIcon": {},
+                    "properties": [],
+                    "cloneActions": [],
+                    "buttonCaption": "Add Next Call Task",
+                    "commitInstance": "",
+                    "questionHeight": "",
+                    "backgroundColor": "#1da7e0",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  "_collapsed": false,
+                  "background": "",
+                  "middleSlot": null,
+                  "leftMiddleSlot": {
+                    "id": "9EMMHv7SRsVNdK",
+                    "name": "",
+                    "type": "information",
+                    "hints": {},
+                    "question": "<p><span style=\"color: rgba(0,0,0,0.87);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\"><strong>Product tasks to complete today </strong></span><span style=\"color: rgb(0,159,218);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\"><strong>{todayProductTasksCount}</strong></span><span style=\"background-color: rgba(0,0,0,0);\"> </span></p>\n",
+                    "_selectId": "xguDN6MK6zOX2b",
+                    "condition": "",
+                    "questionHeight": "",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  },
+                  "rightMiddleSlot": {
+                    "id": "WX_fT80T8dUR2-",
+                    "icon": "",
+                    "name": "",
+                    "type": "plainButton",
+                    "color": "#f5f5f5",
+                    "hints": {},
+                    "modes": [],
+                    "width": "",
+                    "events": [
+                      "allocateProductTask"
+                    ],
+                    "height": "",
+                    "variant": "contained",
+                    "question": "",
+                    "_selectId": "nwGatsNcSK6n46",
+                    "condition": "",
+                    "buttonIcon": {},
+                    "properties": [],
+                    "cloneActions": [],
+                    "buttonCaption": "Add Next Product Task",
+                    "commitInstance": "",
+                    "questionHeight": "",
+                    "backgroundColor": "#1da7e0",
+                    "questionLeftPad": "",
+                    "questionRightPad": "",
+                    "questionSpaceBefore": ""
+                  }
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "4y5hWttEnd",
+          "condition": "",
+          "tabsOnTop": true,
+          "description": "",
+          "duplicateNames": {
+            "taskSearch": true
+          }
+        }
+      ],
+      "formAction": [
+        {
+          "id": "wCkiptw7tj",
+          "name": "Main",
+          "_init": 1608674414930,
+          "color": "#fff",
+          "forms": [
+            {
+              "id": "46vivdMJ4n",
+              "form": "99jS4tiHdH"
+            }
+          ],
+          "action": "",
+          "inline": true,
+          "actions": [],
+          "$readOnly": false,
+          "_selectId": "4h4Xj3iMB1",
+          "inputStates": [
+            "default"
+          ],
+          "backgroundColor": "#03a9f4"
+        }
+      ],
+      "accountAllocator": [
+        {
+          "id": "53uAMJtw1",
+          "name": "Allocate Call Task",
+          "path": "",
+          "__init": true,
+          "update": "allocatedUser",
+          "recordId": "{parentRecord}",
+          "taskType": "Call Tasks",
+          "_selectId": "c2aZXVgNyQ",
+          "eventName": "allocateCallTask",
+          "lookupType": "qtp5ZEvMXw-xkWJtZvh93:hestia/document-types",
+          "navigation": [
+            {
+              "mode": "form",
+              "value": "call"
+            },
+            {
+              "mode": "tab",
+              "value": "0"
+            }
+          ],
+          "updateToValue": "{$currentUser.Employee._id}",
+          "lookupTypeName": "Supplier Account",
+          "openRelatedDocument": true,
+          "maximumCurrentTickets": 20
+        },
+        {
+          "id": "fPPMpgHgidJNou",
+          "name": "Allocate Product Task",
+          "path": "",
+          "__init": true,
+          "update": "allocatedUser",
+          "recordId": "{parentRecord}",
+          "taskType": "Product Task",
+          "_selectId": "EW5myD6uhU9Gqq",
+          "eventName": "allocateProductTask",
+          "lookupType": "qtp5ZEvMXw-xkWJtZvh93:hestia/document-types",
+          "navigation": [
+            {
+              "mode": "form",
+              "value": "product"
+            }
+          ],
+          "updateToValue": "{$currentUser.Employee._id}",
+          "$behaviourType": "accountAllocator",
+          "lookupTypeName": "Supplier Account",
+          "openRelatedDocument": true,
+          "maximumCurrentTickets": 20
+        }
+      ]
+    }
+  },
+  "createOnNew": true,
+  "description": "",
+  "displayName": "TSO Dashboard",
+  "specificUrl": false,
+  "__originalId": "2DKEM5OcL6:hestia/app-types",
+  "defaultState": "default",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "9WXW7rv6UJQcSH",
+  "_parentVersion": "soQq_-jk4GDyi0",
+  "currentVersion": {
+    "development": "2.9",
+    "live": "2.9"
+  },
+  "showOnLauncher": true,
+  "tabsBackground": "#fafafa",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "wCkiptw7tj",
+  "devices-allowed": "",
+  "launcherCaption": "TSO Dashboard",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#fafafa",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#fff",
+  "launcherBackground": "#009fda",
+  "launcherForeground": "#ffffff",
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false,
+  "versions": [
+    {
+      "id": "gn4UzDX8Rvzbnj",
+      "name": "Open Allocated Doc Change",
+      "time": 1616575042413,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "g8sx8JArVHmYQG",
+      "parentVersion": "6nUKC3XAYJDnhr"
+    },
+    {
+      "id": "vrdAEHX3dIml4J",
+      "name": "Pre 884 Merge",
+      "time": 1616582163278,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "Kbu9lVm96TNkTa",
+      "parentVersion": "gn4UzDX8Rvzbnj"
+    },
+    {
+      "id": "6sHT7LQjJDLYcy",
+      "name": "Pre 884 Merge - merged",
+      "time": 1616600920771,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "WKsxDBoIa8rafs",
+      "parentVersion": "vrdAEHX3dIml4J"
+    },
+    {
+      "id": "sEt50d3Xy516hi",
+      "name": "SLAs and CRM ID Integration",
+      "time": 1616601220276,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "e-3Y7iJ5QEuHs-",
+      "parentVersion": "6sHT7LQjJDLYcy"
+    },
+    {
+      "id": "RhMVZBLFZcAwYA",
+      "name": "Change Nav Bar text Background",
+      "time": 1617037063712,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "AKU7V0wVMu97TV",
+      "parentVersion": "sEt50d3Xy516hi"
+    },
+    {
+      "id": "_sylUcH0tBd_wX",
+      "name": "SS-1945 Changes",
+      "time": 1617701916490,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "XQGzc246Qqf6d1",
+      "parentVersion": "RhMVZBLFZcAwYA"
+    },
+    {
+      "id": "T2FbXblPRJ9dTH",
+      "name": "SS-1957 Changes",
+      "time": 1617706963785,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "3cIkf3pLzRSZ1W",
+      "parentVersion": "_sylUcH0tBd_wX"
+    },
+    {
+      "id": "BQFXKzRTAr5fW4",
+      "name": "Counts in Tabs",
+      "time": 1617782090073,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "OppoA3Cn_OwMp2",
+      "parentVersion": "T2FbXblPRJ9dTH"
+    },
+    {
+      "id": "KUq8ce6ARjfvOV",
+      "name": "SS-1982 Done",
+      "time": 1617868811431,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "A8j17zbeFx0yd2",
+      "parentVersion": "BQFXKzRTAr5fW4"
+    },
+    {
+      "id": "Xr_3jXU14bpXzr",
+      "name": "Tabs 'testing' removed",
+      "time": 1617879540416,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "09gEtPvC1Y_NrP",
+      "parentVersion": "KUq8ce6ARjfvOV"
+    },
+    {
+      "id": "jrbR3sHexjxIfM",
+      "name": "SS-1990",
+      "time": 1617954784717,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "gCORTHK38dpT62",
+      "parentVersion": "Xr_3jXU14bpXzr"
+    },
+    {
+      "id": "EkiibZdi8LLW1Q",
+      "name": "09Apr21 AM",
+      "time": 1617957434542,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "NNLWB8k19RPIwy",
+      "parentVersion": "jrbR3sHexjxIfM"
+    },
+    {
+      "id": "_jYvir22No9VGD",
+      "name": "Adding HTML to Tabs",
+      "time": 1618055730210,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "fRFMSuKhUH7TO2",
+      "parentVersion": "EkiibZdi8LLW1Q"
+    },
+    {
+      "id": "Q88Ex18u899GnL",
+      "name": "Post Layout Changes",
+      "time": 1618213621879,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "emZnqBXuSTEHHr",
+      "parentVersion": "_jYvir22No9VGD"
+    },
+    {
+      "id": "ZsvTvd1a-q98Ig",
+      "name": "Removed HTML from other tabs",
+      "time": 1618219423974,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "r3X0BuPJKM5UmD",
+      "parentVersion": "Q88Ex18u899GnL"
+    },
+    {
+      "id": "7N_HsILkOk5nd7",
+      "name": "Clean Up of Updaters",
+      "time": 1618221071150,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "Qy9RL60GLuzWy-",
+      "parentVersion": "ZsvTvd1a-q98Ig"
+    },
+    {
+      "id": "-_BJz4idaMUiiN",
+      "name": "Tab Count Highlight",
+      "time": 1618230227646,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "Wu1d-9M9Kuofqw",
+      "parentVersion": "7N_HsILkOk5nd7"
+    },
+    {
+      "id": "DZ8SgkZmWI6qxN",
+      "name": "1.1",
+      "time": 1618318822840,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "-_BJz4idaMUiiN"
+    },
+    {
+      "id": "Q3vN4oS23DlfQ0",
+      "name": "1.2",
+      "time": 1618318945572,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "DZ8SgkZmWI6qxN"
+    },
+    {
+      "id": "OWICvlbpvbfyy8",
+      "name": "1.3",
+      "time": 1618319057008,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "Q3vN4oS23DlfQ0"
+    },
+    {
+      "id": "l1jWBHXlFlDzXU",
+      "name": "1.4",
+      "time": 1618319155595,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "OWICvlbpvbfyy8"
+    },
+    {
+      "id": "H1tzZq5jbeOl7j",
+      "name": "1.5",
+      "time": 1618319235335,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "l1jWBHXlFlDzXU"
+    },
+    {
+      "id": "_GGo4EGGSf7QqU",
+      "name": "1.6",
+      "time": 1618319480400,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "H1tzZq5jbeOl7j"
+    },
+    {
+      "id": "I9wJI-cKIcNq6Y",
+      "name": "2.1",
+      "time": 1618320292456,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "_GGo4EGGSf7QqU"
+    },
+    {
+      "id": "Rzqk5ejwyOJyEi",
+      "name": "2.3",
+      "time": 1618320838199,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "I9wJI-cKIcNq6Y"
+    },
+    {
+      "id": "CU6kDyB9JRUzqe",
+      "name": "2.4",
+      "time": 1618320962520,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "Rzqk5ejwyOJyEi"
+    },
+    {
+      "id": "1FveGGdY_dPppE",
+      "name": "2.7",
+      "time": 1618335894294,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "CU6kDyB9JRUzqe"
+    },
+    {
+      "content": "{\"__\":\"fnFNboT9_qbWiR\",\"_id\":\"2DKEM5OcL6:hestia/app-types\",\"__ok\":true,\"icon\":\"BiListCheck\",\"name\":\"TSO Dashboard\",\"_type\":\"application\",\"table\":\"TSO Dashboard-rtM4yh_fWC\",\"theme\":{\"other\":{\"opacity\":{\"AlcOpacity_001\":\"10%\",\"AlcOpacity_002\":\"25%\",\"AlcOpacity_003\":\"50%\",\"AlcOpacity_004\":\"75%\"},\"palette\":{\"gold\":\"gold\",\"type\":\"light\",\"bronze\":\"#853\",\"silver\":\"silver\",\"primary\":{\"main\":\"#1da7e0\",\"contrastText\":\"#fff\"},\"AlcSys_001\":\"#FFFFFF\",\"AlcSys_002\":\"#F7F8F9\",\"AlcSys_003\":\"#F4F5F6\",\"AlcSys_004\":\"#EBEBED\",\"AlcSys_005\":\"#CCCCCC\",\"AlcSys_006\":\"rgba(125, 125, 125, 1)\",\"AlcSys_007\":\"#263836\",\"AlcSys_008\":\"#000000\",\"AlcBrand_001\":\"#1da7e0\",\"AlcBrand_002\":\"#0081AF\",\"AlcBrand_003\":\"#294A76\",\"AlcBrand_004\":\"#0099B3\",\"AlcBrand_005\":\"#604696\",\"AlcBrand_006\":\"#D26A37\",\"AlcBrand_007\":\"#679861\",\"AlcBrand_008\":\"#EBBA00\",\"AlcBrand_009\":\"#8C1D82\",\"AlcBrand_010\":\"#DC840A\",\"AlcSys_006_10\":\"rgba(125, 125, 125, .1)\",\"AlcSys_006_25\":\"rgba(125, 125, 125, .25)\",\"AlcSys_006_50\":\"rgba(125, 125, 125, .50)\",\"AlcSys_006_75\":\"rgba(125, 125, 125, .75)\",\"AlcSys_Grad001\":\"linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)\",\"AlcSys_Grad002\":\"linear-gradient(55deg, #1da7e0 100%, #604696 100%)\",\"AlcSysState_prog\":\"rgba(235, 186, 0, 1)\",\"AlcSysState_risk\":\"rgba(233, 75, 75, 1)\",\"AlcSysState_green\":\"rgba(63, 195, 128, 1)\",\"AlcSysState_issue\":\"rgba(233, 165, 75, 1)\",\"AlcSysState_prog_10\":\"rgba(235, 186, 0, .1)\",\"AlcSysState_prog_25\":\"rgba(235, 186, 0,.251)\",\"AlcSysState_prog_50\":\"rgba(235, 186, 0,.5)\",\"AlcSysState_prog_75\":\"rgba(235, 186, 0, .75)\",\"AlcSysState_risk_10\":\"rgba(233, 75, 75, .1)\",\"AlcSysState_risk_25\":\"rgba(233, 75, 75, .25)\",\"AlcSysState_risk_50\":\"rgba(233, 75, 75, .50)\",\"AlcSysState_risk_75\":\"rgba(233, 75, 75, .75)\",\"AlcSysState_green_10\":\"rgba(63, 195, 128, 0.1)\",\"AlcSysState_green_25\":\"rgba(63, 195, 128, 0.25)\",\"AlcSysState_green_50\":\"rgba(63, 195, 128, 0.5)\",\"AlcSysState_green_75\":\"rgba(63, 195, 128, 0.75)\",\"AlcSysState_issue_10\":\"rgba(233, 165, 75, .1)\",\"AlcSysState_issue_25\":\"rgba(233, 165, 75, .25)\",\"AlcSysState_issue_50\":\"rgba(233, 165, 75, .50)\",\"AlcSysState_issue_75\":\"rgba(233, 165, 75, .75)\"},\"document\":{\"form\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"child\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"typography\":{\"h1\":{\"fontSize\":\"2.8em\",\"fontFamily\":\"Montserrat, sans-serif\",\"fontWeight\":700},\"h2\":{\"fontSize\":\"2.3em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h3\":{\"fontSize\":\"2em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h4\":{\"fontSize\":\"1.667em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h5\":{\"fontSize\":\"1.333em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h6\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"body1\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Roboto\"},\"body2\":{\"fontSize\":\"1em\",\"fontFamily\":\"Roboto\"},\"body3\":{\"fontSize\":\"0.9em\",\"fontFamily\":\"Roboto\"},\"body4\":{\"fontSize\":\"14px\",\"fontFamily\":\"Roboto\"},\"overline\":{\"fontSize\":\"0.917em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500,\"textTransform\":\"uppercase\"},\"Action1_Medium\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action2_Medium\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action1_Regular\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\"},\"Action2_Regular\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\"},\"Action1_SemiBold\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600},\"Action2_SemiBold\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600}}},\"theme\":\"Alcumus\",\"permanentTheme\":\"\"},\"__size\":52219,\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[\"TSOAppAccess\"],\"$creator\":\"f389cfaa-0b2a-4653-8c35-32aa5486efe7\",\"__cached\":1618219368077,\"_created\":1612348256000,\"_deleted\":0,\"database\":\"applications\",\"maxWidth\":1000,\"uniqueId\":\"rtM4yh_fWC\",\"_modified\":1618335896402,\"__modified\":1614613780411,\"_versionId\":\"2DKEM5OcL6-gn4UzDX8Rvzbnj:hestia/versions\",\"components\":\"filters,navigation,extra-layout,account-allocator,data-summary,card 2.0\",\"isLockedBy\":null,\"navigation\":[],\"showOnMenu\":true,\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"99jS4tiHdH\",\"name\":\"Main\",\"sections\":[{\"id\":\"1614611003933-My45W03LsVcbzs\",\"_id\":\"1614611003933-My45W03LsVcbzs:hestia/form-sections\",\"name\":\"...\",\"_expanded\":false,\"_selectId\":\"8sHTJdAeNHwwj4\",\"condition\":\"\",\"questions\":[{\"id\":\"orgQPSWwt1TTw1\",\"icon\":\"\",\"name\":\"\",\"type\":\"pageTitle\",\"color\":\"\",\"hints\":{},\"caption\":\"<p>TSO Dashboard</p>\\n\",\"question\":\"\",\"_selectId\":\"qpgZtpbG5FZLfo\",\"condition\":\"\",\"iconColor\":\"\",\"removeTitle\":\"\",\"backgroundColor\":\"\"}],\"description\":\"\"},{\"id\":\"1615217080854-eiTh7nyNOMVHhT\",\"_id\":\"1615217080854-eiTh7nyNOMVHhT:hestia/form-sections\",\"name\":\"Supplier Search\",\"_expanded\":false,\"_selectId\":\"JNVj2wLGPhcH7L\",\"condition\":\"\",\"questions\":[{\"id\":\"WWlILXgdoHXbUU\",\"html\":\"\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"\",\"tabName\":\"Supplier Search\",\"question\":\"\",\"_selectId\":\"JLBWQf4t497E93\",\"condition\":\"\"},{\"id\":\"OibA1MES6uEwSy\",\"name\":\"supplierSearch\",\"type\":\"text\",\"hints\":{\"search_box\":true,\"placeholder\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"Sjn-4oDLk4CMgi\",\"condition\":\"\",\"inputLabel\":\" \",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"inputPlaceholder\":\"Search by Company Name or Membership Number\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"WvN86xhpr57psl\",\"name\":\"supplierAccountRecords\",\"rows\":10,\"type\":\"documentList\",\"hints\":{\"paginateAbove\":true,\"paginateBelow\":true},\"where\":{\"$and\":[]},\"listType\":\"qtp5ZEvMXw-xkWJtZvh93:hestia/document-types\",\"question\":\"\",\"_selectId\":\"hdlZRmv0LfQewu\",\"condition\":\"\",\"emptyView\":\"Hhy8KKSF2OmwZ0\",\"filterText\":\"{supplierSearch}\",\"navigation\":[],\"displayView\":\"Hhy8KKSF2OmwZ0\",\"sortColumns\":[{\"id\":\"uRT-Y7IowHCnBq\",\"field\":\"accountName\",\"defaultValue\":\"\",\"sortDirection\":\"asc\"}],\"listTypeName\":\"Supplier Account\",\"displayFields\":[],\"filterColumns\":[{\"id\":\"g2suQxBzro-PHS\",\"field\":\"accountName\",\"defaultValue\":\"\"},{\"id\":\"mo8gRY9a1IhOan\",\"field\":\"referenceNumber\",\"defaultValue\":\"\"}],\"useDataSource\":\"\",\"emptyView_name\":\"Supplier Account List for Dashboard\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"Supplier Account List for Dashboard\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"EINyKePFyIo85T\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p><span style=\\\"font-family: Montserrat;\\\">There are no results matching your search....</span></p>\\n\",\"_selectId\":\"rM525TKINrMP1s\",\"condition\":\"valueLT(supplierAccountRecords, 1)\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"WUBdyrHQVD6kH6\",\"name\":\"\",\"type\":\"stop\",\"hints\":{},\"question\":\"\",\"stopWhat\":[\"tab\"],\"_selectId\":\"i9d2VyDLb266cm\",\"condition\":\"\"}],\"description\":\"\"},{\"id\":\"xpjyeRHv8n2WhH\",\"_id\":\"1608739548394-azwDNHN1u:hestia/form-sections\",\"name\":\"Todays Tasks\",\"_expanded\":true,\"_selectId\":\"meOalvfIlMdlY7\",\"condition\":\"\",\"questions\":[{\"id\":\"TbNpv4RhKV4z9q\",\"html\":\"<p>Todays Tasks <strong>{todayCallTasksCount}</strong></p>\\n\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"\",\"tabName\":\"Todays Tasks\",\"question\":\"\",\"_selectId\":\"Da-vKzrd_qLC9C\",\"condition\":\"\"},{\"id\":\"SlR8myDrbD__Sd\",\"name\":\"taskSearch\",\"type\":\"text\",\"hints\":{\"search_box\":true,\"placeholder\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"x0Mef4zXbjNNdq\",\"condition\":\"\",\"inputLabel\":\" \",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"inputPlaceholder\":\"Search for a Company Name or Membership Number\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"EeHfpirBFFiqnG\",\"name\":\"todaysTasks\",\"rows\":5,\"type\":\"documentList\",\"hints\":{\"streamed\":true},\"where\":{\"$and\":[{\"$or\":[{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Call Task Assigned\"]}}]},{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Product Task Assigned\"]}}]}]},{\"due\":{\"$lt\":\"$now(-1)\"}}]},\"listType\":\"hestia-activetasks\",\"question\":\"\",\"_selectId\":\"rbRgSnvgzvgtiz\",\"condition\":\"\",\"emptyView\":\"\",\"dataSource\":\"\",\"filterText\":\"{taskSearch}\",\"navigation\":[],\"displayView\":\"due\",\"sortColumns\":[{\"id\":\"oT2XOJxYmoZbXx\",\"field\":\"due\",\"defaultValue\":\"\",\"sortDirection\":\"asc\"}],\"listTypeName\":\"Active Tasks\",\"displayFields\":[],\"filterColumns\":[{\"id\":\"tNdbCbHBMqGkV9\",\"field\":\"owner.parentRecord.accountName\",\"defaultValue\":\"\"},{\"id\":\"iVoZ5PNL3iMAFq\",\"field\":\"owner.parentRecord.referenceNumber\",\"defaultValue\":\"\"}],\"useDataSource\":false,\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"Due\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"QXsoL6j7kPojgZ\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p><span style=\\\"font-family: Montserrat;\\\">There are no results matching your search....</span></p>\\n\",\"_selectId\":\"FcBbN6GFYmrFfZ\",\"condition\":\"isSet(taskSearch) AND valueLT(todaysTasks, 1)\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"iSH56U8u7UzGrm\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p><span style=\\\"font-family: Montserrat;\\\">There are no tasks</span></p>\\n\",\"_selectId\":\"Dqez8HgTk0-TuK\",\"condition\":\"valueLT(todaysTasks, 1) AND notSet(taskSearch)\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"ZbQatwgB2jRO6k\",\"name\":\"\",\"type\":\"stop\",\"hints\":{},\"question\":\"\",\"stopWhat\":[\"tab\"],\"_selectId\":\"nZeWIVAzGNIrtg\",\"condition\":\"\"}],\"description\":\"\"},{\"id\":\"KlJzrziyEBb1vM\",\"_id\":\"1608739548394-azwDNHN1u:hestia/form-sections\",\"name\":\"Future Tasks\",\"_expanded\":false,\"_selectId\":\"3t5iOwj6sp5rYC\",\"condition\":\"\",\"questions\":[{\"id\":\"diReB1Xq13-zKl\",\"html\":\"<p><span style=\\\"color: rgba(0,0,0,0.87);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\\\">Future Tasks <strong>{futureTasksCount}</strong></span><span style=\\\"background-color: rgba(0,0,0,0);\\\"><strong> </strong></span></p>\\n\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"\",\"tabName\":\"Future Tasks\",\"question\":\"\",\"_selectId\":\"-WhFmuT0EJ8nhx\",\"condition\":\"\"},{\"id\":\"JrDJkdwaRlC4v8\",\"name\":\"taskSearch\",\"type\":\"text\",\"hints\":{\"search_box\":true,\"placeholder\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"_n2ivsjupv-Gvl\",\"condition\":\"\",\"inputLabel\":\" \",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"inputPlaceholder\":\"Search for a Company Name or Membership Number\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"xt_IIruxZVAqFl\",\"name\":\"futureTasks\",\"rows\":5,\"type\":\"documentList\",\"hints\":{},\"where\":{\"$and\":[{\"$or\":[{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Call Task Assigned\"]}}]},{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Product Task Assigned\"]}}]}]},{\"due\":{\"$gte\":\"$now(-1)\"}}]},\"listType\":\"hestia-activetasks\",\"question\":\"\",\"_selectId\":\"FP_UkAyGAAJazb\",\"condition\":\"\",\"emptyView\":\"\",\"dataSource\":\"\",\"filterText\":\"{taskSearch}\",\"navigation\":[],\"displayView\":\"due\",\"sortColumns\":[{\"id\":\"oT2XOJxYmoZbXx\",\"field\":\"due\",\"defaultValue\":\"\",\"sortDirection\":\"asc\"}],\"listTypeName\":\"Active Tasks\",\"displayFields\":[],\"filterColumns\":[{\"id\":\"tNdbCbHBMqGkV9\",\"field\":\"owner.parentRecord.accountName\",\"defaultValue\":\"\"},{\"id\":\"iVoZ5PNL3iMAFq\",\"field\":\"owner.parentRecord.referenceNumber\",\"defaultValue\":\"\"}],\"useDataSource\":false,\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"Due\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"b_TWpNkyLOhhRi\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p><span style=\\\"font-family: Montserrat;\\\">There are no results matching your search....</span></p>\\n\",\"_selectId\":\"jrz1SIc2doyp6F\",\"condition\":\"isSet(taskSearch) AND valueLT(futureTasks, 1)\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"QSEt1eSY5x6yC5\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p><span style=\\\"font-family: Montserrat;\\\">There are no tasks</span></p>\\n\",\"_selectId\":\"rgtDqFZXmDwFdK\",\"condition\":\"valueLT(futureTasks, 1) AND notSet(taskSearch)\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"DgPDaYk1CW9n2v\",\"name\":\"\",\"type\":\"stop\",\"hints\":{},\"question\":\"\",\"stopWhat\":[\"tab\"],\"_selectId\":\"CoXAhTht-qUCfj\",\"condition\":\"\"}],\"description\":\"\"},{\"id\":\"1608739548394-azwDNHN1u\",\"_id\":\"1608739548394-azwDNHN1u:hestia/form-sections\",\"name\":\"Main Queue\",\"_expanded\":false,\"_selectId\":\"lWwLOkjVxq\",\"condition\":\"\",\"questions\":[{\"id\":\"VtB36L50I\",\"html\":\"<p><span style=\\\"color: #263836;background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\\\">Main Queue <strong>{unassignedTaskListCount}</strong></span></p>\\n\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"\",\"tabName\":\"Main Queue\",\"question\":\"\",\"_selectId\":\"etTHowHvl0\",\"condition\":\"\"},{\"id\":\"SCc2sKeOo8umcn\",\"name\":\"taskSearch\",\"type\":\"text\",\"hints\":{\"search_box\":true,\"placeholder\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"namF62TNTqCXp4\",\"condition\":\"\",\"inputLabel\":\" \",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"inputPlaceholder\":\"Search for a Company Name or Membership Number\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"BGFOFUqEQX\",\"name\":\"unassignedTaskList\",\"rows\":5,\"type\":\"documentList\",\"hints\":{\"paginateAbove\":true,\"paginateBelow\":true},\"where\":{\"$and\":[{\"$or\":[{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Call Tasks\"]}}]},{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Product Task\"]}}]}]}]},\"listType\":\"hestia-tasks\",\"question\":\"\",\"_selectId\":\"IgJKQ_e5XM\",\"condition\":\"\",\"emptyView\":\"\",\"dataSource\":\"\",\"filterText\":\"{taskSearch}\",\"navigation\":[],\"displayView\":\"due\",\"sortColumns\":[{\"id\":\"oT2XOJxYmoZbXx\",\"field\":\"due\",\"defaultValue\":\"\",\"sortDirection\":\"asc\"}],\"listTypeName\":\"Tasks\",\"displayFields\":[],\"filterColumns\":[{\"id\":\"tNdbCbHBMqGkV9\",\"field\":\"owner.parentRecord.accountName\",\"defaultValue\":\"\"},{\"id\":\"iVoZ5PNL3iMAFq\",\"field\":\"owner.parentRecord.referenceNumber\",\"defaultValue\":\"\"}],\"useDataSource\":false,\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"Due\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"EuKtYxudY68-Qr\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p><span style=\\\"font-family: Montserrat;\\\">There are no results matching your search....</span></p>\\n\",\"_selectId\":\"KLkvbDMt61tmnx\",\"condition\":\"isSet(taskSearch) AND valueLT(unassignedTaskList, 1)\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"YoRQvazBzliBjC\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p><span style=\\\"font-family: Montserrat;\\\">There are no tasks</span></p>\\n\",\"_selectId\":\"Kni_H_KEtDIeor\",\"condition\":\"valueLT(unassignedTaskList, 1) AND notSet(taskSearch)\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"on8n4sLjlY\",\"name\":\"\",\"type\":\"stop\",\"hints\":{},\"question\":\"\",\"stopWhat\":[\"tab\"],\"_selectId\":\"Kh-BZ9Ao1Y\",\"condition\":\"\"}],\"description\":\"\"},{\"id\":\"1615799952813-FJCIyY1U_dhGbb\",\"_id\":\"1615799952813-FJCIyY1U_dhGbb:hestia/form-sections\",\"name\":\"Statistics\",\"_expanded\":false,\"_selectId\":\"Y77FUSuAGzWQTr\",\"condition\":\"\",\"questions\":[{\"id\":\"MXswK-Sk2YCPbg\",\"html\":\"\",\"name\":\"\",\"type\":\"tab\",\"hints\":{},\"tabIcon\":\"\",\"tabName\":\"Statistics\",\"question\":\"\",\"_selectId\":\"ohp3pIQ7sKBaqg\",\"condition\":\"\"},{\"id\":\"u2FPq_etdERLox\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<h3>Verification Count {$currentUser.Employee._id.verificationCount}</h3>\\n\",\"_selectId\":\"pNXgzzJIuBlmOW\",\"condition\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"zlta68oF2TjbwJ\",\"name\":\"\",\"type\":\"stop\",\"hints\":{},\"question\":\"\",\"stopWhat\":[\"tab\"],\"_selectId\":\"R29omvCcdDBXna\",\"condition\":\"\"}],\"description\":\"\"},{\"id\":\"1614609863836-0Fh95wE-rm1Wgx\",\"_id\":\"1614609863836-0Fh95wE-rm1Wgx:hestia/form-sections\",\"name\":\"Queries\",\"_expanded\":true,\"_selectId\":\"qXjjMz9_WF--Wy\",\"condition\":\"\",\"questions\":[{\"id\":\"wtTrW540vG\",\"name\":\"personalTasks\",\"type\":\"filterQuery\",\"hints\":{\"countQuery\":true},\"where\":{\"$and\":[{\"$or\":[{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Call Task Assigned\"]}}]},{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Product Task Assigned\"]}}]}]}]},\"caption\":\"\",\"question\":\"\",\"_selectId\":\"N2WlAzCtxP\",\"condition\":\"\",\"lookupType\":\"hestia-activetasks\",\"lookupTypeName\":\"Active Tasks\"},{\"id\":\"28zvV79JACyGZk\",\"name\":\"futureTasksQuery\",\"type\":\"filterQuery\",\"hints\":{\"countQuery\":true},\"where\":{\"$and\":[{\"$or\":[{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Call Task Assigned\"]}}]},{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Product Task Assigned\"]}}]}]},{\"due\":{\"$gte\":\"$now(-1)\"}}]},\"caption\":\"\",\"question\":\"\",\"_selectId\":\"YeVE90YZTZqmf_\",\"condition\":\"\",\"lookupType\":\"hestia-activetasks\",\"lookupTypeName\":\"Active Tasks\"},{\"id\":\"Q5KOwMxNu\",\"name\":\"todayCallTasks\",\"type\":\"filterQuery\",\"hints\":{\"countQuery\":true},\"where\":{\"$and\":[{\"due\":{\"$lt\":\"$now(-1)\"}},{\"taskTypeName\":{\"$in\":[\"Call Tasks\"]}}]},\"caption\":\"\",\"question\":\"\",\"_selectId\":\"XWpS6ian5j\",\"condition\":\"\",\"lookupType\":\"hestia-activetasks\",\"lookupTypeName\":\"Active Tasks\"},{\"id\":\"EC0naPk4NSQLdc\",\"name\":\"todayProductTasks\",\"type\":\"filterQuery\",\"hints\":{\"countQuery\":true},\"where\":{\"$and\":[{\"due\":{\"$lt\":\"$now(-1)\"}},{\"taskTypeName\":{\"$in\":[\"Product Task\"]}}]},\"caption\":\"\",\"question\":\"\",\"_selectId\":\"Dhi2MAlStiM4ku\",\"condition\":\"\",\"lookupType\":\"hestia-activetasks\",\"lookupTypeName\":\"Active Tasks\"},{\"id\":\"M4qkx2m1KP\",\"name\":\"unassignedTasks\",\"type\":\"filterQuery\",\"hints\":{\"countQuery\":true},\"where\":{\"$and\":[{\"$or\":[{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Product Task\"]}}]},{\"$and\":[{\"taskTypeName\":{\"$in\":[\"Call Tasks\"]}}]}]}]},\"caption\":\"\",\"question\":\"\",\"_selectId\":\"NdizyY4skB\",\"condition\":\"\",\"lookupType\":\"hestia-tasks\",\"lookupTypeName\":\"Tasks\"},{\"id\":\"tzYEtG_92njAHP\",\"name\":\"allocatedTSO\",\"type\":\"filterQuery\",\"hints\":{},\"where\":{\"$and\":[{\"user\":{\"$in\":[\"{$currentUser}:test/employee_db\"]}}]},\"caption\":\"\",\"question\":\"\",\"_selectId\":\"X7-c7fKpoXRZXF\",\"condition\":\"\",\"lookupType\":\"LVXn6NLGMR:hestia/document-types\",\"lookupTypeName\":\"Conversation\"}],\"description\":\"\"},{\"id\":\"1608724848964-HTXcKLGr3\",\"_id\":\"1608724848964-HTXcKLGr3:hestia/form-sections\",\"name\":\"Task Nav Bar\",\"_expanded\":false,\"_selectId\":\"pgeZp4AcH9\",\"condition\":\"\",\"questions\":[{\"id\":\"UQM1ZTJXd\",\"name\":\"\",\"side\":\"bottom\",\"type\":\"navigation\",\"color\":\"\",\"hints\":{},\"width\":\"\",\"leftSlot\":{\"id\":\"N5Nm4kSoN_4V6U\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p><span style=\\\"color: rgba(0,0,0,0.87);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\\\"><strong>Call tasks to complete today </strong></span><span style=\\\"color: rgb(0,159,218);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\\\"><strong>{todayCallTasksCount}</strong></span><span style=\\\"background-color: rgba(0,0,0,0);\\\"> </span></p>\\n\",\"_selectId\":\"zzIvJHIEQPJPrI\",\"condition\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"iD_bDGU87F\",\"condition\":\"\",\"permanent\":\"\",\"rightSlot\":{\"id\":\"g7TBujJkyZcyAD\",\"icon\":\"\",\"name\":\"\",\"type\":\"plainButton\",\"color\":\"#f5f5f5\",\"hints\":{},\"modes\":[{\"mode\":\"form\",\"value\":\"call\"}],\"width\":\"\",\"events\":[\"allocateCallTask\"],\"height\":\"\",\"variant\":\"contained\",\"question\":\"\",\"_selectId\":\"bzg57QwJ85b3h_\",\"condition\":\"\",\"buttonIcon\":{},\"properties\":[],\"cloneActions\":[],\"buttonCaption\":\"Add Next Call Task\",\"commitInstance\":\"\",\"questionHeight\":\"\",\"backgroundColor\":\"#1da7e0\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},\"_collapsed\":false,\"background\":\"\",\"middleSlot\":null,\"leftMiddleSlot\":{\"id\":\"9EMMHv7SRsVNdK\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p><span style=\\\"color: rgba(0,0,0,0.87);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\\\"><strong>Product tasks to complete today </strong></span><span style=\\\"color: rgb(0,159,218);background-color: rgba(0,0,0,0);font-size: 14px;font-family: Montserrat;\\\"><strong>{todayProductTasksCount}</strong></span><span style=\\\"background-color: rgba(0,0,0,0);\\\"> </span></p>\\n\",\"_selectId\":\"xguDN6MK6zOX2b\",\"condition\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},\"rightMiddleSlot\":{\"id\":\"WX_fT80T8dUR2-\",\"icon\":\"\",\"name\":\"\",\"type\":\"plainButton\",\"color\":\"#f5f5f5\",\"hints\":{},\"modes\":[],\"width\":\"\",\"events\":[\"allocateProductTask\"],\"height\":\"\",\"variant\":\"contained\",\"question\":\"\",\"_selectId\":\"nwGatsNcSK6n46\",\"condition\":\"\",\"buttonIcon\":{},\"properties\":[],\"cloneActions\":[],\"buttonCaption\":\"Add Next Product Task\",\"commitInstance\":\"\",\"questionHeight\":\"\",\"backgroundColor\":\"#1da7e0\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}}],\"description\":\"\"}],\"_selectId\":\"4y5hWttEnd\",\"condition\":\"\",\"tabsOnTop\":true,\"description\":\"\",\"duplicateNames\":{\"taskSearch\":true}}],\"formAction\":[{\"id\":\"wCkiptw7tj\",\"name\":\"Main\",\"_init\":1608674414930,\"color\":\"#fff\",\"forms\":[{\"id\":\"46vivdMJ4n\",\"form\":\"99jS4tiHdH\"}],\"action\":\"\",\"inline\":true,\"actions\":[],\"$readOnly\":false,\"_selectId\":\"4h4Xj3iMB1\",\"inputStates\":[\"default\"],\"backgroundColor\":\"#03a9f4\"}],\"accountAllocator\":[{\"id\":\"53uAMJtw1\",\"name\":\"Allocate Call Task\",\"path\":\"\",\"__init\":true,\"update\":\"allocatedUser\",\"recordId\":\"{parentRecord}\",\"taskType\":\"Call Tasks\",\"_selectId\":\"c2aZXVgNyQ\",\"eventName\":\"allocateCallTask\",\"lookupType\":\"qtp5ZEvMXw-xkWJtZvh93:hestia/document-types\",\"navigation\":[{\"mode\":\"form\",\"value\":\"call\"},{\"mode\":\"tab\",\"value\":\"0\"}],\"updateToValue\":\"{$currentUser.Employee._id}\",\"lookupTypeName\":\"Supplier Account\",\"openRelatedDocument\":true,\"maximumCurrentTickets\":20},{\"id\":\"fPPMpgHgidJNou\",\"name\":\"Allocate Product Task\",\"path\":\"\",\"__init\":true,\"update\":\"allocatedUser\",\"recordId\":\"{parentRecord}\",\"taskType\":\"Product Task\",\"_selectId\":\"EW5myD6uhU9Gqq\",\"eventName\":\"allocateProductTask\",\"lookupType\":\"qtp5ZEvMXw-xkWJtZvh93:hestia/document-types\",\"navigation\":[{\"mode\":\"form\",\"value\":\"product\"}],\"updateToValue\":\"{$currentUser.Employee._id}\",\"$behaviourType\":\"accountAllocator\",\"lookupTypeName\":\"Supplier Account\",\"openRelatedDocument\":true,\"maximumCurrentTickets\":20}]}},\"createOnNew\":true,\"description\":\"\",\"displayName\":\"TSO Dashboard\",\"specificUrl\":false,\"__originalId\":\"2DKEM5OcL6:hestia/app-types\",\"defaultState\":\"default\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"soQq_-jk4GDyi0\",\"_parentVersion\":\"1FveGGdY_dPppE\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"showOnLauncher\":true,\"tabsBackground\":\"#fafafa\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"wCkiptw7tj\",\"devices-allowed\":\"\",\"launcherCaption\":\"TSO Dashboard\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#fafafa\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#fff\",\"launcherBackground\":\"#009fda\",\"launcherForeground\":\"#ffffff\",\"devices-allowed-html\":\"\",\"isLockedByCurrentUser\":false}",
+      "parentVersion": "1FveGGdY_dPppE",
+      "id": "soQq_-jk4GDyi0",
+      "time": 1618337316644,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "name": "2.9",
+      "locked": true
+    }
+  ]
+}

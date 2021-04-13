@@ -1,0 +1,369 @@
+{
+  "__": "X41abT9kpHV9vA",
+  "_id": "wF7lZt-SUyBkCm:hestia/document-types",
+  "__ok": true,
+  "icon": "",
+  "name": "Blackboards",
+  "tags": [],
+  "_type": "document",
+  "table": "crm",
+  "__warn": false,
+  "client": "rsihYJKKDVyaYN",
+  "locked": false,
+  "_client": "rsihYJKKDVyaYN",
+  "demands": [],
+  "_created": 1615912634000,
+  "_deleted": 0,
+  "database": "blackboards",
+  "maxWidth": 1000,
+  "__version": "111",
+  "_modified": 1618335887122,
+  "__modified": 1614167274733,
+  "components": "JSON",
+  "isLockedBy": null,
+  "navigation": [],
+  "__namespace": "",
+  "_behaviours": {
+    "_state": "",
+    "instances": {
+      "form": [
+        {
+          "id": "_3sJPSPcW3",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "5y3CS5d_vq",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "oEsVrcyVI",
+                  "name": "hasUpdates",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "UInxnyiz0A",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "QAYFNLMhW",
+                  "name": "records",
+                  "type": "JSON",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "_8tv1u3tSC",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "qpBAx6Qs68",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "formAction": [
+        {
+          "id": "RJEFLTO1WF",
+          "name": "Main",
+          "_init": 1608203435641,
+          "color": "#fff",
+          "forms": [
+            {
+              "id": "BiMcAm0R8o",
+              "form": "_3sJPSPcW3",
+              "readOnly": "",
+              "_selectId": "LoIcknXgZ-"
+            }
+          ],
+          "action": "",
+          "inline": true,
+          "actions": [
+            {
+              "id": "mC3yeLM3T",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "9CykEvk63l",
+              "condition": "",
+              "endOfLine": "",
+              "properties": [],
+              "confirmation": "",
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "Fw3pIeRcUH",
+          "editDemands": [],
+          "inputStates": [
+            "New"
+          ],
+          "visibleDemands": [],
+          "backgroundColor": "#03a9f4"
+        }
+      ],
+      "viewAsList": [
+        {
+          "id": "z_CnQTlGv",
+          "name": "New \"View As List\"",
+          "fields": [
+            {
+              "id": "ctFrOM18N",
+              "field": "_id",
+              "label": "ID",
+              "defaultValue": ""
+            },
+            {
+              "id": "dTB5CysXh",
+              "field": "$state",
+              "label": "State",
+              "defaultValue": ""
+            },
+            {
+              "id": "jZqjafpL9c-s6D",
+              "field": "hasUpdates",
+              "label": "Has Updates",
+              "defaultValue": ""
+            }
+          ],
+          "_selectId": "N4wUb0OozK",
+          "hideFields": "",
+          "availableActions": []
+        }
+      ]
+    }
+  },
+  "createOnNew": false,
+  "description": "",
+  "displayName": "crm blackboard",
+  "__originalId": "PRTVrtieCl-IoESTLn2g-1614691802269-IoESTLn2g-1615474420091:hestia/document-types",
+  "defaultState": "New",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "PwF6dSB5Y9LB53",
+  "_parentVersion": "cy9jtGByvUs_yS",
+  "currentVersion": {
+    "development": "2.9",
+    "live": "2.9"
+  },
+  "tabsBackground": "#f4f4f4",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "RJEFLTO1WF",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#f4f4f4",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#f4f4f4",
+  "isLockedByCurrentUser": false,
+  "versions": [
+    {
+      "id": "_SjByBEpLSAW4l",
+      "name": "1",
+      "time": 1615912673632,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "gEdb1qLRoP9qY6"
+    },
+    {
+      "id": "QaQOKGZ7B3v7ng",
+      "name": "1 - merged",
+      "time": 1615917461842,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "n8q7oQ4wkt8wZq",
+      "parentVersion": "_SjByBEpLSAW4l"
+    },
+    {
+      "id": "mZBvWQWhhRi_l0",
+      "name": "18th March 21 End of Day Bulk",
+      "time": 1616084218602,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "QaQOKGZ7B3v7ng"
+    },
+    {
+      "id": "SRse867OMMF0AI",
+      "name": "22 March First Thing",
+      "time": 1616402516526,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "mZBvWQWhhRi_l0"
+    },
+    {
+      "id": "Ccmi9jK0pdWhpA",
+      "name": "Pre 884 Merge",
+      "time": 1616582160421,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "SRse867OMMF0AI"
+    },
+    {
+      "id": "WkSTyIy9-3nYbC",
+      "name": "SLAs and CRM ID Integration",
+      "time": 1616601217836,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "parentVersion": "Ccmi9jK0pdWhpA"
+    },
+    {
+      "id": "LGR8zgT2BFO9gH",
+      "name": "SS-1945 Changes",
+      "time": 1617701913269,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "WkSTyIy9-3nYbC"
+    },
+    {
+      "id": "ZuNMONifQpUj78",
+      "name": "SS-1957 Changes",
+      "time": 1617706961505,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "LGR8zgT2BFO9gH"
+    },
+    {
+      "id": "nbe12ZXoX1FH6D",
+      "name": "SS-1982 Done",
+      "time": 1617868809332,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "ZuNMONifQpUj78"
+    },
+    {
+      "id": "yqbQjF_fv7DGSp",
+      "name": "09Apr21 AM",
+      "time": 1617957430785,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "nbe12ZXoX1FH6D"
+    },
+    {
+      "id": "b7jZg3Un73IefN",
+      "name": "Post Layout Changes",
+      "time": 1618213619344,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "yqbQjF_fv7DGSp"
+    },
+    {
+      "id": "gF8mqmKWLQfKxg",
+      "name": "Clean Up of Updaters",
+      "time": 1618221067954,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "b7jZg3Un73IefN"
+    },
+    {
+      "id": "lzIjyIX8WiBSd1",
+      "name": "1.1",
+      "time": 1618318819729,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "gF8mqmKWLQfKxg"
+    },
+    {
+      "id": "HxeXFS56PtTdw5",
+      "name": "1.2",
+      "time": 1618318941696,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "lzIjyIX8WiBSd1"
+    },
+    {
+      "id": "YErDS1W-9vn22N",
+      "name": "1.3",
+      "time": 1618319052483,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "HxeXFS56PtTdw5"
+    },
+    {
+      "id": "OwFQ-ck6POPc9Q",
+      "name": "1.4",
+      "time": 1618319150935,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "YErDS1W-9vn22N"
+    },
+    {
+      "id": "KYKgDABDmM4bce",
+      "name": "1.5",
+      "time": 1618319231231,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "OwFQ-ck6POPc9Q"
+    },
+    {
+      "id": "Xk_3rozjIp5JPn",
+      "name": "1.6",
+      "time": 1618319476639,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "KYKgDABDmM4bce"
+    },
+    {
+      "id": "S4aL-991xL1xbb",
+      "name": "2.1",
+      "time": 1618320288551,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "Xk_3rozjIp5JPn"
+    },
+    {
+      "id": "7e6Gi3EwB6d5Sy",
+      "name": "2.3",
+      "time": 1618320833871,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "S4aL-991xL1xbb"
+    },
+    {
+      "id": "AU5htIipViuwdo",
+      "name": "2.4",
+      "time": 1618320957737,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "7e6Gi3EwB6d5Sy"
+    },
+    {
+      "id": "fwHehEIXDfTh0n",
+      "name": "2.7",
+      "time": 1618335885842,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "AU5htIipViuwdo"
+    },
+    {
+      "content": "{\"__\":\"X41abT9kpHV9vA\",\"_id\":\"wF7lZt-SUyBkCm:hestia/document-types\",\"__ok\":true,\"icon\":\"\",\"name\":\"Blackboards\",\"tags\":[],\"_type\":\"document\",\"table\":\"crm\",\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[],\"_created\":1615912634000,\"_deleted\":0,\"database\":\"blackboards\",\"maxWidth\":1000,\"__version\":\"111\",\"_modified\":1618335887122,\"__modified\":1614167274733,\"components\":\"JSON\",\"isLockedBy\":null,\"navigation\":[],\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"_3sJPSPcW3\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"5y3CS5d_vq\",\"condition\":\"\",\"questions\":[{\"id\":\"oEsVrcyVI\",\"name\":\"hasUpdates\",\"type\":\"text\",\"hints\":{},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"UInxnyiz0A\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"QAYFNLMhW\",\"name\":\"records\",\"type\":\"JSON\",\"hints\":{},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"_8tv1u3tSC\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}],\"description\":\"\"}],\"_selectId\":\"qpBAx6Qs68\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"formAction\":[{\"id\":\"RJEFLTO1WF\",\"name\":\"Main\",\"_init\":1608203435641,\"color\":\"#fff\",\"forms\":[{\"id\":\"BiMcAm0R8o\",\"form\":\"_3sJPSPcW3\",\"readOnly\":\"\",\"_selectId\":\"LoIcknXgZ-\"}],\"action\":\"\",\"inline\":true,\"actions\":[{\"id\":\"mC3yeLM3T\",\"blur\":\"\",\"icon\":\"\",\"color\":\"#fff\",\"goBack\":\"\",\"caption\":\"Submit\",\"command\":\"setData\",\"toState\":\"New\",\"variant\":\"text\",\"_selectId\":\"9CykEvk63l\",\"condition\":\"\",\"endOfLine\":\"\",\"properties\":[],\"confirmation\":\"\",\"backgroundColor\":\"#03a9f4\",\"visibleCondition\":\"\"}],\"storeIn\":\"\",\"_selectId\":\"Fw3pIeRcUH\",\"editDemands\":[],\"inputStates\":[\"New\"],\"visibleDemands\":[],\"backgroundColor\":\"#03a9f4\"}],\"viewAsList\":[{\"id\":\"z_CnQTlGv\",\"name\":\"New \\\"View As List\\\"\",\"fields\":[{\"id\":\"ctFrOM18N\",\"field\":\"_id\",\"label\":\"ID\",\"defaultValue\":\"\"},{\"id\":\"dTB5CysXh\",\"field\":\"$state\",\"label\":\"State\",\"defaultValue\":\"\"},{\"id\":\"jZqjafpL9c-s6D\",\"field\":\"hasUpdates\",\"label\":\"Has Updates\",\"defaultValue\":\"\"}],\"_selectId\":\"N4wUb0OozK\",\"hideFields\":\"\",\"availableActions\":[]}]}},\"createOnNew\":false,\"description\":\"\",\"displayName\":\"crm blackboard\",\"__originalId\":\"PRTVrtieCl-IoESTLn2g-1614691802269-IoESTLn2g-1615474420091:hestia/document-types\",\"defaultState\":\"New\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"cy9jtGByvUs_yS\",\"_parentVersion\":\"fwHehEIXDfTh0n\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"tabsBackground\":\"#f4f4f4\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"RJEFLTO1WF\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#f4f4f4\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#f4f4f4\",\"isLockedByCurrentUser\":false}",
+      "parentVersion": "fwHehEIXDfTh0n",
+      "id": "cy9jtGByvUs_yS",
+      "time": 1618337312434,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "name": "2.9",
+      "locked": true
+    }
+  ]
+}
