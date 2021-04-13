@@ -1,5 +1,5 @@
 {
-  "__": "JPxqhM5xlurg0e",
+  "__": "b0-TgLt7tXJNoA",
   "_id": "-VEnbpZph:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -7,24 +7,185 @@
   "tags": [],
   "_type": "document",
   "table": "ss_CombinedServiceTypesC",
+  "theme": {
+    "other": {
+      "opacity": {
+        "AlcOpacity_001": "10%",
+        "AlcOpacity_002": "25%",
+        "AlcOpacity_003": "50%",
+        "AlcOpacity_004": "75%"
+      },
+      "palette": {
+        "gold": "gold",
+        "type": "light",
+        "bronze": "#853",
+        "silver": "silver",
+        "primary": {
+          "main": "#1da7e0",
+          "contrastText": "#fff"
+        },
+        "AlcSys_001": "#FFFFFF",
+        "AlcSys_002": "#F7F8F9",
+        "AlcSys_003": "#F4F5F6",
+        "AlcSys_004": "#EBEBED",
+        "AlcSys_005": "#CCCCCC",
+        "AlcSys_006": "rgba(125, 125, 125, 1)",
+        "AlcSys_007": "#263836",
+        "AlcSys_008": "#000000",
+        "AlcBrand_001": "#1da7e0",
+        "AlcBrand_002": "#0081AF",
+        "AlcBrand_003": "#294A76",
+        "AlcBrand_004": "#0099B3",
+        "AlcBrand_005": "#604696",
+        "AlcBrand_006": "#D26A37",
+        "AlcBrand_007": "#679861",
+        "AlcBrand_008": "#EBBA00",
+        "AlcBrand_009": "#8C1D82",
+        "AlcBrand_010": "#DC840A",
+        "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+        "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+        "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+        "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+        "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+        "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+        "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+        "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+        "AlcSysState_green": "rgba(63, 195, 128, 1)",
+        "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+        "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+        "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+        "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+        "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+        "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+        "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+        "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+        "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+        "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+        "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+        "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+        "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+        "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+        "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+        "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+        "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+      },
+      "document": {
+        "form": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "child": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "fontSize": 16,
+        "fontFamily": "Roboto, sans-serif"
+      },
+      "typography": {
+        "h1": {
+          "fontSize": "2.8em",
+          "fontFamily": "Montserrat, sans-serif",
+          "fontWeight": 700
+        },
+        "h2": {
+          "fontSize": "2.3em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h3": {
+          "fontSize": "2em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h4": {
+          "fontSize": "1.667em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h5": {
+          "fontSize": "1.333em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h6": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "body1": {
+          "fontSize": "1.167em",
+          "fontFamily": "Roboto"
+        },
+        "body2": {
+          "fontSize": "1em",
+          "fontFamily": "Roboto"
+        },
+        "body3": {
+          "fontSize": "0.9em",
+          "fontFamily": "Roboto"
+        },
+        "body4": {
+          "fontSize": "14px",
+          "fontFamily": "Roboto"
+        },
+        "overline": {
+          "fontSize": "0.917em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500,
+          "textTransform": "uppercase"
+        },
+        "Action1_Medium": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action2_Medium": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action1_Regular": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat"
+        },
+        "Action2_Regular": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat"
+        },
+        "Action1_SemiBold": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        },
+        "Action2_SemiBold": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        }
+      }
+    },
+    "theme": "Alcumus",
+    "permanentTheme": ""
+  },
+  "$valid": true,
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "$creator": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-  "_created": 1605786842000,
+  "$invalid": false,
+  "_created": 1618298742000,
   "_deleted": 0,
   "database": "ss_CombinedServiceTypes",
   "maxWidth": 1000,
-  "_modified": 1618335887425,
+  "_modified": 1618333714000,
   "__modified": 1613484065404,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
-  "__namespace": "",
+  "__namespace": "broken_sidebar",
   "_behaviours": {
-    "_state": "",
     "instances": {
       "form": [
         {
@@ -268,31 +429,35 @@
           "_selectId": "bMAOFm7eOl"
         }
       ]
-    }
+    },
+    "_state": ""
   },
   "createOnNew": false,
   "description": "",
   "displayName": "Combined Service Types",
+  "publishDocs": true,
   "__originalId": "-VEnbpZph:hestia/document-types",
   "defaultState": "New",
   "sidebarColor": "#333",
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "B-zXXAqZ5KhhJ-",
-  "_parentVersion": "aNgI194E5FdF13",
+  "_activeVersion": "9rn_zXlyaWG7Ov",
+  "_parentVersion": "B-zXXAqZ5KhhJ-",
   "currentVersion": {
-    "development": "2.9",
-    "live": "2.9"
+    "live": "2.9",
+    "development": "2.9"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
   "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "defaultActivity": "oikbAAZuMC",
+  "devices-allowed": "",
   "sideBarMinWidth": 150,
   "documentBackdrop": "#f4f4f4",
   "sidebarBackground": "#fff",
   "documentBackground": "#f4f4f4",
+  "devices-allowed-html": "",
   "isLockedByCurrentUser": false,
   "versions": [
     {
@@ -453,7 +618,8 @@
       "time": 1618318941702,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "parentVersion": "KIWPXQmL5o2I6U"
+      "parentVersion": "KIWPXQmL5o2I6U",
+      "_selectId": "9IjeIqdlvoKQ1c"
     },
     {
       "id": "cxhwcXnVFvohxG",
@@ -461,7 +627,8 @@
       "time": 1618319052489,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "parentVersion": "2bTkB9VLol7T5M"
+      "parentVersion": "2bTkB9VLol7T5M",
+      "_selectId": "6mvJxacaAGyNaz"
     },
     {
       "id": "O_oYLS6yrg6Hyl",
@@ -469,7 +636,8 @@
       "time": 1618319150941,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "parentVersion": "cxhwcXnVFvohxG"
+      "parentVersion": "cxhwcXnVFvohxG",
+      "_selectId": "DXuuoUe-OOFh9e"
     },
     {
       "id": "fWXT5AhHm7bff2",
@@ -477,7 +645,8 @@
       "time": 1618319231236,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "parentVersion": "O_oYLS6yrg6Hyl"
+      "parentVersion": "O_oYLS6yrg6Hyl",
+      "_selectId": "ghAVaJ-jVTcZfB"
     },
     {
       "id": "k60yyNwLxUBBMm",
@@ -485,7 +654,8 @@
       "time": 1618319476645,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "parentVersion": "fWXT5AhHm7bff2"
+      "parentVersion": "fWXT5AhHm7bff2",
+      "_selectId": "XlzGIN9CtSpVHO"
     },
     {
       "id": "r426-TwQQ8Ea4w",
@@ -493,7 +663,8 @@
       "time": 1618320288558,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "parentVersion": "k60yyNwLxUBBMm"
+      "parentVersion": "k60yyNwLxUBBMm",
+      "_selectId": "cirpYURrscibz2"
     },
     {
       "id": "0M_XU2QXM9fyWx",
@@ -501,7 +672,8 @@
       "time": 1618320833877,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "parentVersion": "r426-TwQQ8Ea4w"
+      "parentVersion": "r426-TwQQ8Ea4w",
+      "_selectId": "xi3B2ZbsOwPJmy"
     },
     {
       "id": "klzDgQ7OKGCGdn",
@@ -509,7 +681,8 @@
       "time": 1618320957744,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "parentVersion": "0M_XU2QXM9fyWx"
+      "parentVersion": "0M_XU2QXM9fyWx",
+      "_selectId": "0QiWU-cXeOPA4T"
     },
     {
       "id": "cyNlOLEO5abRcq",
@@ -517,16 +690,27 @@
       "time": 1618335885850,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
-      "parentVersion": "klzDgQ7OKGCGdn"
+      "parentVersion": "klzDgQ7OKGCGdn",
+      "_selectId": "3WYI2c_rXogWjU"
     },
     {
-      "content": "{\"__\":\"JPxqhM5xlurg0e\",\"_id\":\"-VEnbpZph:hestia/document-types\",\"__ok\":true,\"icon\":\"\",\"name\":\"Combined Service Types\",\"tags\":[],\"_type\":\"document\",\"table\":\"ss_CombinedServiceTypesC\",\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[],\"$creator\":\"f389cfaa-0b2a-4653-8c35-32aa5486efe7\",\"_created\":1605786842000,\"_deleted\":0,\"database\":\"ss_CombinedServiceTypes\",\"maxWidth\":1000,\"_modified\":1618335887425,\"__modified\":1613484065404,\"components\":\"\",\"isLockedBy\":null,\"navigation\":[],\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"R7Alo9sNP3\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"oYEVU_Chs9\",\"condition\":\"\",\"questions\":[{\"id\":\"jRduEfzm0\",\"name\":\"code\",\"type\":\"text\",\"hints\":{\"hidden\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"SJLWpgM0K_\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"YJNdryBzS\",\"name\":\"description\",\"type\":\"text\",\"hints\":{\"hidden\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"1EbZWvTvnZ\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"lsT5ov9B2\",\"name\":\"type\",\"type\":\"text\",\"hints\":{\"hidden\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"jrATQxNJKI\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"v5FJk3lcQtEt9M\",\"icon\":\"AiOutlineAccountBook\",\"name\":\"\",\"type\":\"excelExport\",\"color\":\"#ffffff\",\"hints\":{},\"query\":{\"$and\":[]},\"width\":\"\",\"fields\":{\"_id\":{\"mapping\":\"\"},\"code\":{\"mapping\":\"CODE\"},\"type\":{\"mapping\":\"TYPE\"},\"description\":{\"mapping\":\"DESCRIPTION\"}},\"height\":\"\",\"variant\":\"contained\",\"filename\":\"ServiceTypes\",\"question\":\"\",\"_selectId\":\"-iwdwqug_Zcqo6\",\"condition\":\"\",\"sheetName\":\"ALL\",\"exportType\":\"-VEnbpZph:hestia/document-types\",\"exportFields\":[\"code\",\"description\",\"type\"],\"buttonCaption\":\"Export\",\"exportTypeName\":\"Combined Service Types\",\"backgroundColor\":\"#009fda\",\"backgroundImage\":\"\",\"additionalFields\":[],\"backgroundPosition\":\"\"},{\"id\":\"nrxirlhB8\",\"icon\":\"\",\"name\":\"\",\"type\":\"excelImport\",\"color\":\"#ffffff\",\"hints\":{},\"width\":\"\",\"fields\":{\"_id\":{\"mapping\":\"\"},\"code\":{\"mapping\":\"{code}\"},\"type\":{\"mapping\":\"{type}\"},\"$state\":{\"mapping\":\"\"},\"$creator\":{\"mapping\":\"\"},\"description\":{\"mapping\":\"{description}\"}},\"height\":\"\",\"variant\":\"contained\",\"idColumn\":\"\",\"question\":\"\",\"_selectId\":\"V5qw7wyPdW\",\"condition\":\"\",\"importType\":\"-VEnbpZph:hestia/document-types\",\"sourceSheet\":\"all\",\"buttonCaption\":\"IMPORT\",\"createUniqueId\":true,\"importTypeName\":\"Combined Service Types\",\"backgroundColor\":\"#009fda\",\"backgroundImage\":\"\",\"additionalFields\":[],\"exampleExcelFile\":{\"all\":[\"code\",\"description\",\"type\"],\"Service Provider\":[\"code\",\"description\"],\"Health and Social\":[\"code\",\"description\"],\"Goods and Material\":[\"code\",\"description\"],\"Travel and Accommodation\":[\"code\",\"description\"],\"Consultancy and Professional\":[\"code\",\"description\"]},\"backgroundPosition\":\"\"},{\"id\":\"6fzJp7TUF\",\"name\":\"combinedDocList\",\"rows\":20,\"type\":\"documentList\",\"hints\":{},\"where\":{\"$and\":[]},\"listType\":\"-VEnbpZph:hestia/document-types\",\"question\":\"\",\"_selectId\":\"dL2u6c4j9c\",\"condition\":\"\",\"emptyView\":\"FVwMn3T5I\",\"dataSource\":\"\",\"navigation\":[],\"displayView\":\"FVwMn3T5I\",\"sortColumns\":[],\"listTypeName\":\"Combined Service Types\",\"displayFields\":[],\"useDataSource\":false,\"emptyView_name\":\"Combined Service Codes\",\"questionHeight\":\"\",\"displayView_name\":\"Combined Service Codes\",\"questionSpaceBefore\":\"\"}],\"description\":\"\"}],\"_selectId\":\"1MeUXqi3Bh\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"formAction\":[{\"id\":\"oikbAAZuMC\",\"name\":\"Main\",\"forms\":[{\"id\":\"IsRYhBtvfM\",\"form\":\"R7Alo9sNP3\"}],\"inline\":true,\"actions\":[],\"_selectId\":\"i2GIGSe0-A\",\"inputStates\":[\"New\"]}],\"viewAsText\":[{\"id\":\"ReLpc4ppX\",\"name\":\"New \\\"View As Text\\\"\",\"fields\":[{\"id\":\"yJpN4Imey\",\"field\":\"description\",\"separator\":\" \",\"transform\":\"none\",\"defaultValue\":\"\"}],\"_selectId\":\"bMAOFm7eOl\"}]}},\"createOnNew\":false,\"description\":\"\",\"displayName\":\"Combined Service Types\",\"__originalId\":\"-VEnbpZph:hestia/document-types\",\"defaultState\":\"New\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"aNgI194E5FdF13\",\"_parentVersion\":\"cyNlOLEO5abRcq\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"tabsBackground\":\"#f4f4f4\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"oikbAAZuMC\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#f4f4f4\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#f4f4f4\",\"isLockedByCurrentUser\":false}",
-      "parentVersion": "cyNlOLEO5abRcq",
       "id": "aNgI194E5FdF13",
+      "name": "2.9",
       "time": 1618337312442,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "name": "2.9",
-      "locked": true
+      "locked": true,
+      "parentVersion": "cyNlOLEO5abRcq",
+      "_selectId": "QFuF0jrB-oU7I1"
+    },
+    {
+      "content": "{\"__\":\"b0-TgLt7tXJNoA\",\"_id\":\"-VEnbpZph:hestia/document-types\",\"__ok\":true,\"icon\":\"\",\"name\":\"Combined Service Types\",\"tags\":[],\"_type\":\"document\",\"table\":\"ss_CombinedServiceTypesC\",\"theme\":{\"other\":{\"opacity\":{\"AlcOpacity_001\":\"10%\",\"AlcOpacity_002\":\"25%\",\"AlcOpacity_003\":\"50%\",\"AlcOpacity_004\":\"75%\"},\"palette\":{\"gold\":\"gold\",\"type\":\"light\",\"bronze\":\"#853\",\"silver\":\"silver\",\"primary\":{\"main\":\"#1da7e0\",\"contrastText\":\"#fff\"},\"AlcSys_001\":\"#FFFFFF\",\"AlcSys_002\":\"#F7F8F9\",\"AlcSys_003\":\"#F4F5F6\",\"AlcSys_004\":\"#EBEBED\",\"AlcSys_005\":\"#CCCCCC\",\"AlcSys_006\":\"rgba(125, 125, 125, 1)\",\"AlcSys_007\":\"#263836\",\"AlcSys_008\":\"#000000\",\"AlcBrand_001\":\"#1da7e0\",\"AlcBrand_002\":\"#0081AF\",\"AlcBrand_003\":\"#294A76\",\"AlcBrand_004\":\"#0099B3\",\"AlcBrand_005\":\"#604696\",\"AlcBrand_006\":\"#D26A37\",\"AlcBrand_007\":\"#679861\",\"AlcBrand_008\":\"#EBBA00\",\"AlcBrand_009\":\"#8C1D82\",\"AlcBrand_010\":\"#DC840A\",\"AlcSys_006_10\":\"rgba(125, 125, 125, .1)\",\"AlcSys_006_25\":\"rgba(125, 125, 125, .25)\",\"AlcSys_006_50\":\"rgba(125, 125, 125, .50)\",\"AlcSys_006_75\":\"rgba(125, 125, 125, .75)\",\"AlcSys_Grad001\":\"linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)\",\"AlcSys_Grad002\":\"linear-gradient(55deg, #1da7e0 100%, #604696 100%)\",\"AlcSysState_prog\":\"rgba(235, 186, 0, 1)\",\"AlcSysState_risk\":\"rgba(233, 75, 75, 1)\",\"AlcSysState_green\":\"rgba(63, 195, 128, 1)\",\"AlcSysState_issue\":\"rgba(233, 165, 75, 1)\",\"AlcSysState_prog_10\":\"rgba(235, 186, 0, .1)\",\"AlcSysState_prog_25\":\"rgba(235, 186, 0,.251)\",\"AlcSysState_prog_50\":\"rgba(235, 186, 0,.5)\",\"AlcSysState_prog_75\":\"rgba(235, 186, 0, .75)\",\"AlcSysState_risk_10\":\"rgba(233, 75, 75, .1)\",\"AlcSysState_risk_25\":\"rgba(233, 75, 75, .25)\",\"AlcSysState_risk_50\":\"rgba(233, 75, 75, .50)\",\"AlcSysState_risk_75\":\"rgba(233, 75, 75, .75)\",\"AlcSysState_green_10\":\"rgba(63, 195, 128, 0.1)\",\"AlcSysState_green_25\":\"rgba(63, 195, 128, 0.25)\",\"AlcSysState_green_50\":\"rgba(63, 195, 128, 0.5)\",\"AlcSysState_green_75\":\"rgba(63, 195, 128, 0.75)\",\"AlcSysState_issue_10\":\"rgba(233, 165, 75, .1)\",\"AlcSysState_issue_25\":\"rgba(233, 165, 75, .25)\",\"AlcSysState_issue_50\":\"rgba(233, 165, 75, .50)\",\"AlcSysState_issue_75\":\"rgba(233, 165, 75, .75)\"},\"document\":{\"form\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"child\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"typography\":{\"h1\":{\"fontSize\":\"2.8em\",\"fontFamily\":\"Montserrat, sans-serif\",\"fontWeight\":700},\"h2\":{\"fontSize\":\"2.3em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h3\":{\"fontSize\":\"2em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h4\":{\"fontSize\":\"1.667em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h5\":{\"fontSize\":\"1.333em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h6\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"body1\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Roboto\"},\"body2\":{\"fontSize\":\"1em\",\"fontFamily\":\"Roboto\"},\"body3\":{\"fontSize\":\"0.9em\",\"fontFamily\":\"Roboto\"},\"body4\":{\"fontSize\":\"14px\",\"fontFamily\":\"Roboto\"},\"overline\":{\"fontSize\":\"0.917em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500,\"textTransform\":\"uppercase\"},\"Action1_Medium\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action2_Medium\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action1_Regular\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\"},\"Action2_Regular\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\"},\"Action1_SemiBold\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600},\"Action2_SemiBold\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600}}},\"theme\":\"Alcumus\",\"permanentTheme\":\"\"},\"$valid\":true,\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[],\"$creator\":\"f389cfaa-0b2a-4653-8c35-32aa5486efe7\",\"$invalid\":false,\"_created\":1618298742000,\"_deleted\":0,\"database\":\"ss_CombinedServiceTypes\",\"maxWidth\":1000,\"_modified\":1618333714000,\"__modified\":1613484065404,\"components\":\"\",\"isLockedBy\":null,\"navigation\":[],\"__namespace\":\"broken_sidebar\",\"_behaviours\":{\"instances\":{\"form\":[{\"id\":\"R7Alo9sNP3\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"oYEVU_Chs9\",\"condition\":\"\",\"questions\":[{\"id\":\"jRduEfzm0\",\"name\":\"code\",\"type\":\"text\",\"hints\":{\"hidden\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"SJLWpgM0K_\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"YJNdryBzS\",\"name\":\"description\",\"type\":\"text\",\"hints\":{\"hidden\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"1EbZWvTvnZ\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"lsT5ov9B2\",\"name\":\"type\",\"type\":\"text\",\"hints\":{\"hidden\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"jrATQxNJKI\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"v5FJk3lcQtEt9M\",\"icon\":\"AiOutlineAccountBook\",\"name\":\"\",\"type\":\"excelExport\",\"color\":\"#ffffff\",\"hints\":{},\"query\":{\"$and\":[]},\"width\":\"\",\"fields\":{\"_id\":{\"mapping\":\"\"},\"code\":{\"mapping\":\"CODE\"},\"type\":{\"mapping\":\"TYPE\"},\"description\":{\"mapping\":\"DESCRIPTION\"}},\"height\":\"\",\"variant\":\"contained\",\"filename\":\"ServiceTypes\",\"question\":\"\",\"_selectId\":\"-iwdwqug_Zcqo6\",\"condition\":\"\",\"sheetName\":\"ALL\",\"exportType\":\"-VEnbpZph:hestia/document-types\",\"exportFields\":[\"code\",\"description\",\"type\"],\"buttonCaption\":\"Export\",\"exportTypeName\":\"Combined Service Types\",\"backgroundColor\":\"#009fda\",\"backgroundImage\":\"\",\"additionalFields\":[],\"backgroundPosition\":\"\"},{\"id\":\"nrxirlhB8\",\"icon\":\"\",\"name\":\"\",\"type\":\"excelImport\",\"color\":\"#ffffff\",\"hints\":{},\"width\":\"\",\"fields\":{\"_id\":{\"mapping\":\"\"},\"code\":{\"mapping\":\"{code}\"},\"type\":{\"mapping\":\"{type}\"},\"$state\":{\"mapping\":\"\"},\"$creator\":{\"mapping\":\"\"},\"description\":{\"mapping\":\"{description}\"}},\"height\":\"\",\"variant\":\"contained\",\"idColumn\":\"\",\"question\":\"\",\"_selectId\":\"V5qw7wyPdW\",\"condition\":\"\",\"importType\":\"-VEnbpZph:hestia/document-types\",\"sourceSheet\":\"all\",\"buttonCaption\":\"IMPORT\",\"createUniqueId\":true,\"importTypeName\":\"Combined Service Types\",\"backgroundColor\":\"#009fda\",\"backgroundImage\":\"\",\"additionalFields\":[],\"exampleExcelFile\":{\"all\":[\"code\",\"description\",\"type\"],\"Service Provider\":[\"code\",\"description\"],\"Health and Social\":[\"code\",\"description\"],\"Goods and Material\":[\"code\",\"description\"],\"Travel and Accommodation\":[\"code\",\"description\"],\"Consultancy and Professional\":[\"code\",\"description\"]},\"backgroundPosition\":\"\"},{\"id\":\"6fzJp7TUF\",\"name\":\"combinedDocList\",\"rows\":20,\"type\":\"documentList\",\"hints\":{},\"where\":{\"$and\":[]},\"listType\":\"-VEnbpZph:hestia/document-types\",\"question\":\"\",\"_selectId\":\"dL2u6c4j9c\",\"condition\":\"\",\"emptyView\":\"FVwMn3T5I\",\"dataSource\":\"\",\"navigation\":[],\"displayView\":\"FVwMn3T5I\",\"sortColumns\":[],\"listTypeName\":\"Combined Service Types\",\"displayFields\":[],\"useDataSource\":false,\"emptyView_name\":\"Combined Service Codes\",\"questionHeight\":\"\",\"displayView_name\":\"Combined Service Codes\",\"questionSpaceBefore\":\"\"}],\"description\":\"\"}],\"_selectId\":\"1MeUXqi3Bh\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"formAction\":[{\"id\":\"oikbAAZuMC\",\"name\":\"Main\",\"forms\":[{\"id\":\"IsRYhBtvfM\",\"form\":\"R7Alo9sNP3\"}],\"inline\":true,\"actions\":[],\"_selectId\":\"i2GIGSe0-A\",\"inputStates\":[\"New\"]}],\"viewAsText\":[{\"id\":\"ReLpc4ppX\",\"name\":\"New \\\"View As Text\\\"\",\"fields\":[{\"id\":\"yJpN4Imey\",\"field\":\"description\",\"separator\":\" \",\"transform\":\"none\",\"defaultValue\":\"\"}],\"_selectId\":\"bMAOFm7eOl\"}]},\"_state\":\"\"},\"createOnNew\":false,\"description\":\"\",\"displayName\":\"Combined Service Types\",\"publishDocs\":true,\"__originalId\":\"-VEnbpZph:hestia/document-types\",\"defaultState\":\"New\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"9rn_zXlyaWG7Ov\",\"_parentVersion\":\"aNgI194E5FdF13\",\"currentVersion\":{\"live\":\"2.9\",\"development\":\"2.9\"},\"tabsBackground\":\"#f4f4f4\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"oikbAAZuMC\",\"devices-allowed\":\"\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#f4f4f4\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#f4f4f4\",\"devices-allowed-html\":\"\",\"isLockedByCurrentUser\":false}",
+      "parentVersion": "aNgI194E5FdF13",
+      "id": "B-zXXAqZ5KhhJ-",
+      "time": 1618337631435,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "name": "2.10",
+      "locked": false,
+      "_selectId": "hRKbPOiKP53eGm"
     }
   ]
 }
