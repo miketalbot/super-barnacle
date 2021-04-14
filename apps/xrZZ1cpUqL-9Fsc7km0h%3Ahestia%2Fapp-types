@@ -1,5 +1,5 @@
 {
-  "__": "fGD64McWP-E1w3",
+  "__": "CTDsVhQm5Kop7d",
   "_id": "xrZZ1cpUqL-9Fsc7km0h:hestia/app-types",
   "__id": "ogTQGlJ3OP",
   "__ok": true,
@@ -168,7 +168,6 @@
     "permanentTheme": ""
   },
   "$valid": true,
-  "__size": 25398,
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "locked": false,
@@ -178,21 +177,290 @@
   ],
   "$creator": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
   "$invalid": false,
-  "__cached": 1618240221589,
   "_created": 1618298738000,
   "_deleted": 0,
   "database": "applications",
   "maxWidth": 1000,
   "uniqueId": "sXu2tH3Ca7",
-  "_modified": 1618335895532,
-  "__modified": 1613381707249,
+  "versions": [
+    {
+      "id": "C1PfWVl7WhMuB8",
+      "name": "ALS-1794",
+      "time": 1614242552836,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "qS8fRc-53J9_wx",
+      "parentVersion": "BcVkCmokLuLItj"
+    },
+    {
+      "id": "EDStyD8hOe2VFT",
+      "name": "SS-880",
+      "time": 1614337532735,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "C1PfWVl7WhMuB8"
+    },
+    {
+      "id": "K6XQi-4Izm--xn",
+      "name": "Chase Tasks 1",
+      "time": 1614697823524,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "parentVersion": "EDStyD8hOe2VFT"
+    },
+    {
+      "id": "FsvlEIgiK26hPR",
+      "name": "Query Weirdness",
+      "time": 1614860415537,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "K6XQi-4Izm--xn"
+    },
+    {
+      "id": "cjErwa7MM-Ewz-",
+      "name": "TSO Task Changes for Main Branch",
+      "time": 1614933847348,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "FsvlEIgiK26hPR"
+    },
+    {
+      "id": "qi8l6tS1GFoVQs",
+      "name": "SS-1774 Fixes",
+      "time": 1615194060922,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "parentVersion": "cjErwa7MM-Ewz-"
+    },
+    {
+      "id": "NbMIKPGbBquAl4",
+      "name": "SS-914",
+      "time": 1615203069623,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "Q9pYTwzde_7eMx",
+      "parentVersion": "qi8l6tS1GFoVQs"
+    },
+    {
+      "id": "akRqo9F7DpShoU",
+      "name": "16th March 21",
+      "time": 1615912069255,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "PLByWaLlYSAlcW",
+      "parentVersion": "NbMIKPGbBquAl4"
+    },
+    {
+      "id": "Rs6jmTTdTmuqKn",
+      "name": "18th March 21 End of Day Bulk",
+      "time": 1616084221934,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "bkA3B34R2jzRIK",
+      "parentVersion": "akRqo9F7DpShoU"
+    },
+    {
+      "id": "lix7QU_ebr6wBF",
+      "name": "22 March First Thing",
+      "time": 1616402520780,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "327iFVDKFdr0ly",
+      "parentVersion": "Rs6jmTTdTmuqKn"
+    },
+    {
+      "id": "0idvLFLXGZOAbc",
+      "name": "Pre 884 Merge",
+      "time": 1616582163271,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "mYmySWwGk0_heh",
+      "parentVersion": "lix7QU_ebr6wBF"
+    },
+    {
+      "id": "XRCHVoZEfTDZGF",
+      "name": "SLAs and CRM ID Integration",
+      "time": 1616601220266,
+      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
+      "locked": true,
+      "_selectId": "ky6JCwVKzPYDxG",
+      "parentVersion": "0idvLFLXGZOAbc"
+    },
+    {
+      "id": "cl_BZ7vLEJHPY1",
+      "name": "SS-1945 Changes",
+      "time": 1617701916484,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "Gz9sAdgkwisXmT",
+      "parentVersion": "XRCHVoZEfTDZGF"
+    },
+    {
+      "id": "UIsFpJ7xjvqyHt",
+      "name": "SS-1957 Changes",
+      "time": 1617706963778,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "yV-7ENNSDVjh8w",
+      "parentVersion": "cl_BZ7vLEJHPY1"
+    },
+    {
+      "id": "aQxzCgNKgXhEzf",
+      "name": "SS-1982 Done",
+      "time": 1617868811426,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "bes8P76G54qsnm",
+      "parentVersion": "UIsFpJ7xjvqyHt"
+    },
+    {
+      "id": "9ZSkVS-3D6eiSO",
+      "name": "09Apr21 AM",
+      "time": 1617957434538,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "S1QPLwosRs9yms",
+      "parentVersion": "aQxzCgNKgXhEzf"
+    },
+    {
+      "id": "WTtVKOZoWsUNAE",
+      "name": "Removed Gubbins just search",
+      "time": 1618056722725,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "7EZeD1IMVx8y4D",
+      "parentVersion": "9ZSkVS-3D6eiSO"
+    },
+    {
+      "id": "z-ZeC55-DG1pGU",
+      "name": "Post Layout Changes",
+      "time": 1618213621875,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "plLNbbPsY10UUH",
+      "parentVersion": "WTtVKOZoWsUNAE"
+    },
+    {
+      "id": "AX4-tHfgjE2NWu",
+      "name": "Clean Up of Updaters",
+      "time": 1618221071141,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "gN59mjFwAkX76a",
+      "parentVersion": "z-ZeC55-DG1pGU"
+    },
+    {
+      "id": "5ijUdvsgFgT9oY",
+      "name": "Search Problems",
+      "time": 1618301462776,
+      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+      "locked": true,
+      "_selectId": "QlrwzE3-77J7aU",
+      "parentVersion": "AX4-tHfgjE2NWu"
+    },
+    {
+      "id": "npTVKST3B-G9ch",
+      "name": "1.1",
+      "time": 1618318822836,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "5ijUdvsgFgT9oY"
+    },
+    {
+      "id": "Rnh-67_l9GBnu5",
+      "name": "1.2",
+      "time": 1618318945568,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "npTVKST3B-G9ch"
+    },
+    {
+      "id": "-Qlmu6eOoKWwak",
+      "name": "1.3",
+      "time": 1618319057005,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "Rnh-67_l9GBnu5"
+    },
+    {
+      "id": "vSlk7JPP53NoEN",
+      "name": "1.4",
+      "time": 1618319155591,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "-Qlmu6eOoKWwak"
+    },
+    {
+      "id": "ZURijsrTCwPZWu",
+      "name": "1.5",
+      "time": 1618319235330,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "vSlk7JPP53NoEN"
+    },
+    {
+      "id": "xp9OhnN2XjzkjX",
+      "name": "1.6",
+      "time": 1618319480395,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "ZURijsrTCwPZWu"
+    },
+    {
+      "id": "CCaWuZrHbhHYdz",
+      "name": "2.1",
+      "time": 1618320292452,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "xp9OhnN2XjzkjX"
+    },
+    {
+      "id": "EHbsq2C_loqoPS",
+      "name": "2.3",
+      "time": 1618320838195,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "CCaWuZrHbhHYdz"
+    },
+    {
+      "id": "ToP0k0yvfMIFHo",
+      "name": "2.4",
+      "time": 1618320962516,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "EHbsq2C_loqoPS"
+    },
+    {
+      "id": "RCaxsEojR9cMds",
+      "name": "2.7",
+      "time": 1618335894290,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "ToP0k0yvfMIFHo"
+    },
+    {
+      "id": "OxzOp9BjAzHkWU",
+      "name": "2.9",
+      "time": 1618337316640,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "RCaxsEojR9cMds"
+    },
+    {
+      "id": "aHNEAb2u3hEfx6",
+      "name": "2.11",
+      "time": 1618406236592,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "OxzOp9BjAzHkWU"
+    }
+  ],
+  "_modified": 1618402637000,
   "components": "card 2.0,extra-layout,formprogress,filters,navigation,verification",
   "isLockedBy": null,
   "navigation": [],
   "showOnMenu": true,
-  "__namespace": "broken_sidebar",
   "_behaviours": {
-    "_state": "",
     "instances": {
       "form": [
         {
@@ -527,7 +795,8 @@
           ]
         }
       ]
-    }
+    },
+    "_state": ""
   },
   "createOnNew": true,
   "description": "",
@@ -539,11 +808,11 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "aHNEAb2u3hEfx6",
-  "_parentVersion": "OxzOp9BjAzHkWU",
+  "_activeVersion": "f1KXDdk6H5Cuyw",
+  "_parentVersion": "aHNEAb2u3hEfx6",
   "currentVersion": {
-    "development": "2.9",
-    "live": "2.9"
+    "live": "2.11",
+    "development": "2.11"
   },
   "showOnLauncher": true,
   "tabsBackground": "#fafafa",
@@ -559,271 +828,5 @@
   "launcherBackground": "#009fda",
   "launcherForeground": "#ffffff",
   "devices-allowed-html": "",
-  "isLockedByCurrentUser": false,
-  "versions": [
-    {
-      "id": "C1PfWVl7WhMuB8",
-      "name": "ALS-1794",
-      "time": 1614242552836,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "qS8fRc-53J9_wx",
-      "parentVersion": "BcVkCmokLuLItj"
-    },
-    {
-      "id": "EDStyD8hOe2VFT",
-      "name": "SS-880",
-      "time": 1614337532735,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "parentVersion": "C1PfWVl7WhMuB8"
-    },
-    {
-      "id": "K6XQi-4Izm--xn",
-      "name": "Chase Tasks 1",
-      "time": 1614697823524,
-      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
-      "locked": true,
-      "parentVersion": "EDStyD8hOe2VFT"
-    },
-    {
-      "id": "FsvlEIgiK26hPR",
-      "name": "Query Weirdness",
-      "time": 1614860415537,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "parentVersion": "K6XQi-4Izm--xn"
-    },
-    {
-      "id": "cjErwa7MM-Ewz-",
-      "name": "TSO Task Changes for Main Branch",
-      "time": 1614933847348,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "parentVersion": "FsvlEIgiK26hPR"
-    },
-    {
-      "id": "qi8l6tS1GFoVQs",
-      "name": "SS-1774 Fixes",
-      "time": 1615194060922,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "parentVersion": "cjErwa7MM-Ewz-"
-    },
-    {
-      "id": "NbMIKPGbBquAl4",
-      "name": "SS-914",
-      "time": 1615203069623,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "Q9pYTwzde_7eMx",
-      "parentVersion": "qi8l6tS1GFoVQs"
-    },
-    {
-      "id": "akRqo9F7DpShoU",
-      "name": "16th March 21",
-      "time": 1615912069255,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "PLByWaLlYSAlcW",
-      "parentVersion": "NbMIKPGbBquAl4"
-    },
-    {
-      "id": "Rs6jmTTdTmuqKn",
-      "name": "18th March 21 End of Day Bulk",
-      "time": 1616084221934,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "bkA3B34R2jzRIK",
-      "parentVersion": "akRqo9F7DpShoU"
-    },
-    {
-      "id": "lix7QU_ebr6wBF",
-      "name": "22 March First Thing",
-      "time": 1616402520780,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "327iFVDKFdr0ly",
-      "parentVersion": "Rs6jmTTdTmuqKn"
-    },
-    {
-      "id": "0idvLFLXGZOAbc",
-      "name": "Pre 884 Merge",
-      "time": 1616582163271,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "mYmySWwGk0_heh",
-      "parentVersion": "lix7QU_ebr6wBF"
-    },
-    {
-      "id": "XRCHVoZEfTDZGF",
-      "name": "SLAs and CRM ID Integration",
-      "time": 1616601220266,
-      "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
-      "locked": true,
-      "_selectId": "ky6JCwVKzPYDxG",
-      "parentVersion": "0idvLFLXGZOAbc"
-    },
-    {
-      "id": "cl_BZ7vLEJHPY1",
-      "name": "SS-1945 Changes",
-      "time": 1617701916484,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "Gz9sAdgkwisXmT",
-      "parentVersion": "XRCHVoZEfTDZGF"
-    },
-    {
-      "id": "UIsFpJ7xjvqyHt",
-      "name": "SS-1957 Changes",
-      "time": 1617706963778,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "yV-7ENNSDVjh8w",
-      "parentVersion": "cl_BZ7vLEJHPY1"
-    },
-    {
-      "id": "aQxzCgNKgXhEzf",
-      "name": "SS-1982 Done",
-      "time": 1617868811426,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "bes8P76G54qsnm",
-      "parentVersion": "UIsFpJ7xjvqyHt"
-    },
-    {
-      "id": "9ZSkVS-3D6eiSO",
-      "name": "09Apr21 AM",
-      "time": 1617957434538,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "S1QPLwosRs9yms",
-      "parentVersion": "aQxzCgNKgXhEzf"
-    },
-    {
-      "id": "WTtVKOZoWsUNAE",
-      "name": "Removed Gubbins just search",
-      "time": 1618056722725,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "7EZeD1IMVx8y4D",
-      "parentVersion": "9ZSkVS-3D6eiSO"
-    },
-    {
-      "id": "z-ZeC55-DG1pGU",
-      "name": "Post Layout Changes",
-      "time": 1618213621875,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "plLNbbPsY10UUH",
-      "parentVersion": "WTtVKOZoWsUNAE"
-    },
-    {
-      "id": "AX4-tHfgjE2NWu",
-      "name": "Clean Up of Updaters",
-      "time": 1618221071141,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "gN59mjFwAkX76a",
-      "parentVersion": "z-ZeC55-DG1pGU"
-    },
-    {
-      "id": "5ijUdvsgFgT9oY",
-      "name": "Search Problems",
-      "time": 1618301462776,
-      "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-      "locked": true,
-      "_selectId": "QlrwzE3-77J7aU",
-      "parentVersion": "AX4-tHfgjE2NWu"
-    },
-    {
-      "id": "npTVKST3B-G9ch",
-      "name": "1.1",
-      "time": 1618318822836,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "5ijUdvsgFgT9oY"
-    },
-    {
-      "id": "Rnh-67_l9GBnu5",
-      "name": "1.2",
-      "time": 1618318945568,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "npTVKST3B-G9ch"
-    },
-    {
-      "id": "-Qlmu6eOoKWwak",
-      "name": "1.3",
-      "time": 1618319057005,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "Rnh-67_l9GBnu5"
-    },
-    {
-      "id": "vSlk7JPP53NoEN",
-      "name": "1.4",
-      "time": 1618319155591,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "-Qlmu6eOoKWwak"
-    },
-    {
-      "id": "ZURijsrTCwPZWu",
-      "name": "1.5",
-      "time": 1618319235330,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "vSlk7JPP53NoEN"
-    },
-    {
-      "id": "xp9OhnN2XjzkjX",
-      "name": "1.6",
-      "time": 1618319480395,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "ZURijsrTCwPZWu"
-    },
-    {
-      "id": "CCaWuZrHbhHYdz",
-      "name": "2.1",
-      "time": 1618320292452,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "xp9OhnN2XjzkjX"
-    },
-    {
-      "id": "EHbsq2C_loqoPS",
-      "name": "2.3",
-      "time": 1618320838195,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "CCaWuZrHbhHYdz"
-    },
-    {
-      "id": "ToP0k0yvfMIFHo",
-      "name": "2.4",
-      "time": 1618320962516,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "EHbsq2C_loqoPS"
-    },
-    {
-      "id": "RCaxsEojR9cMds",
-      "name": "2.7",
-      "time": 1618335894290,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": true,
-      "parentVersion": "ToP0k0yvfMIFHo"
-    },
-    {
-      "content": "{\"__\":\"fGD64McWP-E1w3\",\"_id\":\"xrZZ1cpUqL-9Fsc7km0h:hestia/app-types\",\"__id\":\"ogTQGlJ3OP\",\"__ok\":true,\"icon\":\"FaSearchengin\",\"name\":\"SafeSupplier Client\",\"_type\":\"application\",\"table\":\"SafeSupplier Client-sXu2tH3Ca7\",\"theme\":{\"other\":{\"opacity\":{\"AlcOpacity_001\":\"10%\",\"AlcOpacity_002\":\"25%\",\"AlcOpacity_003\":\"50%\",\"AlcOpacity_004\":\"75%\"},\"palette\":{\"gold\":\"gold\",\"type\":\"light\",\"bronze\":\"#853\",\"silver\":\"silver\",\"primary\":{\"main\":\"#1da7e0\",\"contrastText\":\"#fff\"},\"AlcSys_001\":\"#FFFFFF\",\"AlcSys_002\":\"#F7F8F9\",\"AlcSys_003\":\"#F4F5F6\",\"AlcSys_004\":\"#EBEBED\",\"AlcSys_005\":\"#CCCCCC\",\"AlcSys_006\":\"rgba(125, 125, 125, 1)\",\"AlcSys_007\":\"#263836\",\"AlcSys_008\":\"#000000\",\"AlcBrand_001\":\"#1da7e0\",\"AlcBrand_002\":\"#0081AF\",\"AlcBrand_003\":\"#294A76\",\"AlcBrand_004\":\"#0099B3\",\"AlcBrand_005\":\"#604696\",\"AlcBrand_006\":\"#D26A37\",\"AlcBrand_007\":\"#679861\",\"AlcBrand_008\":\"#EBBA00\",\"AlcBrand_009\":\"#8C1D82\",\"AlcBrand_010\":\"#DC840A\",\"AlcSys_006_10\":\"rgba(125, 125, 125, .1)\",\"AlcSys_006_25\":\"rgba(125, 125, 125, .25)\",\"AlcSys_006_50\":\"rgba(125, 125, 125, .50)\",\"AlcSys_006_75\":\"rgba(125, 125, 125, .75)\",\"AlcSys_Grad001\":\"linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)\",\"AlcSys_Grad002\":\"linear-gradient(55deg, #1da7e0 100%, #604696 100%)\",\"AlcSysState_prog\":\"rgba(235, 186, 0, 1)\",\"AlcSysState_risk\":\"rgba(233, 75, 75, 1)\",\"AlcSysState_green\":\"rgba(63, 195, 128, 1)\",\"AlcSysState_issue\":\"rgba(233, 165, 75, 1)\",\"AlcSysState_prog_10\":\"rgba(235, 186, 0, .1)\",\"AlcSysState_prog_25\":\"rgba(235, 186, 0,.251)\",\"AlcSysState_prog_50\":\"rgba(235, 186, 0,.5)\",\"AlcSysState_prog_75\":\"rgba(235, 186, 0, .75)\",\"AlcSysState_risk_10\":\"rgba(233, 75, 75, .1)\",\"AlcSysState_risk_25\":\"rgba(233, 75, 75, .25)\",\"AlcSysState_risk_50\":\"rgba(233, 75, 75, .50)\",\"AlcSysState_risk_75\":\"rgba(233, 75, 75, .75)\",\"AlcSysState_green_10\":\"rgba(63, 195, 128, 0.1)\",\"AlcSysState_green_25\":\"rgba(63, 195, 128, 0.25)\",\"AlcSysState_green_50\":\"rgba(63, 195, 128, 0.5)\",\"AlcSysState_green_75\":\"rgba(63, 195, 128, 0.75)\",\"AlcSysState_issue_10\":\"rgba(233, 165, 75, .1)\",\"AlcSysState_issue_25\":\"rgba(233, 165, 75, .25)\",\"AlcSysState_issue_50\":\"rgba(233, 165, 75, .50)\",\"AlcSysState_issue_75\":\"rgba(233, 165, 75, .75)\"},\"document\":{\"form\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"child\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"typography\":{\"h1\":{\"fontSize\":\"2.8em\",\"fontFamily\":\"Montserrat, sans-serif\",\"fontWeight\":700},\"h2\":{\"fontSize\":\"2.3em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h3\":{\"fontSize\":\"2em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h4\":{\"fontSize\":\"1.667em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h5\":{\"fontSize\":\"1.333em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h6\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"body1\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Roboto\"},\"body2\":{\"fontSize\":\"1em\",\"fontFamily\":\"Roboto\"},\"body3\":{\"fontSize\":\"0.9em\",\"fontFamily\":\"Roboto\"},\"body4\":{\"fontSize\":\"14px\",\"fontFamily\":\"Roboto\"},\"overline\":{\"fontSize\":\"0.917em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500,\"textTransform\":\"uppercase\"},\"Action1_Medium\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action2_Medium\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action1_Regular\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\"},\"Action2_Regular\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\"},\"Action1_SemiBold\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600},\"Action2_SemiBold\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600}}},\"theme\":\"\",\"permanentTheme\":\"\"},\"$valid\":true,\"__size\":25398,\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[\"ClientAppAccess\"],\"$creator\":\"f389cfaa-0b2a-4653-8c35-32aa5486efe7\",\"$invalid\":false,\"__cached\":1618240221589,\"_created\":1618298738000,\"_deleted\":0,\"database\":\"applications\",\"maxWidth\":1000,\"uniqueId\":\"sXu2tH3Ca7\",\"_modified\":1618335895532,\"__modified\":1613381707249,\"components\":\"card 2.0,extra-layout,formprogress,filters,navigation,verification\",\"isLockedBy\":null,\"navigation\":[],\"showOnMenu\":true,\"__namespace\":\"broken_sidebar\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"Qo42Sg6Kz\",\"name\":\"Main\",\"sections\":[{\"id\":\"1618056451103-KC_idDVsdnjiO3\",\"_id\":\"1618056451103-KC_idDVsdnjiO3:hestia/form-sections\",\"name\":\"Admin\",\"_expanded\":true,\"_selectId\":\"1bwKeVNeNcRzY8\",\"condition\":\"\",\"questions\":[{\"id\":\"ett2e2P0VQDVzU\",\"name\":\"\",\"type\":\"sidebar\",\"hints\":{},\"width\":\"300\",\"question\":\"\",\"_selectId\":\"WiHpucumW9U9IU\",\"condition\":\"\",\"sidebarSide\":\"left\"},{\"id\":\"Nist4yH9Wfs6nD\",\"name\":\"goodsToggle\",\"type\":\"filterSwitch\",\"hints\":{},\"where\":{\"$and\":[{\"supplierType\":{\"$in\":[\"goods\"]}}]},\"caption\":\"Goods and Materials\",\"offQuery\":false,\"question\":\"\",\"_selectId\":\"-yxYtBag00tbZW\",\"condition\":\"\",\"lookupType\":\"XZln-jesEx-9Fsc7km0h:hestia/document-types\",\"lookupTypeName\":\"Client Questionnaires\",\"defaultSwitchSetting\":\"\"},{\"id\":\"o2MPD9Pei7T5U6\",\"name\":\"serviceToggle\",\"type\":\"filterSwitch\",\"hints\":{},\"where\":{\"$and\":[{\"supplierType\":{\"$in\":[\"services\"]}}]},\"caption\":\"Service Provider\",\"offQuery\":false,\"question\":\"\",\"_selectId\":\"2_QJojV1qdqg21\",\"condition\":\"\",\"lookupType\":\"XZln-jesEx-9Fsc7km0h:hestia/document-types\",\"lookupTypeName\":\"Client Questionnaires\",\"defaultSwitchSetting\":\"\"},{\"id\":\"bqHoa7fK52Y84L\",\"name\":\"healthToggle\",\"type\":\"filterSwitch\",\"hints\":{},\"where\":{\"$and\":[{\"supplierType\":{\"$in\":[\"health\"]}}]},\"caption\":\"Health and Social\",\"offQuery\":false,\"question\":\"\",\"_selectId\":\"j7Eu78fz-M-qDB\",\"condition\":\"\",\"lookupType\":\"XZln-jesEx-9Fsc7km0h:hestia/document-types\",\"lookupTypeName\":\"Client Questionnaires\",\"defaultSwitchSetting\":\"\"},{\"id\":\"pNEJDSDl7B4qJP\",\"name\":\"travelToggle\",\"type\":\"filterSwitch\",\"hints\":{},\"where\":{\"$and\":[{\"supplierType\":{\"$in\":[\"travel\"]}}]},\"caption\":\"Travel and Accommodation\",\"offQuery\":false,\"question\":\"\",\"_selectId\":\"ki07aEFZt6kz-6\",\"condition\":\"\",\"lookupType\":\"XZln-jesEx-9Fsc7km0h:hestia/document-types\",\"lookupTypeName\":\"Client Questionnaires\",\"defaultSwitchSetting\":\"\"},{\"id\":\"vKCLPiS9Qg1dmK\",\"name\":\"consultancyToggle\",\"type\":\"filterSwitch\",\"hints\":{},\"where\":{\"$and\":[{\"supplierType\":{\"$in\":[\"consultancy\"]}}]},\"caption\":\"Consultancy and Professional\",\"offQuery\":false,\"question\":\"\",\"_selectId\":\"DfVDsusnb-zlPq\",\"condition\":\"\",\"lookupType\":\"XZln-jesEx-9Fsc7km0h:hestia/document-types\",\"lookupTypeName\":\"Client Questionnaires\",\"defaultSwitchSetting\":\"\"},{\"id\":\"AOeWJG2cvrbg2f\",\"name\":\"\",\"type\":\"stop\",\"hints\":{},\"question\":\"\",\"stopWhat\":[\"sidebar\"],\"_selectId\":\"DTPgguA7lw5uX2\",\"condition\":\"\"}],\"description\":\"\"},{\"id\":\"1609233799054-od7diCNuv\",\"_id\":\"1609233799054-od7diCNuv:hestia/form-sections\",\"name\":\"...\",\"_expanded\":true,\"_selectId\":\"rJAR03meg\",\"condition\":\"\",\"questions\":[{\"id\":\"02XFlzdlUQmwP2\",\"name\":\"nameSearch\",\"type\":\"text\",\"hints\":{\"search_box\":true,\"placeholder\":true},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"Jwyiz8vvNXamJC\",\"condition\":\"\",\"inputLabel\":\" \",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"inputPlaceholder\":\"Search by Company Name or Reference Number...\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"mXSqwn-SDwh_7S\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<p>There are no results for your search....</p>\\n\",\"_selectId\":\"AF2U3wQsfDlt3Z\",\"condition\":\"valueLT(\\\"accountsList\\\", 1)\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"iLz-0Wr-v_QgpQ\",\"name\":\"accountsList\",\"rows\":10,\"type\":\"documentList\",\"hints\":{\"paginateAbove\":true,\"paginateBelow\":true},\"where\":{\"$and\":[{\"$query\":{\"$where\":{\"field\":\"goodsToggle\"}}},{\"$query\":{\"$where\":{\"field\":\"healthToggle\"}}},{\"$query\":{\"$where\":{\"field\":\"serviceToggle\"}}},{\"$query\":{\"$where\":{\"field\":\"consultancyToggle\"}}},{\"$query\":{\"$where\":{\"field\":\"travelToggle\"}}}]},\"listType\":\"XZln-jesEx-9Fsc7km0h:hestia/document-types\",\"question\":\"\",\"_selectId\":\"7CYj6D1nQuLV_2\",\"condition\":\"\",\"emptyView\":\"lsJnKXgQyw\",\"dataSource\":\"bUL95uWw1SZgBu\",\"filterText\":\"{nameSearch}\",\"navigation\":[],\"displayView\":\"AQwJl9kcFoiWGX\",\"sortColumns\":[{\"id\":\"n12ysme16fTwSl\",\"field\":\"supplierAccount.accountName\",\"defaultValue\":\"\",\"sortDirection\":\"asc\"}],\"listTypeName\":\"Client Questionnaires\",\"displayFields\":[],\"filterColumns\":[{\"id\":\"dDiawjKsXukEch\",\"field\":\"accountName\",\"defaultValue\":\"\"},{\"id\":\"ENXN-BG8fyy3UY\",\"field\":\"crmAccountNumber\",\"defaultValue\":\"\"}],\"useDataSource\":false,\"dataSourceName\":\"verifiedSupplierAccounts\",\"emptyView_name\":\"Supplier Account Card 2.0\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"List of Suppliers for Clients\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}],\"description\":\"\"}],\"_selectId\":\"etOx1ws3dk\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"styled\":[{\"id\":\"GmL4peXO3\",\"css\":\" .documentList .MuiCard-root{\\n        margin-bottom: 10px;\\n }\\n\",\"name\":\"Copy of \\\"\\\"\",\"_init\":true,\"_selectId\":\"QhlycbFBmr\",\"loadTailWind\":\"\",\"$behaviourType\":\"styled\"}],\"formAction\":[{\"id\":\"C3OcLRvRL1\",\"name\":\"Main\",\"forms\":[{\"id\":\"vTRT72-epl\",\"form\":\"Qo42Sg6Kz\"}],\"inline\":true,\"actions\":[],\"$readOnly\":false,\"_selectId\":\"L2tOP9nV5s\",\"inputStates\":[\"default\"]}]}},\"createOnNew\":true,\"description\":\"\",\"displayName\":\"SafeSupplier Client\",\"specificUrl\":false,\"__originalId\":\"FvXKV8SkZ:hestia/app-types\",\"defaultState\":\"default\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"OxzOp9BjAzHkWU\",\"_parentVersion\":\"RCaxsEojR9cMds\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"showOnLauncher\":true,\"tabsBackground\":\"#fafafa\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"C3OcLRvRL1\",\"devices-allowed\":\"\",\"launcherCaption\":\"SafeSupplier Client\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#ffffff\",\"sidebarBackground\":\"#f5f5f5\",\"documentBackground\":\"#ffffff\",\"launcherBackground\":\"#009fda\",\"launcherForeground\":\"#ffffff\",\"devices-allowed-html\":\"\",\"isLockedByCurrentUser\":false}",
-      "parentVersion": "RCaxsEojR9cMds",
-      "id": "OxzOp9BjAzHkWU",
-      "time": 1618337316640,
-      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "name": "2.9",
-      "locked": true
-    }
-  ]
+  "isLockedByCurrentUser": false
 }
