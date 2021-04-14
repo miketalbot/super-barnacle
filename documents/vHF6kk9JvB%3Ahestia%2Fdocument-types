@@ -1,5 +1,5 @@
 {
-  "__": "VEAsr0RFWhkFgp",
+  "__": "6uW9_QAw3BlToO",
   "_id": "vHF6kk9JvB:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -177,7 +177,7 @@
     },
     "hBWvI6RfjCiDN1": {
       "publishDocs": true,
-      "gitHubPublish": true
+      "gitHubPublish": false
     }
   },
   "locked": false,
@@ -436,14 +436,14 @@
     {
       "id": "_SjcLAhYYVl43G",
       "name": "2.10",
-      "time": 1618390113375,
+      "time": 1618391345160,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "eEmbO8okqJFNoo",
+      "_selectId": "37s-mOcavl3ZXx",
       "parentVersion": "h8Uwd6I5qWwMls"
     }
   ],
-  "_modified": 1618386513000,
+  "_modified": 1618387745000,
   "__modified": 1613381719074,
   "components": "card 2.0",
   "isLockedBy": null,
@@ -676,7 +676,7 @@
     "_state": ""
   },
   "createOnNew": true,
-  "description": "<p>This is the normal client</p>\n",
+  "description": "<p>First one</p>\n",
   "displayName": "Client",
   "publishDocs": true,
   "__originalId": "vHF6kk9JvB:hestia/document-types",
@@ -711,7 +711,7 @@
   "devices-allowed-html": "",
   "isLockedByCurrentUser": false,
   "_original": {
-    "__": "VEAsr0RFWhkFgp",
+    "__": "6uW9_QAw3BlToO",
     "_id": "vHF6kk9JvB:hestia/document-types",
     "__ok": true,
     "icon": "",
@@ -889,7 +889,7 @@
       },
       "hBWvI6RfjCiDN1": {
         "publishDocs": true,
-        "gitHubPublish": true
+        "gitHubPublish": false
       }
     },
     "locked": false,
@@ -1148,14 +1148,14 @@
       {
         "id": "_SjcLAhYYVl43G",
         "name": "2.10",
-        "time": 1618390113375,
+        "time": 1618391345160,
         "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
         "locked": false,
-        "_selectId": "eEmbO8okqJFNoo",
+        "_selectId": "37s-mOcavl3ZXx",
         "parentVersion": "h8Uwd6I5qWwMls"
       }
     ],
-    "_modified": 1618386513000,
+    "_modified": 1618387745000,
     "__modified": 1613381719074,
     "components": "card 2.0",
     "isLockedBy": null,
@@ -1388,7 +1388,7 @@
       }
     },
     "createOnNew": true,
-    "description": "<p>This is the normal client</p>\n",
+    "description": "<p>First one</p>\n",
     "displayName": "Client",
     "publishDocs": true,
     "__originalId": "vHF6kk9JvB:hestia/document-types",
