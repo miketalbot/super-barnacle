@@ -1,5 +1,5 @@
 {
-  "__": "sareKITtCKYWsE",
+  "__": "Smt_lL92jkhZTC",
   "_id": "TslPJQgA7:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -13,204 +13,10 @@
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "$creator": "15b779b1-e135-4313-b0b7-6dac1755adb8",
-  "_created": 1605860549000,
+  "_created": 1618298745000,
   "_deleted": 0,
   "database": "ss_ExpiredDocuments",
   "maxWidth": 1000,
-  "_modified": 1618335889612,
-  "__modified": 1613381721221,
-  "components": "card 2.0,extra-layout,formprogress,navigation",
-  "isLockedBy": null,
-  "navigation": [],
-  "__namespace": "",
-  "_behaviours": {
-    "_state": "",
-    "instances": {
-      "form": [
-        {
-          "id": "BVka8tf52d",
-          "name": "Main",
-          "sections": [
-            {
-              "name": "Main",
-              "_expanded": true,
-              "_selectId": "W7xK7FPqZm",
-              "questions": [
-                {
-                  "id": "fJSNVkCIS",
-                  "name": "questionnaireLink",
-                  "type": "linkDocument",
-                  "hints": {
-                    "hidden": true
-                  },
-                  "openType": "",
-                  "question": "",
-                  "_selectId": "f3k4w-B4X_",
-                  "buttonIcon": {},
-                  "createType": "TslPJQgA7:hestia/document-types",
-                  "buttonCaption": "",
-                  "createTypeName": "Expired Documents",
-                  "documentToLink": "{$activeClient}:newss_aSupplierQuestionnaire/ss_aSupplierQuestionnaire",
-                  "questionHeight": "",
-                  "createIfMissing": true,
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "6SWf8hWbK",
-                  "name": "hasExpiredDocuments",
-                  "type": "boolean",
-                  "hints": {},
-                  "choices": [
-                    {
-                      "label": "Yes",
-                      "value": "yes"
-                    },
-                    {
-                      "label": "No",
-                      "value": "no"
-                    }
-                  ],
-                  "question": "",
-                  "_selectId": "ywNO8j4qBe",
-                  "condition": "",
-                  "questionHeight": "",
-                  "trueInputLabel": "<p>Yes</p>\n",
-                  "falseInputLabel": "<p>No</p>\n",
-                  "questionSpaceBefore": "",
-                  "selectedDefaultValue": "-1"
-                }
-              ]
-            }
-          ],
-          "_selectId": "_BgUZlFEflsqu8",
-          "condition": "",
-          "description": "",
-          "duplicateNames": {}
-        }
-      ],
-      "card2_0": [
-        {
-          "id": "f_UR7Gd6g",
-          "name": "Expired Documents Summary",
-          "bands": [
-            {
-              "id": "vWuYN9MiP",
-              "type": "flex",
-              "wrap": "",
-              "align": "center",
-              "justify": "center",
-              "contents": [
-                {
-                  "id": "UOLM0lUrh",
-                  "type": "flex",
-                  "wrap": "",
-                  "align": "center",
-                  "justify": "center",
-                  "contents": [
-                    {
-                      "id": "nz4whaqmn",
-                      "icon": "FaCalendarTimes",
-                      "size": "medium",
-                      "type": "fixedicon",
-                      "margin": "",
-                      "_selectId": "Dcxw5ZxgZo",
-                      "backgroundColor": "#ffffff",
-                      "foregroundColor": "#131c1b"
-                    },
-                    {
-                      "id": "dae7vkMp8",
-                      "text": "<p><span style=\"font-family: Montserrat;\">Expired documents</span></p>\n",
-                      "type": "richtext",
-                      "_selectId": "0zdknCuXBM",
-                      "topMargin": "",
-                      "leftMargin": "",
-                      "rightMargin": "",
-                      "bottomMargin": "",
-                      "standardTextColor": ""
-                    }
-                  ],
-                  "growLast": true,
-                  "_selectId": "Xgt18zUixa",
-                  "growFirst": ""
-                },
-                {
-                  "id": "cdovGN6_4",
-                  "type": "flex",
-                  "contents": [
-                    {
-                      "id": "TN8JOFu8d",
-                      "text": "<p>You have no expired documents</p>\n",
-                      "type": "richtext",
-                      "_selectId": "rPx84Zcx7D",
-                      "topMargin": "",
-                      "leftMargin": "",
-                      "rightMargin": "",
-                      "bottomMargin": "",
-                      "standardTextColor": ""
-                    }
-                  ],
-                  "_selectId": "Fh6ZnFVjQC"
-                }
-              ],
-              "growLast": "",
-              "_selectId": "2uKL-hRA04",
-              "growFirst": true
-            }
-          ],
-          "__init": true,
-          "_selectId": "Qc-jDzxw88yQtS",
-          "topMargin": "",
-          "leftMargin": "",
-          "rightMargin": "",
-          "bottomMargin": "",
-          "requiredFields": []
-        }
-      ],
-      "formAction": [
-        {
-          "id": "ESzNGKXjk3",
-          "name": "Main",
-          "forms": [
-            {
-              "id": "0gAMFgZyVW",
-              "form": "BVka8tf52d"
-            }
-          ],
-          "inline": true,
-          "actions": [],
-          "_selectId": "G7qcC3gy54eR6x",
-          "inputStates": [
-            "New"
-          ]
-        }
-      ]
-    }
-  },
-  "createOnNew": false,
-  "description": "",
-  "displayName": "Expired Documents",
-  "__originalId": "TslPJQgA7:hestia/document-types",
-  "defaultState": "New",
-  "sidebarColor": "#333",
-  "tabsSelected": "#009fda",
-  "__warnReasons": [],
-  "documentColor": "#333",
-  "_activeVersion": "BbJht_D3DKVZZH",
-  "_parentVersion": "-yuV81sfKDpkOz",
-  "currentVersion": {
-    "development": "2.9",
-    "live": "2.9"
-  },
-  "tabsBackground": "#f4f4f4",
-  "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "ESzNGKXjk3",
-  "sideBarMinWidth": 150,
-  "documentBackdrop": "#f4f4f4",
-  "questionnaireLink": "IoESTLn2g:newss_aSupplierQuestionnaire/ss_aSupplierQuestionnaire",
-  "sidebarBackground": "#fff",
-  "documentBackground": "#f4f4f4",
-  "isLockedByCurrentUser": false,
   "versions": [
     {
       "id": "DeBbEIU3U6Flk4",
@@ -442,13 +248,212 @@
       "parentVersion": "yRi0fEtOwIzw0W"
     },
     {
-      "content": "{\"__\":\"sareKITtCKYWsE\",\"_id\":\"TslPJQgA7:hestia/document-types\",\"__ok\":true,\"icon\":\"\",\"name\":\"Expired Documents\",\"tags\":[],\"_type\":\"document\",\"table\":\"ss_ExpiredDocuments\",\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[],\"$creator\":\"15b779b1-e135-4313-b0b7-6dac1755adb8\",\"_created\":1605860549000,\"_deleted\":0,\"database\":\"ss_ExpiredDocuments\",\"maxWidth\":1000,\"_modified\":1618335889612,\"__modified\":1613381721221,\"components\":\"card 2.0,extra-layout,formprogress,navigation\",\"isLockedBy\":null,\"navigation\":[],\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"BVka8tf52d\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"W7xK7FPqZm\",\"questions\":[{\"id\":\"fJSNVkCIS\",\"name\":\"questionnaireLink\",\"type\":\"linkDocument\",\"hints\":{\"hidden\":true},\"openType\":\"\",\"question\":\"\",\"_selectId\":\"f3k4w-B4X_\",\"buttonIcon\":{},\"createType\":\"TslPJQgA7:hestia/document-types\",\"buttonCaption\":\"\",\"createTypeName\":\"Expired Documents\",\"documentToLink\":\"{$activeClient}:newss_aSupplierQuestionnaire/ss_aSupplierQuestionnaire\",\"questionHeight\":\"\",\"createIfMissing\":true,\"questionSpaceBefore\":\"\"},{\"id\":\"6SWf8hWbK\",\"name\":\"hasExpiredDocuments\",\"type\":\"boolean\",\"hints\":{},\"choices\":[{\"label\":\"Yes\",\"value\":\"yes\"},{\"label\":\"No\",\"value\":\"no\"}],\"question\":\"\",\"_selectId\":\"ywNO8j4qBe\",\"condition\":\"\",\"questionHeight\":\"\",\"trueInputLabel\":\"<p>Yes</p>\\n\",\"falseInputLabel\":\"<p>No</p>\\n\",\"questionSpaceBefore\":\"\",\"selectedDefaultValue\":\"-1\"}]}],\"_selectId\":\"_BgUZlFEflsqu8\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"card2_0\":[{\"id\":\"f_UR7Gd6g\",\"name\":\"Expired Documents Summary\",\"bands\":[{\"id\":\"vWuYN9MiP\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"UOLM0lUrh\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"center\",\"contents\":[{\"id\":\"nz4whaqmn\",\"icon\":\"FaCalendarTimes\",\"size\":\"medium\",\"type\":\"fixedicon\",\"margin\":\"\",\"_selectId\":\"Dcxw5ZxgZo\",\"backgroundColor\":\"#ffffff\",\"foregroundColor\":\"#131c1b\"},{\"id\":\"dae7vkMp8\",\"text\":\"<p><span style=\\\"font-family: Montserrat;\\\">Expired documents</span></p>\\n\",\"type\":\"richtext\",\"_selectId\":\"0zdknCuXBM\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"standardTextColor\":\"\"}],\"growLast\":true,\"_selectId\":\"Xgt18zUixa\",\"growFirst\":\"\"},{\"id\":\"cdovGN6_4\",\"type\":\"flex\",\"contents\":[{\"id\":\"TN8JOFu8d\",\"text\":\"<p>You have no expired documents</p>\\n\",\"type\":\"richtext\",\"_selectId\":\"rPx84Zcx7D\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"standardTextColor\":\"\"}],\"_selectId\":\"Fh6ZnFVjQC\"}],\"growLast\":\"\",\"_selectId\":\"2uKL-hRA04\",\"growFirst\":true}],\"__init\":true,\"_selectId\":\"Qc-jDzxw88yQtS\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"requiredFields\":[]}],\"formAction\":[{\"id\":\"ESzNGKXjk3\",\"name\":\"Main\",\"forms\":[{\"id\":\"0gAMFgZyVW\",\"form\":\"BVka8tf52d\"}],\"inline\":true,\"actions\":[],\"_selectId\":\"G7qcC3gy54eR6x\",\"inputStates\":[\"New\"]}]}},\"createOnNew\":false,\"description\":\"\",\"displayName\":\"Expired Documents\",\"__originalId\":\"TslPJQgA7:hestia/document-types\",\"defaultState\":\"New\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"-yuV81sfKDpkOz\",\"_parentVersion\":\"ph-qpFHySsfEBJ\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"tabsBackground\":\"#f4f4f4\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"ESzNGKXjk3\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#f4f4f4\",\"questionnaireLink\":\"IoESTLn2g:newss_aSupplierQuestionnaire/ss_aSupplierQuestionnaire\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#f4f4f4\",\"isLockedByCurrentUser\":false}",
-      "parentVersion": "ph-qpFHySsfEBJ",
       "id": "-yuV81sfKDpkOz",
+      "name": "2.9",
       "time": 1618337312457,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "name": "2.9",
-      "locked": true
+      "locked": true,
+      "parentVersion": "ph-qpFHySsfEBJ"
+    },
+    {
+      "id": "BbJht_D3DKVZZH",
+      "name": "2.11",
+      "time": 1618406231383,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "-yuV81sfKDpkOz"
     }
-  ]
+  ],
+  "_modified": 1618402635000,
+  "components": "card 2.0,extra-layout,formprogress,navigation",
+  "isLockedBy": null,
+  "navigation": [],
+  "_behaviours": {
+    "instances": {
+      "form": [
+        {
+          "id": "BVka8tf52d",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "W7xK7FPqZm",
+              "questions": [
+                {
+                  "id": "fJSNVkCIS",
+                  "name": "questionnaireLink",
+                  "type": "linkDocument",
+                  "hints": {
+                    "hidden": true
+                  },
+                  "openType": "",
+                  "question": "",
+                  "_selectId": "f3k4w-B4X_",
+                  "buttonIcon": {},
+                  "createType": "TslPJQgA7:hestia/document-types",
+                  "buttonCaption": "",
+                  "createTypeName": "Expired Documents",
+                  "documentToLink": "{$activeClient}:newss_aSupplierQuestionnaire/ss_aSupplierQuestionnaire",
+                  "questionHeight": "",
+                  "createIfMissing": true,
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "6SWf8hWbK",
+                  "name": "hasExpiredDocuments",
+                  "type": "boolean",
+                  "hints": {},
+                  "choices": [
+                    {
+                      "label": "Yes",
+                      "value": "yes"
+                    },
+                    {
+                      "label": "No",
+                      "value": "no"
+                    }
+                  ],
+                  "question": "",
+                  "_selectId": "ywNO8j4qBe",
+                  "condition": "",
+                  "questionHeight": "",
+                  "trueInputLabel": "<p>Yes</p>\n",
+                  "falseInputLabel": "<p>No</p>\n",
+                  "questionSpaceBefore": "",
+                  "selectedDefaultValue": "-1"
+                }
+              ]
+            }
+          ],
+          "_selectId": "_BgUZlFEflsqu8",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "card2_0": [
+        {
+          "id": "f_UR7Gd6g",
+          "name": "Expired Documents Summary",
+          "bands": [
+            {
+              "id": "vWuYN9MiP",
+              "type": "flex",
+              "wrap": "",
+              "align": "center",
+              "justify": "center",
+              "contents": [
+                {
+                  "id": "UOLM0lUrh",
+                  "type": "flex",
+                  "wrap": "",
+                  "align": "center",
+                  "justify": "center",
+                  "contents": [
+                    {
+                      "id": "nz4whaqmn",
+                      "icon": "FaCalendarTimes",
+                      "size": "medium",
+                      "type": "fixedicon",
+                      "margin": "",
+                      "_selectId": "Dcxw5ZxgZo",
+                      "backgroundColor": "#ffffff",
+                      "foregroundColor": "#131c1b"
+                    },
+                    {
+                      "id": "dae7vkMp8",
+                      "text": "<p><span style=\"font-family: Montserrat;\">Expired documents</span></p>\n",
+                      "type": "richtext",
+                      "_selectId": "0zdknCuXBM",
+                      "topMargin": "",
+                      "leftMargin": "",
+                      "rightMargin": "",
+                      "bottomMargin": "",
+                      "standardTextColor": ""
+                    }
+                  ],
+                  "growLast": true,
+                  "_selectId": "Xgt18zUixa",
+                  "growFirst": ""
+                },
+                {
+                  "id": "cdovGN6_4",
+                  "type": "flex",
+                  "contents": [
+                    {
+                      "id": "TN8JOFu8d",
+                      "text": "<p>You have no expired documents</p>\n",
+                      "type": "richtext",
+                      "_selectId": "rPx84Zcx7D",
+                      "topMargin": "",
+                      "leftMargin": "",
+                      "rightMargin": "",
+                      "bottomMargin": "",
+                      "standardTextColor": ""
+                    }
+                  ],
+                  "_selectId": "Fh6ZnFVjQC"
+                }
+              ],
+              "growLast": "",
+              "_selectId": "2uKL-hRA04",
+              "growFirst": true
+            }
+          ],
+          "__init": true,
+          "_selectId": "Qc-jDzxw88yQtS",
+          "topMargin": "",
+          "leftMargin": "",
+          "rightMargin": "",
+          "bottomMargin": "",
+          "requiredFields": []
+        }
+      ],
+      "formAction": [
+        {
+          "id": "ESzNGKXjk3",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "0gAMFgZyVW",
+              "form": "BVka8tf52d"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "_selectId": "G7qcC3gy54eR6x",
+          "inputStates": [
+            "New"
+          ]
+        }
+      ]
+    },
+    "_state": ""
+  },
+  "createOnNew": false,
+  "description": "",
+  "displayName": "Expired Documents",
+  "__originalId": "TslPJQgA7:hestia/document-types",
+  "defaultState": "New",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "s0sSpvVDa1ncXk",
+  "_parentVersion": "BbJht_D3DKVZZH",
+  "currentVersion": {
+    "live": "2.11",
+    "development": "2.11"
+  },
+  "tabsBackground": "#f4f4f4",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "ESzNGKXjk3",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#f4f4f4",
+  "questionnaireLink": "IoESTLn2g:newss_aSupplierQuestionnaire/ss_aSupplierQuestionnaire",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#f4f4f4",
+  "isLockedByCurrentUser": false
 }
