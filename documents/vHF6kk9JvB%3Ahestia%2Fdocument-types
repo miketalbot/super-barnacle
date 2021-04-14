@@ -1,5 +1,5 @@
 {
-  "__": "Fp-nlhZHmwnFsR",
+  "__": "pM6LMfFHmyhvxZ",
   "_id": "vHF6kk9JvB:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -438,12 +438,20 @@
       "name": "2.10",
       "time": 1618406089755,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "locked": false,
+      "locked": true,
       "_selectId": "C_KPdxoejzkEql",
       "parentVersion": "h8Uwd6I5qWwMls"
+    },
+    {
+      "id": "uMCwo95UAvip9Y",
+      "name": "2.11",
+      "time": 1618406231359,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "_SjcLAhYYVl43G"
     }
   ],
-  "_modified": 1618402490000,
+  "_modified": 1618402632000,
   "components": "card 2.0",
   "isLockedBy": null,
   "navigation": [],
@@ -690,12 +698,11 @@
       "gitHubPublish": true
     }
   },
-  "_activeVersion": "uMCwo95UAvip9Y",
-  "_parentVersion": "_SjcLAhYYVl43G",
+  "_activeVersion": "ktrbuS6TnigBH6",
+  "_parentVersion": "uMCwo95UAvip9Y",
   "currentVersion": {
-    "live": "2.10",
-    "testing": "2.10",
-    "development": "2.10"
+    "live": "2.11",
+    "development": "2.11"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
