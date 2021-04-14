@@ -1,5 +1,5 @@
 {
-  "__": "s5Z18wRnrgpLf1",
+  "__": "kiUihqNgYfdNIO",
   "_id": "d0fXOh4wv4:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -168,7 +168,6 @@
     "permanentTheme": ""
   },
   "$valid": true,
-  "__size": 12323,
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
   "locked": false,
@@ -176,283 +175,10 @@
   "demands": [],
   "$creator": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
   "$invalid": false,
-  "__cached": 1615800734484,
   "_created": 1618298744000,
   "_deleted": 0,
   "database": "test",
   "maxWidth": 1000,
-  "__version": "1.0",
-  "_modified": 1618337259916,
-  "__modified": 1613484066372,
-  "components": "card 2.0",
-  "isLockedBy": null,
-  "navigation": [],
-  "__namespace": "broken_sidebar",
-  "_behaviours": {
-    "_state": "",
-    "instances": {
-      "form": [
-        {
-          "id": "Od3OUSOR0F",
-          "name": "Main",
-          "sections": [
-            {
-              "name": "Main",
-              "_expanded": true,
-              "_selectId": "h_jxR5OnVx",
-              "questions": [
-                {
-                  "id": "yMDj_ds9Ih",
-                  "name": "name",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "UiBdE4KuOv",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "-QBPKCjCX",
-                  "mode": "specific",
-                  "name": "team",
-                  "type": "topic",
-                  "hints": {},
-                  "topic": "eUJwcXIRF:hestia/topics",
-                  "groups": [],
-                  "concern": [
-                    "Team"
-                  ],
-                  "question": "",
-                  "_selectId": "_mjZjMuyax",
-                  "condition": "",
-                  "topicName": "Organisation",
-                  "inputLabel": "",
-                  "linkedField": "",
-                  "popupQuestion": "",
-                  "questionHeight": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "jt1a-exVP",
-                  "name": "email",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "1DO8y-_zjc",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "YgxhGkFfo3_K3Y",
-                  "name": "verificationCount",
-                  "type": "number",
-                  "hints": {
-                    "count": true
-                  },
-                  "question": "",
-                  "_selectId": "AKzC6e1Am6vkNG",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "0",
-                  "maximumValue": "",
-                  "minimumValue": "",
-                  "decimalPlaces": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                }
-              ]
-            }
-          ],
-          "_selectId": "wKd6EaTnVG",
-          "condition": "",
-          "description": "",
-          "duplicateNames": {}
-        }
-      ],
-      "card2_0": [
-        {
-          "id": "rCUGIVAhw",
-          "name": "Employee Card",
-          "bands": [
-            {
-              "id": "FF2CgrlOToAVIF",
-              "type": "flex",
-              "wrap": "",
-              "align": "center",
-              "justify": "flex-start",
-              "contents": [
-                {
-                  "id": "SSFmd_RjuAHq6e",
-                  "text": "<p><span style=\"font-family: Montserrat;\"><strong>{email}</strong></span></p>\n",
-                  "type": "richtext",
-                  "_selectId": "ZpnYcpK6X8QxCq",
-                  "topMargin": "",
-                  "leftMargin": "",
-                  "rightMargin": "",
-                  "bottomMargin": "",
-                  "enableEllipsis": "",
-                  "standardTextColor": ""
-                },
-                {
-                  "id": "NB_wakre1WKIrS",
-                  "text": "<p><span style=\"font-family: Montserrat;\"><strong>{team.name}</strong></span></p>\n",
-                  "type": "richtext",
-                  "_selectId": "KB3wJg-oTzWoe9",
-                  "topMargin": "",
-                  "leftMargin": "",
-                  "rightMargin": "",
-                  "bottomMargin": "",
-                  "enableEllipsis": "",
-                  "standardTextColor": ""
-                }
-              ],
-              "growLast": "",
-              "_selectId": "ftEeZY5wjLBicn",
-              "growFirst": true,
-              "topMargin": "",
-              "leftMargin": "",
-              "topPadding": 3,
-              "leftPadding": 3,
-              "rightMargin": "",
-              "bottomMargin": "",
-              "rightPadding": 3,
-              "bottomPadding": 3
-            },
-            {
-              "id": "r1iURvfabefisU",
-              "edge": "left",
-              "type": "sideColor",
-              "color": "#1da7e0",
-              "_selectId": "7whJSod3d6txcH"
-            }
-          ],
-          "__init": true,
-          "_selectId": "mHDKrkn9Ef",
-          "elevation": 3,
-          "topMargin": "",
-          "leftMargin": "",
-          "navigation": [],
-          "topPadding": 2,
-          "leftPadding": 2,
-          "rightMargin": "",
-          "bottomMargin": "",
-          "rightPadding": 2,
-          "bottomPadding": "",
-          "requiredFields": [],
-          "clickToNavigate": true
-        }
-      ],
-      "formAction": [
-        {
-          "id": "Ir_SSdZ1IH",
-          "name": "Main",
-          "_init": 1608566455621,
-          "color": "#fff",
-          "forms": [
-            {
-              "id": "QvzmC95Ej",
-              "form": "Od3OUSOR0F",
-              "readOnly": false,
-              "_selectId": "c6Nm5YaJ-j"
-            }
-          ],
-          "action": "",
-          "inline": true,
-          "actions": [
-            {
-              "id": "cco7-uQ0AH",
-              "blur": "",
-              "icon": "",
-              "color": "#fff",
-              "goBack": "",
-              "caption": "Register",
-              "command": "setData",
-              "toState": "Registered",
-              "variant": "text",
-              "openType": "",
-              "position": "bottom",
-              "_selectId": "b2sEIPlVjg",
-              "condition": "",
-              "endOfLine": "",
-              "navigateTo": false,
-              "properties": [],
-              "confirmation": "",
-              "errorMessage": "Error: Something went wrong please check again.",
-              "successMessage": "Success: New employee Registered.",
-              "backgroundColor": "#03a9f4",
-              "visibleCondition": "",
-              "notificationToast": true,
-              "replaceCurrentUrl": ""
-            }
-          ],
-          "storeIn": "",
-          "_selectId": "BvwyOyPYWd",
-          "editDemands": [],
-          "inputStates": [
-            "New"
-          ],
-          "visibleDemands": [],
-          "backgroundColor": "#03a9f4"
-        }
-      ],
-      "viewAsText": [
-        {
-          "id": "V-QYyBAN5",
-          "name": "Name",
-          "fields": [
-            {
-              "id": "s291OgkdX",
-              "field": "name",
-              "separator": " ",
-              "transform": "none",
-              "defaultValue": ""
-            }
-          ],
-          "_selectId": "cQEbt2YMmO",
-          "availableActions": []
-        }
-      ]
-    }
-  },
-  "createOnNew": false,
-  "description": "",
-  "displayName": "Employee",
-  "publishDocs": true,
-  "__originalId": "d0fXOh4wv4:hestia/document-types",
-  "defaultState": "New",
-  "sidebarColor": "#333",
-  "tabsSelected": "#009fda",
-  "__warnReasons": [],
-  "documentColor": "#333",
-  "_activeVersion": "abstlkRAyQABfA",
-  "_parentVersion": "5DxPp1patbHHJh",
-  "currentVersion": {
-    "development": "2.9",
-    "live": "2.9"
-  },
-  "tabsBackground": "#f4f4f4",
-  "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "Ir_SSdZ1IH",
-  "devices-allowed": "",
-  "sideBarMinWidth": 150,
-  "documentBackdrop": "#f4f4f4",
-  "sidebarBackground": "#fff",
-  "documentBackground": "#f4f4f4",
-  "devices-allowed-html": "",
-  "isLockedByCurrentUser": false,
   "versions": [
     {
       "id": "sRNLhC820k46tT",
@@ -714,13 +440,290 @@
       "parentVersion": "NsYdhErNWFMgcW"
     },
     {
-      "content": "{\"__\":\"s5Z18wRnrgpLf1\",\"_id\":\"d0fXOh4wv4:hestia/document-types\",\"__ok\":true,\"icon\":\"\",\"name\":\"Employee\",\"tags\":[],\"_type\":\"document\",\"table\":\"employee_db\",\"theme\":{\"other\":{\"opacity\":{\"AlcOpacity_001\":\"10%\",\"AlcOpacity_002\":\"25%\",\"AlcOpacity_003\":\"50%\",\"AlcOpacity_004\":\"75%\"},\"palette\":{\"gold\":\"gold\",\"type\":\"light\",\"bronze\":\"#853\",\"silver\":\"silver\",\"primary\":{\"main\":\"#1da7e0\",\"contrastText\":\"#fff\"},\"AlcSys_001\":\"#FFFFFF\",\"AlcSys_002\":\"#F7F8F9\",\"AlcSys_003\":\"#F4F5F6\",\"AlcSys_004\":\"#EBEBED\",\"AlcSys_005\":\"#CCCCCC\",\"AlcSys_006\":\"rgba(125, 125, 125, 1)\",\"AlcSys_007\":\"#263836\",\"AlcSys_008\":\"#000000\",\"AlcBrand_001\":\"#1da7e0\",\"AlcBrand_002\":\"#0081AF\",\"AlcBrand_003\":\"#294A76\",\"AlcBrand_004\":\"#0099B3\",\"AlcBrand_005\":\"#604696\",\"AlcBrand_006\":\"#D26A37\",\"AlcBrand_007\":\"#679861\",\"AlcBrand_008\":\"#EBBA00\",\"AlcBrand_009\":\"#8C1D82\",\"AlcBrand_010\":\"#DC840A\",\"AlcSys_006_10\":\"rgba(125, 125, 125, .1)\",\"AlcSys_006_25\":\"rgba(125, 125, 125, .25)\",\"AlcSys_006_50\":\"rgba(125, 125, 125, .50)\",\"AlcSys_006_75\":\"rgba(125, 125, 125, .75)\",\"AlcSys_Grad001\":\"linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)\",\"AlcSys_Grad002\":\"linear-gradient(55deg, #1da7e0 100%, #604696 100%)\",\"AlcSysState_prog\":\"rgba(235, 186, 0, 1)\",\"AlcSysState_risk\":\"rgba(233, 75, 75, 1)\",\"AlcSysState_green\":\"rgba(63, 195, 128, 1)\",\"AlcSysState_issue\":\"rgba(233, 165, 75, 1)\",\"AlcSysState_prog_10\":\"rgba(235, 186, 0, .1)\",\"AlcSysState_prog_25\":\"rgba(235, 186, 0,.251)\",\"AlcSysState_prog_50\":\"rgba(235, 186, 0,.5)\",\"AlcSysState_prog_75\":\"rgba(235, 186, 0, .75)\",\"AlcSysState_risk_10\":\"rgba(233, 75, 75, .1)\",\"AlcSysState_risk_25\":\"rgba(233, 75, 75, .25)\",\"AlcSysState_risk_50\":\"rgba(233, 75, 75, .50)\",\"AlcSysState_risk_75\":\"rgba(233, 75, 75, .75)\",\"AlcSysState_green_10\":\"rgba(63, 195, 128, 0.1)\",\"AlcSysState_green_25\":\"rgba(63, 195, 128, 0.25)\",\"AlcSysState_green_50\":\"rgba(63, 195, 128, 0.5)\",\"AlcSysState_green_75\":\"rgba(63, 195, 128, 0.75)\",\"AlcSysState_issue_10\":\"rgba(233, 165, 75, .1)\",\"AlcSysState_issue_25\":\"rgba(233, 165, 75, .25)\",\"AlcSysState_issue_50\":\"rgba(233, 165, 75, .50)\",\"AlcSysState_issue_75\":\"rgba(233, 165, 75, .75)\"},\"document\":{\"form\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"child\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"typography\":{\"h1\":{\"fontSize\":\"2.8em\",\"fontFamily\":\"Montserrat, sans-serif\",\"fontWeight\":700},\"h2\":{\"fontSize\":\"2.3em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h3\":{\"fontSize\":\"2em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h4\":{\"fontSize\":\"1.667em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h5\":{\"fontSize\":\"1.333em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h6\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"body1\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Roboto\"},\"body2\":{\"fontSize\":\"1em\",\"fontFamily\":\"Roboto\"},\"body3\":{\"fontSize\":\"0.9em\",\"fontFamily\":\"Roboto\"},\"body4\":{\"fontSize\":\"14px\",\"fontFamily\":\"Roboto\"},\"overline\":{\"fontSize\":\"0.917em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500,\"textTransform\":\"uppercase\"},\"Action1_Medium\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action2_Medium\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action1_Regular\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\"},\"Action2_Regular\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\"},\"Action1_SemiBold\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600},\"Action2_SemiBold\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600}}},\"theme\":\"Alcumus\",\"permanentTheme\":\"\"},\"$valid\":true,\"__size\":12323,\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[],\"$creator\":\"f389cfaa-0b2a-4653-8c35-32aa5486efe7\",\"$invalid\":false,\"__cached\":1615800734484,\"_created\":1618298744000,\"_deleted\":0,\"database\":\"test\",\"maxWidth\":1000,\"__version\":\"1.0\",\"_modified\":1618337259916,\"__modified\":1613484066372,\"components\":\"card 2.0\",\"isLockedBy\":null,\"navigation\":[],\"__namespace\":\"broken_sidebar\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"Od3OUSOR0F\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"h_jxR5OnVx\",\"questions\":[{\"id\":\"yMDj_ds9Ih\",\"name\":\"name\",\"type\":\"text\",\"hints\":{},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"UiBdE4KuOv\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"-QBPKCjCX\",\"mode\":\"specific\",\"name\":\"team\",\"type\":\"topic\",\"hints\":{},\"topic\":\"eUJwcXIRF:hestia/topics\",\"groups\":[],\"concern\":[\"Team\"],\"question\":\"\",\"_selectId\":\"_mjZjMuyax\",\"condition\":\"\",\"topicName\":\"Organisation\",\"inputLabel\":\"\",\"linkedField\":\"\",\"popupQuestion\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"jt1a-exVP\",\"name\":\"email\",\"type\":\"text\",\"hints\":{},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"1DO8y-_zjc\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"YgxhGkFfo3_K3Y\",\"name\":\"verificationCount\",\"type\":\"number\",\"hints\":{\"count\":true},\"question\":\"\",\"_selectId\":\"AKzC6e1Am6vkNG\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"0\",\"maximumValue\":\"\",\"minimumValue\":\"\",\"decimalPlaces\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}]}],\"_selectId\":\"wKd6EaTnVG\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"card2_0\":[{\"id\":\"rCUGIVAhw\",\"name\":\"Employee Card\",\"bands\":[{\"id\":\"FF2CgrlOToAVIF\",\"type\":\"flex\",\"wrap\":\"\",\"align\":\"center\",\"justify\":\"flex-start\",\"contents\":[{\"id\":\"SSFmd_RjuAHq6e\",\"text\":\"<p><span style=\\\"font-family: Montserrat;\\\"><strong>{email}</strong></span></p>\\n\",\"type\":\"richtext\",\"_selectId\":\"ZpnYcpK6X8QxCq\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"enableEllipsis\":\"\",\"standardTextColor\":\"\"},{\"id\":\"NB_wakre1WKIrS\",\"text\":\"<p><span style=\\\"font-family: Montserrat;\\\"><strong>{team.name}</strong></span></p>\\n\",\"type\":\"richtext\",\"_selectId\":\"KB3wJg-oTzWoe9\",\"topMargin\":\"\",\"leftMargin\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"enableEllipsis\":\"\",\"standardTextColor\":\"\"}],\"growLast\":\"\",\"_selectId\":\"ftEeZY5wjLBicn\",\"growFirst\":true,\"topMargin\":\"\",\"leftMargin\":\"\",\"topPadding\":3,\"leftPadding\":3,\"rightMargin\":\"\",\"bottomMargin\":\"\",\"rightPadding\":3,\"bottomPadding\":3},{\"id\":\"r1iURvfabefisU\",\"edge\":\"left\",\"type\":\"sideColor\",\"color\":\"#1da7e0\",\"_selectId\":\"7whJSod3d6txcH\"}],\"__init\":true,\"_selectId\":\"mHDKrkn9Ef\",\"elevation\":3,\"topMargin\":\"\",\"leftMargin\":\"\",\"navigation\":[],\"topPadding\":2,\"leftPadding\":2,\"rightMargin\":\"\",\"bottomMargin\":\"\",\"rightPadding\":2,\"bottomPadding\":\"\",\"requiredFields\":[],\"clickToNavigate\":true}],\"formAction\":[{\"id\":\"Ir_SSdZ1IH\",\"name\":\"Main\",\"_init\":1608566455621,\"color\":\"#fff\",\"forms\":[{\"id\":\"QvzmC95Ej\",\"form\":\"Od3OUSOR0F\",\"readOnly\":false,\"_selectId\":\"c6Nm5YaJ-j\"}],\"action\":\"\",\"inline\":true,\"actions\":[{\"id\":\"cco7-uQ0AH\",\"blur\":\"\",\"icon\":\"\",\"color\":\"#fff\",\"goBack\":\"\",\"caption\":\"Register\",\"command\":\"setData\",\"toState\":\"Registered\",\"variant\":\"text\",\"openType\":\"\",\"position\":\"bottom\",\"_selectId\":\"b2sEIPlVjg\",\"condition\":\"\",\"endOfLine\":\"\",\"navigateTo\":false,\"properties\":[],\"confirmation\":\"\",\"errorMessage\":\"Error: Something went wrong please check again.\",\"successMessage\":\"Success: New employee Registered.\",\"backgroundColor\":\"#03a9f4\",\"visibleCondition\":\"\",\"notificationToast\":true,\"replaceCurrentUrl\":\"\"}],\"storeIn\":\"\",\"_selectId\":\"BvwyOyPYWd\",\"editDemands\":[],\"inputStates\":[\"New\"],\"visibleDemands\":[],\"backgroundColor\":\"#03a9f4\"}],\"viewAsText\":[{\"id\":\"V-QYyBAN5\",\"name\":\"Name\",\"fields\":[{\"id\":\"s291OgkdX\",\"field\":\"name\",\"separator\":\" \",\"transform\":\"none\",\"defaultValue\":\"\"}],\"_selectId\":\"cQEbt2YMmO\",\"availableActions\":[]}]}},\"createOnNew\":false,\"description\":\"\",\"displayName\":\"Employee\",\"publishDocs\":true,\"__originalId\":\"d0fXOh4wv4:hestia/document-types\",\"defaultState\":\"New\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"5DxPp1patbHHJh\",\"_parentVersion\":\"-5D1JMjd4pRc5b\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"tabsBackground\":\"#f4f4f4\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"Ir_SSdZ1IH\",\"devices-allowed\":\"\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#f4f4f4\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#f4f4f4\",\"devices-allowed-html\":\"\",\"isLockedByCurrentUser\":false}",
-      "parentVersion": "-5D1JMjd4pRc5b",
       "id": "5DxPp1patbHHJh",
+      "name": "2.9",
       "time": 1618337312456,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "name": "2.9",
-      "locked": true
+      "locked": true,
+      "parentVersion": "-5D1JMjd4pRc5b"
+    },
+    {
+      "id": "abstlkRAyQABfA",
+      "name": "2.11",
+      "time": 1618406231381,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "5DxPp1patbHHJh"
     }
-  ]
+  ],
+  "__version": "1.0",
+  "_modified": 1618402635000,
+  "components": "card 2.0",
+  "isLockedBy": null,
+  "navigation": [],
+  "_behaviours": {
+    "instances": {
+      "form": [
+        {
+          "id": "Od3OUSOR0F",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "h_jxR5OnVx",
+              "questions": [
+                {
+                  "id": "yMDj_ds9Ih",
+                  "name": "name",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "UiBdE4KuOv",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "-QBPKCjCX",
+                  "mode": "specific",
+                  "name": "team",
+                  "type": "topic",
+                  "hints": {},
+                  "topic": "eUJwcXIRF:hestia/topics",
+                  "groups": [],
+                  "concern": [
+                    "Team"
+                  ],
+                  "question": "",
+                  "_selectId": "_mjZjMuyax",
+                  "condition": "",
+                  "topicName": "Organisation",
+                  "inputLabel": "",
+                  "linkedField": "",
+                  "popupQuestion": "",
+                  "questionHeight": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "jt1a-exVP",
+                  "name": "email",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "1DO8y-_zjc",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "YgxhGkFfo3_K3Y",
+                  "name": "verificationCount",
+                  "type": "number",
+                  "hints": {
+                    "count": true
+                  },
+                  "question": "",
+                  "_selectId": "AKzC6e1Am6vkNG",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "0",
+                  "maximumValue": "",
+                  "minimumValue": "",
+                  "decimalPlaces": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ]
+            }
+          ],
+          "_selectId": "wKd6EaTnVG",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "card2_0": [
+        {
+          "id": "rCUGIVAhw",
+          "name": "Employee Card",
+          "bands": [
+            {
+              "id": "FF2CgrlOToAVIF",
+              "type": "flex",
+              "wrap": "",
+              "align": "center",
+              "justify": "flex-start",
+              "contents": [
+                {
+                  "id": "SSFmd_RjuAHq6e",
+                  "text": "<p><span style=\"font-family: Montserrat;\"><strong>{email}</strong></span></p>\n",
+                  "type": "richtext",
+                  "_selectId": "ZpnYcpK6X8QxCq",
+                  "topMargin": "",
+                  "leftMargin": "",
+                  "rightMargin": "",
+                  "bottomMargin": "",
+                  "enableEllipsis": "",
+                  "standardTextColor": ""
+                },
+                {
+                  "id": "NB_wakre1WKIrS",
+                  "text": "<p><span style=\"font-family: Montserrat;\"><strong>{team.name}</strong></span></p>\n",
+                  "type": "richtext",
+                  "_selectId": "KB3wJg-oTzWoe9",
+                  "topMargin": "",
+                  "leftMargin": "",
+                  "rightMargin": "",
+                  "bottomMargin": "",
+                  "enableEllipsis": "",
+                  "standardTextColor": ""
+                }
+              ],
+              "growLast": "",
+              "_selectId": "ftEeZY5wjLBicn",
+              "growFirst": true,
+              "topMargin": "",
+              "leftMargin": "",
+              "topPadding": 3,
+              "leftPadding": 3,
+              "rightMargin": "",
+              "bottomMargin": "",
+              "rightPadding": 3,
+              "bottomPadding": 3
+            },
+            {
+              "id": "r1iURvfabefisU",
+              "edge": "left",
+              "type": "sideColor",
+              "color": "#1da7e0",
+              "_selectId": "7whJSod3d6txcH"
+            }
+          ],
+          "__init": true,
+          "_selectId": "mHDKrkn9Ef",
+          "elevation": 3,
+          "topMargin": "",
+          "leftMargin": "",
+          "navigation": [],
+          "topPadding": 2,
+          "leftPadding": 2,
+          "rightMargin": "",
+          "bottomMargin": "",
+          "rightPadding": 2,
+          "bottomPadding": "",
+          "requiredFields": [],
+          "clickToNavigate": true
+        }
+      ],
+      "formAction": [
+        {
+          "id": "Ir_SSdZ1IH",
+          "name": "Main",
+          "_init": 1608566455621,
+          "color": "#fff",
+          "forms": [
+            {
+              "id": "QvzmC95Ej",
+              "form": "Od3OUSOR0F",
+              "readOnly": false,
+              "_selectId": "c6Nm5YaJ-j"
+            }
+          ],
+          "action": "",
+          "inline": true,
+          "actions": [
+            {
+              "id": "cco7-uQ0AH",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "goBack": "",
+              "caption": "Register",
+              "command": "setData",
+              "toState": "Registered",
+              "variant": "text",
+              "openType": "",
+              "position": "bottom",
+              "_selectId": "b2sEIPlVjg",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": false,
+              "properties": [],
+              "confirmation": "",
+              "errorMessage": "Error: Something went wrong please check again.",
+              "successMessage": "Success: New employee Registered.",
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": true,
+              "replaceCurrentUrl": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "BvwyOyPYWd",
+          "editDemands": [],
+          "inputStates": [
+            "New"
+          ],
+          "visibleDemands": [],
+          "backgroundColor": "#03a9f4"
+        }
+      ],
+      "viewAsText": [
+        {
+          "id": "V-QYyBAN5",
+          "name": "Name",
+          "fields": [
+            {
+              "id": "s291OgkdX",
+              "field": "name",
+              "separator": " ",
+              "transform": "none",
+              "defaultValue": ""
+            }
+          ],
+          "_selectId": "cQEbt2YMmO",
+          "availableActions": []
+        }
+      ]
+    },
+    "_state": ""
+  },
+  "createOnNew": false,
+  "description": "",
+  "displayName": "Employee",
+  "publishDocs": true,
+  "__originalId": "d0fXOh4wv4:hestia/document-types",
+  "defaultState": "New",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "_FYnF5BVH-p1E3",
+  "_parentVersion": "abstlkRAyQABfA",
+  "currentVersion": {
+    "live": "2.11",
+    "development": "2.11"
+  },
+  "tabsBackground": "#f4f4f4",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "Ir_SSdZ1IH",
+  "devices-allowed": "",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#f4f4f4",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#f4f4f4",
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false
 }
