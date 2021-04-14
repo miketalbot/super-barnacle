@@ -1,5 +1,5 @@
 {
-  "__": "yiPEI-tfsqIBML",
+  "__": "wXdTDl-PI-BabN",
   "_id": "Ta8uhxFfg:hestia/app-types",
   "__ok": true,
   "icon": "",
@@ -12,99 +12,11 @@
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
   "$creator": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
-  "_created": 1606379677000,
+  "_created": 1618298740000,
   "_deleted": 0,
   "database": "applications",
   "maxWidth": 1000,
   "uniqueId": "Pmjtw6Xh7Y",
-  "_modified": 1618335897128,
-  "__modified": 1613381710198,
-  "components": "navigation",
-  "isLockedBy": null,
-  "showOnMenu": false,
-  "_behaviours": {
-    "_state": "",
-    "instances": {
-      "form": [
-        {
-          "id": "8BRctWsfO9",
-          "name": "Main",
-          "sections": [
-            {
-              "name": "Main",
-              "_expanded": true,
-              "_selectId": "nCzOJLMfaZ",
-              "questions": [
-                {
-                  "id": "wDO3ZRbnD",
-                  "icon": "FaUsers",
-                  "name": "",
-                  "type": "pageTitle",
-                  "color": "",
-                  "hints": {},
-                  "caption": "<p>Users</p>\n",
-                  "question": "",
-                  "_selectId": "uBLMGMtp8W",
-                  "condition": "",
-                  "iconColor": "",
-                  "backgroundColor": ""
-                }
-              ]
-            }
-          ],
-          "condition": "",
-          "description": ""
-        }
-      ],
-      "formAction": [
-        {
-          "id": "CFX2O-lm-l",
-          "name": "Main",
-          "forms": [
-            {
-              "id": "BrVo-y4oM3",
-              "form": "8BRctWsfO9"
-            }
-          ],
-          "inline": true,
-          "actions": [],
-          "$readOnly": false,
-          "inputStates": [
-            "default"
-          ]
-        }
-      ]
-    }
-  },
-  "createOnNew": true,
-  "description": "",
-  "displayName": "",
-  "specificUrl": false,
-  "__originalId": "Ta8uhxFfg:hestia/app-types",
-  "defaultState": "default",
-  "sidebarColor": "#333",
-  "tabsSelected": "#009fda",
-  "__warnReasons": [],
-  "documentColor": "#333",
-  "_activeVersion": "VDdEbLjmw1mzy6",
-  "_parentVersion": "7Wd8CZwX8ITpS2",
-  "currentVersion": {
-    "development": "2.9",
-    "live": "2.9"
-  },
-  "showOnLauncher": false,
-  "tabsBackground": "#fafafa",
-  "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "CFX2O-lm-l",
-  "launcherCaption": "",
-  "sideBarMinWidth": 150,
-  "documentBackdrop": "#bbb",
-  "sidebarBackground": "#fff",
-  "documentBackground": "#fff",
-  "launcherBackground": "#009fda",
-  "launcherForeground": "#ffffff",
-  "isLockedByCurrentUser": false,
   "versions": [
     {
       "id": "HyNhtxHvp63fEw",
@@ -331,13 +243,107 @@
       "parentVersion": "4Yfjl8sv92VVBD"
     },
     {
-      "content": "{\"__\":\"yiPEI-tfsqIBML\",\"_id\":\"Ta8uhxFfg:hestia/app-types\",\"__ok\":true,\"icon\":\"\",\"name\":\"Users\",\"_type\":\"application\",\"table\":\"Users-Pmjtw6Xh7Y\",\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[],\"$creator\":\"f389cfaa-0b2a-4653-8c35-32aa5486efe7\",\"_created\":1606379677000,\"_deleted\":0,\"database\":\"applications\",\"maxWidth\":1000,\"uniqueId\":\"Pmjtw6Xh7Y\",\"_modified\":1618335897128,\"__modified\":1613381710198,\"components\":\"navigation\",\"isLockedBy\":null,\"showOnMenu\":false,\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"8BRctWsfO9\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"nCzOJLMfaZ\",\"questions\":[{\"id\":\"wDO3ZRbnD\",\"icon\":\"FaUsers\",\"name\":\"\",\"type\":\"pageTitle\",\"color\":\"\",\"hints\":{},\"caption\":\"<p>Users</p>\\n\",\"question\":\"\",\"_selectId\":\"uBLMGMtp8W\",\"condition\":\"\",\"iconColor\":\"\",\"backgroundColor\":\"\"}]}],\"condition\":\"\",\"description\":\"\"}],\"formAction\":[{\"id\":\"CFX2O-lm-l\",\"name\":\"Main\",\"forms\":[{\"id\":\"BrVo-y4oM3\",\"form\":\"8BRctWsfO9\"}],\"inline\":true,\"actions\":[],\"$readOnly\":false,\"inputStates\":[\"default\"]}]}},\"createOnNew\":true,\"description\":\"\",\"displayName\":\"\",\"specificUrl\":false,\"__originalId\":\"Ta8uhxFfg:hestia/app-types\",\"defaultState\":\"default\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"7Wd8CZwX8ITpS2\",\"_parentVersion\":\"UDsCW78plAngRC\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"showOnLauncher\":false,\"tabsBackground\":\"#fafafa\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"CFX2O-lm-l\",\"launcherCaption\":\"\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#bbb\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#fff\",\"launcherBackground\":\"#009fda\",\"launcherForeground\":\"#ffffff\",\"isLockedByCurrentUser\":false}",
-      "parentVersion": "UDsCW78plAngRC",
       "id": "7Wd8CZwX8ITpS2",
+      "name": "2.9",
       "time": 1618337316649,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "name": "2.9",
-      "locked": true
+      "locked": true,
+      "parentVersion": "UDsCW78plAngRC"
+    },
+    {
+      "id": "VDdEbLjmw1mzy6",
+      "name": "2.11",
+      "time": 1618406236603,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "7Wd8CZwX8ITpS2"
     }
-  ]
+  ],
+  "_modified": 1618402638000,
+  "components": "navigation",
+  "isLockedBy": null,
+  "showOnMenu": false,
+  "_behaviours": {
+    "instances": {
+      "form": [
+        {
+          "id": "8BRctWsfO9",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "nCzOJLMfaZ",
+              "questions": [
+                {
+                  "id": "wDO3ZRbnD",
+                  "icon": "FaUsers",
+                  "name": "",
+                  "type": "pageTitle",
+                  "color": "",
+                  "hints": {},
+                  "caption": "<p>Users</p>\n",
+                  "question": "",
+                  "_selectId": "uBLMGMtp8W",
+                  "condition": "",
+                  "iconColor": "",
+                  "backgroundColor": ""
+                }
+              ]
+            }
+          ],
+          "condition": "",
+          "description": ""
+        }
+      ],
+      "formAction": [
+        {
+          "id": "CFX2O-lm-l",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "BrVo-y4oM3",
+              "form": "8BRctWsfO9"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "$readOnly": false,
+          "inputStates": [
+            "default"
+          ]
+        }
+      ]
+    },
+    "_state": ""
+  },
+  "createOnNew": true,
+  "description": "",
+  "displayName": "",
+  "specificUrl": false,
+  "__originalId": "Ta8uhxFfg:hestia/app-types",
+  "defaultState": "default",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "q6WA4rWTi1rlTF",
+  "_parentVersion": "VDdEbLjmw1mzy6",
+  "currentVersion": {
+    "live": "2.11",
+    "development": "2.11"
+  },
+  "showOnLauncher": false,
+  "tabsBackground": "#fafafa",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "CFX2O-lm-l",
+  "launcherCaption": "",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#bbb",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#fff",
+  "launcherBackground": "#009fda",
+  "launcherForeground": "#ffffff",
+  "isLockedByCurrentUser": false
 }
