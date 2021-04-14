@@ -1,5 +1,5 @@
 {
-  "__": "N6hFV1zQbPKHcA",
+  "__": "_3TT8Jv3fCOFuk",
   "_id": "VQ5AuftiZpXo4n:hestia/app-types",
   "__ok": true,
   "icon": "BiTaskX",
@@ -173,116 +173,11 @@
   "demands": [
     "taskViewer"
   ],
-  "_created": 1618234155000,
+  "_created": 1618298738000,
   "_deleted": 0,
   "database": "applications",
   "maxWidth": 1000,
   "uniqueId": "9pj_n6k4XYBpjb",
-  "_modified": 1618335895882,
-  "components": "",
-  "isLockedBy": null,
-  "navigation": [],
-  "showOnMenu": false,
-  "__namespace": "",
-  "_behaviours": {
-    "_state": "",
-    "instances": {
-      "form": [
-        {
-          "id": "ik2L0bjMvv0mUt",
-          "name": "Main",
-          "sections": [
-            {
-              "name": "Main",
-              "_expanded": true,
-              "_selectId": "58FjndRCK0WPEl",
-              "questions": [
-                {
-                  "id": "q4ZFYk59GVy-PH",
-                  "name": "tasksList",
-                  "rows": 5,
-                  "type": "documentList",
-                  "hints": {},
-                  "where": {},
-                  "listType": "hestia-tasks",
-                  "question": "",
-                  "_selectId": "5EqElVcUcb4oZn",
-                  "condition": "",
-                  "filterText": "",
-                  "navigation": [],
-                  "displayView": "full",
-                  "sortColumns": [],
-                  "listTypeName": "Tasks",
-                  "displayFields": [],
-                  "filterColumns": [],
-                  "useDataSource": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "displayView_name": "Full",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                }
-              ]
-            }
-          ],
-          "_selectId": "sZ68LYwFLX1z1k",
-          "condition": "",
-          "description": "",
-          "duplicateNames": {}
-        }
-      ],
-      "formAction": [
-        {
-          "id": "hhqkj1zRNFHQ7p",
-          "name": "Main",
-          "forms": [
-            {
-              "id": "hpKBJM60-EXp6C",
-              "form": "ik2L0bjMvv0mUt"
-            }
-          ],
-          "inline": true,
-          "actions": [],
-          "$readOnly": false,
-          "_selectId": "t2dkp_21y3hWmc",
-          "inputStates": [
-            "default"
-          ]
-        }
-      ]
-    }
-  },
-  "createOnNew": true,
-  "description": "",
-  "displayName": "Task Viewer",
-  "specificUrl": false,
-  "__originalId": "VQ5AuftiZpXo4n:hestia/app-types",
-  "defaultState": "default",
-  "sidebarColor": "#333",
-  "tabsSelected": "#009fda",
-  "__warnReasons": [],
-  "documentColor": "#333",
-  "_activeVersion": "QefD9zYQMdjmFk",
-  "_parentVersion": "SOKFpx2jMjFWhT",
-  "currentVersion": {
-    "development": "2.9",
-    "live": "2.9"
-  },
-  "showOnLauncher": true,
-  "tabsBackground": "#fafafa",
-  "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "hhqkj1zRNFHQ7p",
-  "devices-allowed": "",
-  "launcherCaption": "Task Viewer",
-  "sideBarMinWidth": 150,
-  "documentBackdrop": "#fafafa",
-  "sidebarBackground": "#fff",
-  "documentBackground": "#fff",
-  "launcherBackground": "#009fda",
-  "launcherForeground": "#ffffff",
-  "devices-allowed-html": "",
-  "isLockedByCurrentUser": false,
   "versions": [
     {
       "id": "-VXQbZAbALBdmE",
@@ -374,13 +269,124 @@
       "parentVersion": "z4fhs8dA_mjKGz"
     },
     {
-      "content": "{\"__\":\"N6hFV1zQbPKHcA\",\"_id\":\"VQ5AuftiZpXo4n:hestia/app-types\",\"__ok\":true,\"icon\":\"BiTaskX\",\"name\":\"Task Viewer\",\"_type\":\"application\",\"table\":\"Task Viewer-9pj_n6k4XYBpjb\",\"theme\":{\"other\":{\"opacity\":{\"AlcOpacity_001\":\"10%\",\"AlcOpacity_002\":\"25%\",\"AlcOpacity_003\":\"50%\",\"AlcOpacity_004\":\"75%\"},\"palette\":{\"gold\":\"gold\",\"type\":\"light\",\"bronze\":\"#853\",\"silver\":\"silver\",\"primary\":{\"main\":\"#1da7e0\",\"contrastText\":\"#fff\"},\"AlcSys_001\":\"#FFFFFF\",\"AlcSys_002\":\"#F7F8F9\",\"AlcSys_003\":\"#F4F5F6\",\"AlcSys_004\":\"#EBEBED\",\"AlcSys_005\":\"#CCCCCC\",\"AlcSys_006\":\"rgba(125, 125, 125, 1)\",\"AlcSys_007\":\"#263836\",\"AlcSys_008\":\"#000000\",\"AlcBrand_001\":\"#1da7e0\",\"AlcBrand_002\":\"#0081AF\",\"AlcBrand_003\":\"#294A76\",\"AlcBrand_004\":\"#0099B3\",\"AlcBrand_005\":\"#604696\",\"AlcBrand_006\":\"#D26A37\",\"AlcBrand_007\":\"#679861\",\"AlcBrand_008\":\"#EBBA00\",\"AlcBrand_009\":\"#8C1D82\",\"AlcBrand_010\":\"#DC840A\",\"AlcSys_006_10\":\"rgba(125, 125, 125, .1)\",\"AlcSys_006_25\":\"rgba(125, 125, 125, .25)\",\"AlcSys_006_50\":\"rgba(125, 125, 125, .50)\",\"AlcSys_006_75\":\"rgba(125, 125, 125, .75)\",\"AlcSys_Grad001\":\"linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)\",\"AlcSys_Grad002\":\"linear-gradient(55deg, #1da7e0 100%, #604696 100%)\",\"AlcSysState_prog\":\"rgba(235, 186, 0, 1)\",\"AlcSysState_risk\":\"rgba(233, 75, 75, 1)\",\"AlcSysState_green\":\"rgba(63, 195, 128, 1)\",\"AlcSysState_issue\":\"rgba(233, 165, 75, 1)\",\"AlcSysState_prog_10\":\"rgba(235, 186, 0, .1)\",\"AlcSysState_prog_25\":\"rgba(235, 186, 0,.251)\",\"AlcSysState_prog_50\":\"rgba(235, 186, 0,.5)\",\"AlcSysState_prog_75\":\"rgba(235, 186, 0, .75)\",\"AlcSysState_risk_10\":\"rgba(233, 75, 75, .1)\",\"AlcSysState_risk_25\":\"rgba(233, 75, 75, .25)\",\"AlcSysState_risk_50\":\"rgba(233, 75, 75, .50)\",\"AlcSysState_risk_75\":\"rgba(233, 75, 75, .75)\",\"AlcSysState_green_10\":\"rgba(63, 195, 128, 0.1)\",\"AlcSysState_green_25\":\"rgba(63, 195, 128, 0.25)\",\"AlcSysState_green_50\":\"rgba(63, 195, 128, 0.5)\",\"AlcSysState_green_75\":\"rgba(63, 195, 128, 0.75)\",\"AlcSysState_issue_10\":\"rgba(233, 165, 75, .1)\",\"AlcSysState_issue_25\":\"rgba(233, 165, 75, .25)\",\"AlcSysState_issue_50\":\"rgba(233, 165, 75, .50)\",\"AlcSysState_issue_75\":\"rgba(233, 165, 75, .75)\"},\"document\":{\"form\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"child\":{\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"fontSize\":16,\"fontFamily\":\"Roboto, sans-serif\"},\"typography\":{\"h1\":{\"fontSize\":\"2.8em\",\"fontFamily\":\"Montserrat, sans-serif\",\"fontWeight\":700},\"h2\":{\"fontSize\":\"2.3em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h3\":{\"fontSize\":\"2em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"h4\":{\"fontSize\":\"1.667em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h5\":{\"fontSize\":\"1.333em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"h6\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":400},\"body1\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Roboto\"},\"body2\":{\"fontSize\":\"1em\",\"fontFamily\":\"Roboto\"},\"body3\":{\"fontSize\":\"0.9em\",\"fontFamily\":\"Roboto\"},\"body4\":{\"fontSize\":\"14px\",\"fontFamily\":\"Roboto\"},\"overline\":{\"fontSize\":\"0.917em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500,\"textTransform\":\"uppercase\"},\"Action1_Medium\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action2_Medium\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":500},\"Action1_Regular\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\"},\"Action2_Regular\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\"},\"Action1_SemiBold\":{\"fontSize\":\"1.167em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600},\"Action2_SemiBold\":{\"fontSize\":\"1em\",\"fontFamily\":\"Montserrat\",\"fontWeight\":600}}},\"theme\":\"Alcumus\",\"permanentTheme\":\"\"},\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[\"taskViewer\"],\"_created\":1618234155000,\"_deleted\":0,\"database\":\"applications\",\"maxWidth\":1000,\"uniqueId\":\"9pj_n6k4XYBpjb\",\"_modified\":1618335895882,\"components\":\"\",\"isLockedBy\":null,\"navigation\":[],\"showOnMenu\":false,\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"ik2L0bjMvv0mUt\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"58FjndRCK0WPEl\",\"questions\":[{\"id\":\"q4ZFYk59GVy-PH\",\"name\":\"tasksList\",\"rows\":5,\"type\":\"documentList\",\"hints\":{},\"where\":{},\"listType\":\"hestia-tasks\",\"question\":\"\",\"_selectId\":\"5EqElVcUcb4oZn\",\"condition\":\"\",\"filterText\":\"\",\"navigation\":[],\"displayView\":\"full\",\"sortColumns\":[],\"listTypeName\":\"Tasks\",\"displayFields\":[],\"filterColumns\":[],\"useDataSource\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"Full\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}]}],\"_selectId\":\"sZ68LYwFLX1z1k\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"formAction\":[{\"id\":\"hhqkj1zRNFHQ7p\",\"name\":\"Main\",\"forms\":[{\"id\":\"hpKBJM60-EXp6C\",\"form\":\"ik2L0bjMvv0mUt\"}],\"inline\":true,\"actions\":[],\"$readOnly\":false,\"_selectId\":\"t2dkp_21y3hWmc\",\"inputStates\":[\"default\"]}]}},\"createOnNew\":true,\"description\":\"\",\"displayName\":\"Task Viewer\",\"specificUrl\":false,\"__originalId\":\"VQ5AuftiZpXo4n:hestia/app-types\",\"defaultState\":\"default\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"SOKFpx2jMjFWhT\",\"_parentVersion\":\"etThMUDHLmFPAS\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"showOnLauncher\":true,\"tabsBackground\":\"#fafafa\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"hhqkj1zRNFHQ7p\",\"devices-allowed\":\"\",\"launcherCaption\":\"Task Viewer\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#fafafa\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#fff\",\"launcherBackground\":\"#009fda\",\"launcherForeground\":\"#ffffff\",\"devices-allowed-html\":\"\",\"isLockedByCurrentUser\":false}",
-      "parentVersion": "etThMUDHLmFPAS",
       "id": "SOKFpx2jMjFWhT",
+      "name": "2.9",
       "time": 1618337316643,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "name": "2.9",
-      "locked": true
+      "locked": true,
+      "parentVersion": "etThMUDHLmFPAS"
+    },
+    {
+      "id": "QefD9zYQMdjmFk",
+      "name": "2.11",
+      "time": 1618406236594,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "SOKFpx2jMjFWhT"
     }
-  ]
+  ],
+  "_modified": 1618402638000,
+  "components": "",
+  "isLockedBy": null,
+  "navigation": [],
+  "showOnMenu": false,
+  "_behaviours": {
+    "instances": {
+      "form": [
+        {
+          "id": "ik2L0bjMvv0mUt",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "58FjndRCK0WPEl",
+              "questions": [
+                {
+                  "id": "q4ZFYk59GVy-PH",
+                  "name": "tasksList",
+                  "rows": 5,
+                  "type": "documentList",
+                  "hints": {},
+                  "where": {},
+                  "listType": "hestia-tasks",
+                  "question": "",
+                  "_selectId": "5EqElVcUcb4oZn",
+                  "condition": "",
+                  "filterText": "",
+                  "navigation": [],
+                  "displayView": "full",
+                  "sortColumns": [],
+                  "listTypeName": "Tasks",
+                  "displayFields": [],
+                  "filterColumns": [],
+                  "useDataSource": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Full",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ]
+            }
+          ],
+          "_selectId": "sZ68LYwFLX1z1k",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "formAction": [
+        {
+          "id": "hhqkj1zRNFHQ7p",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "hpKBJM60-EXp6C",
+              "form": "ik2L0bjMvv0mUt"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "$readOnly": false,
+          "_selectId": "t2dkp_21y3hWmc",
+          "inputStates": [
+            "default"
+          ]
+        }
+      ]
+    },
+    "_state": ""
+  },
+  "createOnNew": true,
+  "description": "",
+  "displayName": "Task Viewer",
+  "specificUrl": false,
+  "__originalId": "VQ5AuftiZpXo4n:hestia/app-types",
+  "defaultState": "default",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "DZ2YA2OquNxxGF",
+  "_parentVersion": "QefD9zYQMdjmFk",
+  "currentVersion": {
+    "live": "2.11",
+    "development": "2.11"
+  },
+  "showOnLauncher": true,
+  "tabsBackground": "#fafafa",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "hhqkj1zRNFHQ7p",
+  "devices-allowed": "",
+  "launcherCaption": "Task Viewer",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#fafafa",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#fff",
+  "launcherBackground": "#009fda",
+  "launcherForeground": "#ffffff",
+  "devices-allowed-html": "",
+  "isLockedByCurrentUser": false
 }
