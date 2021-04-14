@@ -1,5 +1,5 @@
 {
-  "__": "wDCNHFnCjPgFBK",
+  "__": "GUoE9ybW7ZWdEK",
   "_id": "0-XgfyKuh347nN:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -12,113 +12,10 @@
   "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
-  "_created": 1613738737000,
+  "_created": 1618298745000,
   "_deleted": 0,
   "database": "mydocuments",
   "maxWidth": 1000,
-  "_modified": 1618335889829,
-  "components": "",
-  "isLockedBy": null,
-  "navigation": [],
-  "__namespace": "",
-  "_behaviours": {
-    "_state": "",
-    "instances": {
-      "form": [
-        {
-          "id": "PuiZUwGRJ0_wPl",
-          "name": "Main",
-          "sections": [
-            {
-              "name": "Main",
-              "_expanded": true,
-              "questions": []
-            }
-          ],
-          "_selectId": "IlaWKv-VLnfkSH",
-          "description": ""
-        }
-      ],
-      "card2_0": [
-        {
-          "id": "Nxvb2edS12OXIa",
-          "name": "Just Doc Button",
-          "bands": [
-            {
-              "id": "bsePJGkIcMp46T",
-              "icon": "AiFillFolder",
-              "type": "navigate",
-              "color": "#009fda",
-              "caption": "DOC LIBRARY",
-              "variant": "text",
-              "_selectId": "PLJIsjM4pAVpQk",
-              "topMargin": "",
-              "background": "#ffffff",
-              "leftMargin": "",
-              "navigation": [],
-              "rightMargin": "",
-              "bottomMargin": ""
-            }
-          ],
-          "__init": true,
-          "_selectId": "pLHcCT3JrxIq0E",
-          "elevation": 1,
-          "topMargin": "",
-          "leftMargin": "",
-          "topPadding": "",
-          "leftPadding": "",
-          "rightMargin": "",
-          "bottomMargin": "",
-          "rightPadding": "",
-          "bottomPadding": "",
-          "requiredFields": [],
-          "clickToNavigate": ""
-        }
-      ],
-      "formAction": [
-        {
-          "id": "3p7ymvFX9FcPuy",
-          "name": "Main",
-          "forms": [
-            {
-              "id": "lPgdJPtPCm9pso",
-              "form": "PuiZUwGRJ0_wPl"
-            }
-          ],
-          "inline": true,
-          "actions": [],
-          "_selectId": "5Nd-76WqCaaAJu",
-          "inputStates": [
-            "New"
-          ]
-        }
-      ]
-    }
-  },
-  "createOnNew": false,
-  "description": "",
-  "displayName": "My Documents",
-  "__originalId": "0-XgfyKuh347nN:hestia/document-types",
-  "defaultState": "New",
-  "sidebarColor": "#333",
-  "tabsSelected": "#009fda",
-  "__warnReasons": [],
-  "documentColor": "#333",
-  "_activeVersion": "QF4nLFQ0Vnm1EW",
-  "_parentVersion": "-GeJ6jaH9RuL42",
-  "currentVersion": {
-    "development": "2.9",
-    "live": "2.9"
-  },
-  "tabsBackground": "#f4f4f4",
-  "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "3p7ymvFX9FcPuy",
-  "sideBarMinWidth": 150,
-  "documentBackdrop": "#f4f4f4",
-  "sidebarBackground": "#fff",
-  "documentBackground": "#f4f4f4",
-  "isLockedByCurrentUser": false,
   "versions": [
     {
       "id": "uHXCg7gWBj7MX3",
@@ -350,13 +247,122 @@
       "parentVersion": "qXKBGVQ7EIx6SZ"
     },
     {
-      "content": "{\"__\":\"wDCNHFnCjPgFBK\",\"_id\":\"0-XgfyKuh347nN:hestia/document-types\",\"__ok\":true,\"icon\":\"\",\"name\":\"My Documents\",\"tags\":[],\"_type\":\"document\",\"table\":\"mydocuments\",\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[],\"_created\":1613738737000,\"_deleted\":0,\"database\":\"mydocuments\",\"maxWidth\":1000,\"_modified\":1618335889829,\"components\":\"\",\"isLockedBy\":null,\"navigation\":[],\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"PuiZUwGRJ0_wPl\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"questions\":[]}],\"_selectId\":\"IlaWKv-VLnfkSH\",\"description\":\"\"}],\"card2_0\":[{\"id\":\"Nxvb2edS12OXIa\",\"name\":\"Just Doc Button\",\"bands\":[{\"id\":\"bsePJGkIcMp46T\",\"icon\":\"AiFillFolder\",\"type\":\"navigate\",\"color\":\"#009fda\",\"caption\":\"DOC LIBRARY\",\"variant\":\"text\",\"_selectId\":\"PLJIsjM4pAVpQk\",\"topMargin\":\"\",\"background\":\"#ffffff\",\"leftMargin\":\"\",\"navigation\":[],\"rightMargin\":\"\",\"bottomMargin\":\"\"}],\"__init\":true,\"_selectId\":\"pLHcCT3JrxIq0E\",\"elevation\":1,\"topMargin\":\"\",\"leftMargin\":\"\",\"topPadding\":\"\",\"leftPadding\":\"\",\"rightMargin\":\"\",\"bottomMargin\":\"\",\"rightPadding\":\"\",\"bottomPadding\":\"\",\"requiredFields\":[],\"clickToNavigate\":\"\"}],\"formAction\":[{\"id\":\"3p7ymvFX9FcPuy\",\"name\":\"Main\",\"forms\":[{\"id\":\"lPgdJPtPCm9pso\",\"form\":\"PuiZUwGRJ0_wPl\"}],\"inline\":true,\"actions\":[],\"_selectId\":\"5Nd-76WqCaaAJu\",\"inputStates\":[\"New\"]}]}},\"createOnNew\":false,\"description\":\"\",\"displayName\":\"My Documents\",\"__originalId\":\"0-XgfyKuh347nN:hestia/document-types\",\"defaultState\":\"New\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"-GeJ6jaH9RuL42\",\"_parentVersion\":\"YD3S85MT9_CEwd\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"tabsBackground\":\"#f4f4f4\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"3p7ymvFX9FcPuy\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#f4f4f4\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#f4f4f4\",\"isLockedByCurrentUser\":false}",
-      "parentVersion": "YD3S85MT9_CEwd",
       "id": "-GeJ6jaH9RuL42",
+      "name": "2.9",
       "time": 1618337312459,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "name": "2.9",
-      "locked": true
+      "locked": true,
+      "parentVersion": "YD3S85MT9_CEwd"
+    },
+    {
+      "id": "QF4nLFQ0Vnm1EW",
+      "name": "2.11",
+      "time": 1618406231385,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "-GeJ6jaH9RuL42"
     }
-  ]
+  ],
+  "_modified": 1618402635000,
+  "components": "",
+  "isLockedBy": null,
+  "navigation": [],
+  "_behaviours": {
+    "instances": {
+      "form": [
+        {
+          "id": "PuiZUwGRJ0_wPl",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "questions": []
+            }
+          ],
+          "_selectId": "IlaWKv-VLnfkSH",
+          "description": ""
+        }
+      ],
+      "card2_0": [
+        {
+          "id": "Nxvb2edS12OXIa",
+          "name": "Just Doc Button",
+          "bands": [
+            {
+              "id": "bsePJGkIcMp46T",
+              "icon": "AiFillFolder",
+              "type": "navigate",
+              "color": "#009fda",
+              "caption": "DOC LIBRARY",
+              "variant": "text",
+              "_selectId": "PLJIsjM4pAVpQk",
+              "topMargin": "",
+              "background": "#ffffff",
+              "leftMargin": "",
+              "navigation": [],
+              "rightMargin": "",
+              "bottomMargin": ""
+            }
+          ],
+          "__init": true,
+          "_selectId": "pLHcCT3JrxIq0E",
+          "elevation": 1,
+          "topMargin": "",
+          "leftMargin": "",
+          "topPadding": "",
+          "leftPadding": "",
+          "rightMargin": "",
+          "bottomMargin": "",
+          "rightPadding": "",
+          "bottomPadding": "",
+          "requiredFields": [],
+          "clickToNavigate": ""
+        }
+      ],
+      "formAction": [
+        {
+          "id": "3p7ymvFX9FcPuy",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "lPgdJPtPCm9pso",
+              "form": "PuiZUwGRJ0_wPl"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "_selectId": "5Nd-76WqCaaAJu",
+          "inputStates": [
+            "New"
+          ]
+        }
+      ]
+    },
+    "_state": ""
+  },
+  "createOnNew": false,
+  "description": "",
+  "displayName": "My Documents",
+  "__originalId": "0-XgfyKuh347nN:hestia/document-types",
+  "defaultState": "New",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "s1Ye3hCpezA9Hu",
+  "_parentVersion": "QF4nLFQ0Vnm1EW",
+  "currentVersion": {
+    "live": "2.11",
+    "development": "2.11"
+  },
+  "tabsBackground": "#f4f4f4",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "3p7ymvFX9FcPuy",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#f4f4f4",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#f4f4f4",
+  "isLockedByCurrentUser": false
 }
