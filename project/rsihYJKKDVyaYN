@@ -1,5 +1,5 @@
 {
-  "__": "Fa4x9zVlWC32Zk",
+  "__": "ubP760uiSzdSKd",
   "_id": "rsihYJKKDVyaYN:hestia/project",
   "name": "Project",
   "$valid": true,
@@ -7,7 +7,7 @@
   "$invalid": false,
   "_created": 1618307414000,
   "_deleted": 0,
-  "_modified": 1618409541000,
+  "_modified": 1618416334000,
   "components": "",
   "_behaviours": {
     "instances": {
@@ -32,7 +32,10 @@
           "branch": "{email}",
           "publish": true,
           "_selectId": "JxkfXAMdznTtJM",
-          "Repository": "miketalbot/super-barnacle"
+          "Repository": "miketalbot/super-barnacle",
+          "publishThemes": true,
+          "publishTopics": "",
+          "publishProject": ""
         }
       ]
     },
@@ -40,7 +43,7 @@
   },
   "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
   "_original": {
-    "__": "Fa4x9zVlWC32Zk",
+    "__": "ubP760uiSzdSKd",
     "_id": "rsihYJKKDVyaYN:hestia/project",
     "name": "Project",
     "$valid": true,
@@ -48,7 +51,7 @@
     "$invalid": false,
     "_created": 1618307414000,
     "_deleted": 0,
-    "_modified": 1618409541000,
+    "_modified": 1618416334000,
     "components": "",
     "_behaviours": {
       "_state": "",
@@ -74,7 +77,10 @@
             "branch": "{email}",
             "publish": true,
             "_selectId": "JxkfXAMdznTtJM",
-            "Repository": "miketalbot/super-barnacle"
+            "Repository": "miketalbot/super-barnacle",
+            "publishThemes": true,
+            "publishTopics": "",
+            "publishProject": ""
           }
         ]
       }
