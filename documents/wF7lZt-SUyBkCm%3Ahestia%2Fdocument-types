@@ -1,5 +1,5 @@
 {
-  "__": "X41abT9kpHV9vA",
+  "__": "HTcOhKbiFx0Jeh",
   "_id": "wF7lZt-SUyBkCm:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -12,172 +12,10 @@
   "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
-  "_created": 1615912634000,
+  "_created": 1618298741000,
   "_deleted": 0,
   "database": "blackboards",
   "maxWidth": 1000,
-  "__version": "111",
-  "_modified": 1618335887122,
-  "__modified": 1614167274733,
-  "components": "JSON",
-  "isLockedBy": null,
-  "navigation": [],
-  "__namespace": "",
-  "_behaviours": {
-    "_state": "",
-    "instances": {
-      "form": [
-        {
-          "id": "_3sJPSPcW3",
-          "name": "Main",
-          "sections": [
-            {
-              "name": "Main",
-              "_expanded": true,
-              "_selectId": "5y3CS5d_vq",
-              "condition": "",
-              "questions": [
-                {
-                  "id": "oEsVrcyVI",
-                  "name": "hasUpdates",
-                  "type": "text",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "UInxnyiz0A",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "QAYFNLMhW",
-                  "name": "records",
-                  "type": "JSON",
-                  "hints": {},
-                  "maxWidth": "",
-                  "question": "",
-                  "_selectId": "_8tv1u3tSC",
-                  "condition": "",
-                  "inputLabel": "",
-                  "defaultValue": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                }
-              ],
-              "description": ""
-            }
-          ],
-          "_selectId": "qpBAx6Qs68",
-          "condition": "",
-          "description": "",
-          "duplicateNames": {}
-        }
-      ],
-      "formAction": [
-        {
-          "id": "RJEFLTO1WF",
-          "name": "Main",
-          "_init": 1608203435641,
-          "color": "#fff",
-          "forms": [
-            {
-              "id": "BiMcAm0R8o",
-              "form": "_3sJPSPcW3",
-              "readOnly": "",
-              "_selectId": "LoIcknXgZ-"
-            }
-          ],
-          "action": "",
-          "inline": true,
-          "actions": [
-            {
-              "id": "mC3yeLM3T",
-              "blur": "",
-              "icon": "",
-              "color": "#fff",
-              "goBack": "",
-              "caption": "Submit",
-              "command": "setData",
-              "toState": "New",
-              "variant": "text",
-              "_selectId": "9CykEvk63l",
-              "condition": "",
-              "endOfLine": "",
-              "properties": [],
-              "confirmation": "",
-              "backgroundColor": "#03a9f4",
-              "visibleCondition": ""
-            }
-          ],
-          "storeIn": "",
-          "_selectId": "Fw3pIeRcUH",
-          "editDemands": [],
-          "inputStates": [
-            "New"
-          ],
-          "visibleDemands": [],
-          "backgroundColor": "#03a9f4"
-        }
-      ],
-      "viewAsList": [
-        {
-          "id": "z_CnQTlGv",
-          "name": "New \"View As List\"",
-          "fields": [
-            {
-              "id": "ctFrOM18N",
-              "field": "_id",
-              "label": "ID",
-              "defaultValue": ""
-            },
-            {
-              "id": "dTB5CysXh",
-              "field": "$state",
-              "label": "State",
-              "defaultValue": ""
-            },
-            {
-              "id": "jZqjafpL9c-s6D",
-              "field": "hasUpdates",
-              "label": "Has Updates",
-              "defaultValue": ""
-            }
-          ],
-          "_selectId": "N4wUb0OozK",
-          "hideFields": "",
-          "availableActions": []
-        }
-      ]
-    }
-  },
-  "createOnNew": false,
-  "description": "",
-  "displayName": "crm blackboard",
-  "__originalId": "PRTVrtieCl-IoESTLn2g-1614691802269-IoESTLn2g-1615474420091:hestia/document-types",
-  "defaultState": "New",
-  "sidebarColor": "#333",
-  "tabsSelected": "#009fda",
-  "__warnReasons": [],
-  "documentColor": "#333",
-  "_activeVersion": "PwF6dSB5Y9LB53",
-  "_parentVersion": "cy9jtGByvUs_yS",
-  "currentVersion": {
-    "development": "2.9",
-    "live": "2.9"
-  },
-  "tabsBackground": "#f4f4f4",
-  "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "RJEFLTO1WF",
-  "sideBarMinWidth": 150,
-  "documentBackdrop": "#f4f4f4",
-  "sidebarBackground": "#fff",
-  "documentBackground": "#f4f4f4",
-  "isLockedByCurrentUser": false,
   "versions": [
     {
       "id": "_SjByBEpLSAW4l",
@@ -357,13 +195,180 @@
       "parentVersion": "AU5htIipViuwdo"
     },
     {
-      "content": "{\"__\":\"X41abT9kpHV9vA\",\"_id\":\"wF7lZt-SUyBkCm:hestia/document-types\",\"__ok\":true,\"icon\":\"\",\"name\":\"Blackboards\",\"tags\":[],\"_type\":\"document\",\"table\":\"crm\",\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[],\"_created\":1615912634000,\"_deleted\":0,\"database\":\"blackboards\",\"maxWidth\":1000,\"__version\":\"111\",\"_modified\":1618335887122,\"__modified\":1614167274733,\"components\":\"JSON\",\"isLockedBy\":null,\"navigation\":[],\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"_3sJPSPcW3\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"5y3CS5d_vq\",\"condition\":\"\",\"questions\":[{\"id\":\"oEsVrcyVI\",\"name\":\"hasUpdates\",\"type\":\"text\",\"hints\":{},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"UInxnyiz0A\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"QAYFNLMhW\",\"name\":\"records\",\"type\":\"JSON\",\"hints\":{},\"maxWidth\":\"\",\"question\":\"\",\"_selectId\":\"_8tv1u3tSC\",\"condition\":\"\",\"inputLabel\":\"\",\"defaultValue\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}],\"description\":\"\"}],\"_selectId\":\"qpBAx6Qs68\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"formAction\":[{\"id\":\"RJEFLTO1WF\",\"name\":\"Main\",\"_init\":1608203435641,\"color\":\"#fff\",\"forms\":[{\"id\":\"BiMcAm0R8o\",\"form\":\"_3sJPSPcW3\",\"readOnly\":\"\",\"_selectId\":\"LoIcknXgZ-\"}],\"action\":\"\",\"inline\":true,\"actions\":[{\"id\":\"mC3yeLM3T\",\"blur\":\"\",\"icon\":\"\",\"color\":\"#fff\",\"goBack\":\"\",\"caption\":\"Submit\",\"command\":\"setData\",\"toState\":\"New\",\"variant\":\"text\",\"_selectId\":\"9CykEvk63l\",\"condition\":\"\",\"endOfLine\":\"\",\"properties\":[],\"confirmation\":\"\",\"backgroundColor\":\"#03a9f4\",\"visibleCondition\":\"\"}],\"storeIn\":\"\",\"_selectId\":\"Fw3pIeRcUH\",\"editDemands\":[],\"inputStates\":[\"New\"],\"visibleDemands\":[],\"backgroundColor\":\"#03a9f4\"}],\"viewAsList\":[{\"id\":\"z_CnQTlGv\",\"name\":\"New \\\"View As List\\\"\",\"fields\":[{\"id\":\"ctFrOM18N\",\"field\":\"_id\",\"label\":\"ID\",\"defaultValue\":\"\"},{\"id\":\"dTB5CysXh\",\"field\":\"$state\",\"label\":\"State\",\"defaultValue\":\"\"},{\"id\":\"jZqjafpL9c-s6D\",\"field\":\"hasUpdates\",\"label\":\"Has Updates\",\"defaultValue\":\"\"}],\"_selectId\":\"N4wUb0OozK\",\"hideFields\":\"\",\"availableActions\":[]}]}},\"createOnNew\":false,\"description\":\"\",\"displayName\":\"crm blackboard\",\"__originalId\":\"PRTVrtieCl-IoESTLn2g-1614691802269-IoESTLn2g-1615474420091:hestia/document-types\",\"defaultState\":\"New\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"cy9jtGByvUs_yS\",\"_parentVersion\":\"fwHehEIXDfTh0n\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"tabsBackground\":\"#f4f4f4\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"RJEFLTO1WF\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#f4f4f4\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#f4f4f4\",\"isLockedByCurrentUser\":false}",
-      "parentVersion": "fwHehEIXDfTh0n",
       "id": "cy9jtGByvUs_yS",
+      "name": "2.9",
       "time": 1618337312434,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "name": "2.9",
-      "locked": true
+      "locked": true,
+      "parentVersion": "fwHehEIXDfTh0n"
+    },
+    {
+      "id": "PwF6dSB5Y9LB53",
+      "name": "2.11",
+      "time": 1618406231357,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "cy9jtGByvUs_yS"
     }
-  ]
+  ],
+  "__version": "111",
+  "_modified": 1618402632000,
+  "components": "JSON",
+  "isLockedBy": null,
+  "navigation": [],
+  "_behaviours": {
+    "instances": {
+      "form": [
+        {
+          "id": "_3sJPSPcW3",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "5y3CS5d_vq",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "oEsVrcyVI",
+                  "name": "hasUpdates",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "UInxnyiz0A",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "QAYFNLMhW",
+                  "name": "records",
+                  "type": "JSON",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "_8tv1u3tSC",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "qpBAx6Qs68",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "formAction": [
+        {
+          "id": "RJEFLTO1WF",
+          "name": "Main",
+          "_init": 1608203435641,
+          "color": "#fff",
+          "forms": [
+            {
+              "id": "BiMcAm0R8o",
+              "form": "_3sJPSPcW3",
+              "readOnly": "",
+              "_selectId": "LoIcknXgZ-"
+            }
+          ],
+          "action": "",
+          "inline": true,
+          "actions": [
+            {
+              "id": "mC3yeLM3T",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "9CykEvk63l",
+              "condition": "",
+              "endOfLine": "",
+              "properties": [],
+              "confirmation": "",
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "Fw3pIeRcUH",
+          "editDemands": [],
+          "inputStates": [
+            "New"
+          ],
+          "visibleDemands": [],
+          "backgroundColor": "#03a9f4"
+        }
+      ],
+      "viewAsList": [
+        {
+          "id": "z_CnQTlGv",
+          "name": "New \"View As List\"",
+          "fields": [
+            {
+              "id": "ctFrOM18N",
+              "field": "_id",
+              "label": "ID",
+              "defaultValue": ""
+            },
+            {
+              "id": "dTB5CysXh",
+              "field": "$state",
+              "label": "State",
+              "defaultValue": ""
+            },
+            {
+              "id": "jZqjafpL9c-s6D",
+              "field": "hasUpdates",
+              "label": "Has Updates",
+              "defaultValue": ""
+            }
+          ],
+          "_selectId": "N4wUb0OozK",
+          "hideFields": "",
+          "availableActions": []
+        }
+      ]
+    },
+    "_state": ""
+  },
+  "createOnNew": false,
+  "description": "",
+  "displayName": "crm blackboard",
+  "__originalId": "PRTVrtieCl-IoESTLn2g-1614691802269-IoESTLn2g-1615474420091:hestia/document-types",
+  "defaultState": "New",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "GyHoSTtf_XtNti",
+  "_parentVersion": "PwF6dSB5Y9LB53",
+  "currentVersion": {
+    "live": "2.11",
+    "development": "2.11"
+  },
+  "tabsBackground": "#f4f4f4",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "RJEFLTO1WF",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#f4f4f4",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#f4f4f4",
+  "isLockedByCurrentUser": false
 }
