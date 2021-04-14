@@ -1,5 +1,5 @@
 {
-  "__": "u8bTDUR4dWXga1",
+  "__": "TUZ11k6w8iCd6b",
   "_id": "20itOLvUhhZUmR:hestia/app-types",
   "__ok": true,
   "icon": "FaUserCheck",
@@ -13,164 +13,11 @@
   "demands": [
     "SuperAdmin"
   ],
-  "_created": 1614072095000,
+  "_created": 1618298739000,
   "_deleted": 0,
   "database": "applications",
   "maxWidth": 1000,
   "uniqueId": "esWsTCuASlUoRv",
-  "_modified": 1618335897068,
-  "components": "card 2.0,extra-layout",
-  "isLockedBy": null,
-  "navigation": [],
-  "showOnMenu": true,
-  "__namespace": "",
-  "_behaviours": {
-    "_state": "",
-    "instances": {
-      "form": [
-        {
-          "id": "FmXMicr3r-tl51",
-          "name": "Main",
-          "sections": [
-            {
-              "name": "Main",
-              "_expanded": true,
-              "_selectId": "OsJfi9NOZ_Rrfj",
-              "questions": [
-                {
-                  "id": "DQ9u1xGsjupK6H",
-                  "icon": "FaUserPlus",
-                  "name": "",
-                  "type": "unrelatedDocument",
-                  "color": "#ffffff",
-                  "embed": false,
-                  "hints": {},
-                  "width": "",
-                  "height": "",
-                  "maximum": "",
-                  "minimum": "",
-                  "variant": "contained",
-                  "question": "",
-                  "_selectId": "sN0QkIC85d9UVp",
-                  "condition": "",
-                  "buttonIcon": {},
-                  "contextMap": {},
-                  "createType": "d0fXOh4wv4:hestia/document-types",
-                  "buttonCaption": "Add a TSO",
-                  "displayFields": [],
-                  "questionHeight": "",
-                  "backgroundColor": "#009fda",
-                  "backgroundImage": "",
-                  "questionLeftPad": "",
-                  "contextVariables": "",
-                  "questionRightPad": "",
-                  "backgroundPosition": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "XRq9HQjyZexWzi",
-                  "name": "",
-                  "type": "information",
-                  "hints": {},
-                  "question": "<h3><span style=\"font-family: Montserrat;\"><strong>Currently registered TSOs</strong></span></h3>\n",
-                  "_selectId": "r4RNdFHY9rxDI6",
-                  "condition": "",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                },
-                {
-                  "id": "FkCvOd8kbGheML",
-                  "name": "tsos",
-                  "rows": 5,
-                  "type": "documentList",
-                  "hints": {
-                    "paginateAbove": true,
-                    "paginateBelow": true
-                  },
-                  "where": {
-                    "$and": []
-                  },
-                  "listType": "d0fXOh4wv4:hestia/document-types",
-                  "question": "",
-                  "_selectId": "CbRQwH9K9rehBf",
-                  "condition": "",
-                  "emptyView": "rCUGIVAhw",
-                  "filterText": "",
-                  "navigation": [],
-                  "displayView": "rCUGIVAhw",
-                  "sortColumns": [],
-                  "listTypeName": "Employee",
-                  "displayFields": [],
-                  "filterColumns": [],
-                  "useDataSource": "",
-                  "emptyView_name": "Employee Card",
-                  "questionHeight": "",
-                  "questionLeftPad": "",
-                  "displayView_name": "Employee Card",
-                  "questionRightPad": "",
-                  "questionSpaceBefore": ""
-                }
-              ]
-            }
-          ],
-          "_selectId": "A3Mzi8jlyGlPt8",
-          "condition": "",
-          "description": "",
-          "duplicateNames": {}
-        }
-      ],
-      "formAction": [
-        {
-          "id": "b9VIQ1Ftt_XEJW",
-          "name": "Main",
-          "forms": [
-            {
-              "id": "S_s5YD_LEe8ADe",
-              "form": "FmXMicr3r-tl51"
-            }
-          ],
-          "inline": true,
-          "actions": [],
-          "$readOnly": false,
-          "_selectId": "eqaTwDTO_RMvkQ",
-          "inputStates": [
-            "default"
-          ]
-        }
-      ]
-    }
-  },
-  "createOnNew": true,
-  "description": "",
-  "displayName": "TSO User Management",
-  "specificUrl": false,
-  "__originalId": "20itOLvUhhZUmR:hestia/app-types",
-  "defaultState": "default",
-  "sidebarColor": "#333",
-  "tabsSelected": "#009fda",
-  "__warnReasons": [],
-  "documentColor": "#333",
-  "_activeVersion": "frIUXn2Op4WVP4",
-  "_parentVersion": "6g44XPVQyKlXFY",
-  "currentVersion": {
-    "development": "2.9",
-    "live": "2.9"
-  },
-  "showOnLauncher": true,
-  "tabsBackground": "#fafafa",
-  "tabsForeground": "#555",
-  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-  "defaultActivity": "b9VIQ1Ftt_XEJW",
-  "launcherCaption": "",
-  "sideBarMinWidth": 150,
-  "documentBackdrop": "#fafafa",
-  "sidebarBackground": "#fff",
-  "documentBackground": "#fff",
-  "launcherBackground": "#009fda",
-  "launcherForeground": "#ffffff",
-  "isLockedByCurrentUser": false,
   "versions": [
     {
       "id": "cMNZaP00ygJOKp",
@@ -397,13 +244,172 @@
       "parentVersion": "M3JP6eN7Y5eAW-"
     },
     {
-      "content": "{\"__\":\"u8bTDUR4dWXga1\",\"_id\":\"20itOLvUhhZUmR:hestia/app-types\",\"__ok\":true,\"icon\":\"FaUserCheck\",\"name\":\"TSO User Management\",\"_type\":\"application\",\"table\":\"TSO User Management-esWsTCuASlUoRv\",\"__warn\":false,\"client\":\"rsihYJKKDVyaYN\",\"locked\":false,\"_client\":\"rsihYJKKDVyaYN\",\"demands\":[\"SuperAdmin\"],\"_created\":1614072095000,\"_deleted\":0,\"database\":\"applications\",\"maxWidth\":1000,\"uniqueId\":\"esWsTCuASlUoRv\",\"_modified\":1618335897068,\"components\":\"card 2.0,extra-layout\",\"isLockedBy\":null,\"navigation\":[],\"showOnMenu\":true,\"__namespace\":\"\",\"_behaviours\":{\"_state\":\"\",\"instances\":{\"form\":[{\"id\":\"FmXMicr3r-tl51\",\"name\":\"Main\",\"sections\":[{\"name\":\"Main\",\"_expanded\":true,\"_selectId\":\"OsJfi9NOZ_Rrfj\",\"questions\":[{\"id\":\"DQ9u1xGsjupK6H\",\"icon\":\"FaUserPlus\",\"name\":\"\",\"type\":\"unrelatedDocument\",\"color\":\"#ffffff\",\"embed\":false,\"hints\":{},\"width\":\"\",\"height\":\"\",\"maximum\":\"\",\"minimum\":\"\",\"variant\":\"contained\",\"question\":\"\",\"_selectId\":\"sN0QkIC85d9UVp\",\"condition\":\"\",\"buttonIcon\":{},\"contextMap\":{},\"createType\":\"d0fXOh4wv4:hestia/document-types\",\"buttonCaption\":\"Add a TSO\",\"displayFields\":[],\"questionHeight\":\"\",\"backgroundColor\":\"#009fda\",\"backgroundImage\":\"\",\"questionLeftPad\":\"\",\"contextVariables\":\"\",\"questionRightPad\":\"\",\"backgroundPosition\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"XRq9HQjyZexWzi\",\"name\":\"\",\"type\":\"information\",\"hints\":{},\"question\":\"<h3><span style=\\\"font-family: Montserrat;\\\"><strong>Currently registered TSOs</strong></span></h3>\\n\",\"_selectId\":\"r4RNdFHY9rxDI6\",\"condition\":\"\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"},{\"id\":\"FkCvOd8kbGheML\",\"name\":\"tsos\",\"rows\":5,\"type\":\"documentList\",\"hints\":{\"paginateAbove\":true,\"paginateBelow\":true},\"where\":{\"$and\":[]},\"listType\":\"d0fXOh4wv4:hestia/document-types\",\"question\":\"\",\"_selectId\":\"CbRQwH9K9rehBf\",\"condition\":\"\",\"emptyView\":\"rCUGIVAhw\",\"filterText\":\"\",\"navigation\":[],\"displayView\":\"rCUGIVAhw\",\"sortColumns\":[],\"listTypeName\":\"Employee\",\"displayFields\":[],\"filterColumns\":[],\"useDataSource\":\"\",\"emptyView_name\":\"Employee Card\",\"questionHeight\":\"\",\"questionLeftPad\":\"\",\"displayView_name\":\"Employee Card\",\"questionRightPad\":\"\",\"questionSpaceBefore\":\"\"}]}],\"_selectId\":\"A3Mzi8jlyGlPt8\",\"condition\":\"\",\"description\":\"\",\"duplicateNames\":{}}],\"formAction\":[{\"id\":\"b9VIQ1Ftt_XEJW\",\"name\":\"Main\",\"forms\":[{\"id\":\"S_s5YD_LEe8ADe\",\"form\":\"FmXMicr3r-tl51\"}],\"inline\":true,\"actions\":[],\"$readOnly\":false,\"_selectId\":\"eqaTwDTO_RMvkQ\",\"inputStates\":[\"default\"]}]}},\"createOnNew\":true,\"description\":\"\",\"displayName\":\"TSO User Management\",\"specificUrl\":false,\"__originalId\":\"20itOLvUhhZUmR:hestia/app-types\",\"defaultState\":\"default\",\"sidebarColor\":\"#333\",\"tabsSelected\":\"#009fda\",\"__warnReasons\":[],\"documentColor\":\"#333\",\"_activeVersion\":\"6g44XPVQyKlXFY\",\"_parentVersion\":\"UidPOsL4mvoiuG\",\"currentVersion\":{\"development\":\"2.9\",\"live\":\"2.9\"},\"showOnLauncher\":true,\"tabsBackground\":\"#fafafa\",\"tabsForeground\":\"#555\",\"_lastModifiedBy\":\"59940924-a38e-4fae-9454-c1b9c8b7eb59\",\"defaultActivity\":\"b9VIQ1Ftt_XEJW\",\"launcherCaption\":\"\",\"sideBarMinWidth\":150,\"documentBackdrop\":\"#fafafa\",\"sidebarBackground\":\"#fff\",\"documentBackground\":\"#fff\",\"launcherBackground\":\"#009fda\",\"launcherForeground\":\"#ffffff\",\"isLockedByCurrentUser\":false}",
-      "parentVersion": "UidPOsL4mvoiuG",
       "id": "6g44XPVQyKlXFY",
+      "name": "2.9",
       "time": 1618337316648,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
-      "name": "2.9",
-      "locked": true
+      "locked": true,
+      "parentVersion": "UidPOsL4mvoiuG"
+    },
+    {
+      "id": "frIUXn2Op4WVP4",
+      "name": "2.11",
+      "time": 1618406236602,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": true,
+      "parentVersion": "6g44XPVQyKlXFY"
     }
-  ]
+  ],
+  "_modified": 1618402638000,
+  "components": "card 2.0,extra-layout",
+  "isLockedBy": null,
+  "navigation": [],
+  "showOnMenu": true,
+  "_behaviours": {
+    "instances": {
+      "form": [
+        {
+          "id": "FmXMicr3r-tl51",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "OsJfi9NOZ_Rrfj",
+              "questions": [
+                {
+                  "id": "DQ9u1xGsjupK6H",
+                  "icon": "FaUserPlus",
+                  "name": "",
+                  "type": "unrelatedDocument",
+                  "color": "#ffffff",
+                  "embed": false,
+                  "hints": {},
+                  "width": "",
+                  "height": "",
+                  "maximum": "",
+                  "minimum": "",
+                  "variant": "contained",
+                  "question": "",
+                  "_selectId": "sN0QkIC85d9UVp",
+                  "condition": "",
+                  "buttonIcon": {},
+                  "contextMap": {},
+                  "createType": "d0fXOh4wv4:hestia/document-types",
+                  "buttonCaption": "Add a TSO",
+                  "displayFields": [],
+                  "questionHeight": "",
+                  "backgroundColor": "#009fda",
+                  "backgroundImage": "",
+                  "questionLeftPad": "",
+                  "contextVariables": "",
+                  "questionRightPad": "",
+                  "backgroundPosition": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "XRq9HQjyZexWzi",
+                  "name": "",
+                  "type": "information",
+                  "hints": {},
+                  "question": "<h3><span style=\"font-family: Montserrat;\"><strong>Currently registered TSOs</strong></span></h3>\n",
+                  "_selectId": "r4RNdFHY9rxDI6",
+                  "condition": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "FkCvOd8kbGheML",
+                  "name": "tsos",
+                  "rows": 5,
+                  "type": "documentList",
+                  "hints": {
+                    "paginateAbove": true,
+                    "paginateBelow": true
+                  },
+                  "where": {
+                    "$and": []
+                  },
+                  "listType": "d0fXOh4wv4:hestia/document-types",
+                  "question": "",
+                  "_selectId": "CbRQwH9K9rehBf",
+                  "condition": "",
+                  "emptyView": "rCUGIVAhw",
+                  "filterText": "",
+                  "navigation": [],
+                  "displayView": "rCUGIVAhw",
+                  "sortColumns": [],
+                  "listTypeName": "Employee",
+                  "displayFields": [],
+                  "filterColumns": [],
+                  "useDataSource": "",
+                  "emptyView_name": "Employee Card",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "displayView_name": "Employee Card",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ]
+            }
+          ],
+          "_selectId": "A3Mzi8jlyGlPt8",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "formAction": [
+        {
+          "id": "b9VIQ1Ftt_XEJW",
+          "name": "Main",
+          "forms": [
+            {
+              "id": "S_s5YD_LEe8ADe",
+              "form": "FmXMicr3r-tl51"
+            }
+          ],
+          "inline": true,
+          "actions": [],
+          "$readOnly": false,
+          "_selectId": "eqaTwDTO_RMvkQ",
+          "inputStates": [
+            "default"
+          ]
+        }
+      ]
+    },
+    "_state": ""
+  },
+  "createOnNew": true,
+  "description": "",
+  "displayName": "TSO User Management",
+  "specificUrl": false,
+  "__originalId": "20itOLvUhhZUmR:hestia/app-types",
+  "defaultState": "default",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "__warnReasons": [],
+  "documentColor": "#333",
+  "_activeVersion": "-TDvXjKtdr9APW",
+  "_parentVersion": "frIUXn2Op4WVP4",
+  "currentVersion": {
+    "live": "2.11",
+    "development": "2.11"
+  },
+  "showOnLauncher": true,
+  "tabsBackground": "#fafafa",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "b9VIQ1Ftt_XEJW",
+  "launcherCaption": "",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#fafafa",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#fff",
+  "launcherBackground": "#009fda",
+  "launcherForeground": "#ffffff",
+  "isLockedByCurrentUser": false
 }
