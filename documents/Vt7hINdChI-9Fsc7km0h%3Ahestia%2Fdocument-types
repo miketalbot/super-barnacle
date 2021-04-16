@@ -1,5 +1,5 @@
 {
-  "__": "ZwgNJWOtC9ZjL5",
+  "__": "ksMuV9ZE3UwInX",
   "_id": "Vt7hINdChI-9Fsc7km0h:hestia/document-types",
   "__id": "g5RTuQ7xES",
   "__ok": true,
@@ -168,12 +168,39 @@
     "theme": "Alcumus",
     "permanentTheme": ""
   },
+  "$valid": true,
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
+  "gitHub": {
+    "RNNWu-7iWGW2fV": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "hBWvI6RfjCiDN1": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    }
+  },
   "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
+  "restApi": {
+    "hDVINg29clRQ_1": {
+      "get": true,
+      "list": true,
+      "create": true,
+      "delete": true,
+      "update": true,
+      "exposeAPI": true,
+      "getDemands": [],
+      "listDemands": [],
+      "createDemands": [],
+      "deleteDemands": [],
+      "updateDemands": []
+    }
+  },
   "$creator": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+  "$invalid": false,
   "_created": 1618298747000,
   "_deleted": 0,
   "database": "newss_aSupplierQuestionnaire",
@@ -428,6 +455,7 @@
       "time": 1618318819763,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "KZvlWDHoOjjKBd",
       "parentVersion": "V1i4wvbp3TAeUk"
     },
     {
@@ -436,6 +464,7 @@
       "time": 1618318941735,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "vTIKOxwN9e_-BL",
       "parentVersion": "hhpyI9zv_0tmpa"
     },
     {
@@ -444,6 +473,7 @@
       "time": 1618319052516,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "6b7O3tsp3o9M3h",
       "parentVersion": "l3cfGGbsHQLg5H"
     },
     {
@@ -452,6 +482,7 @@
       "time": 1618319150973,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "XjGfxuot27K1gM",
       "parentVersion": "Gucgks6StnP-CB"
     },
     {
@@ -460,6 +491,7 @@
       "time": 1618319231271,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "RhhX7ZDLfTMUPa",
       "parentVersion": "QCgdh1KjGzO4TP"
     },
     {
@@ -468,6 +500,7 @@
       "time": 1618319476673,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "ahFctvRi4iFC6N",
       "parentVersion": "vPHV6_CDnep2YE"
     },
     {
@@ -476,6 +509,7 @@
       "time": 1618320288584,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "HBhns1o2ZAJBJy",
       "parentVersion": "VRlFhzXoC6O87S"
     },
     {
@@ -484,6 +518,7 @@
       "time": 1618320833906,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "YlRPGw96_gedIp",
       "parentVersion": "x6HeqF9MF-o--R"
     },
     {
@@ -492,6 +527,7 @@
       "time": 1618320957777,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "AuyUnOw2G2YZq4",
       "parentVersion": "b4jPz13mMv6-Nd"
     },
     {
@@ -500,6 +536,7 @@
       "time": 1618335885893,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "J7IYlgQiBtTduk",
       "parentVersion": "VzJ-r7lrlHjE1w"
     },
     {
@@ -508,6 +545,7 @@
       "time": 1618337312469,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "yimwz_YH2uxk8Z",
       "parentVersion": "ceb7tMnq7qeNyB"
     },
     {
@@ -516,14 +554,25 @@
       "time": 1618406231401,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "zB8dxFGTMQmCZI",
       "parentVersion": "bsxCtlwvbOdc10"
+    },
+    {
+      "id": "NnpcVvW7n-Rm9z",
+      "name": "2.12",
+      "time": 1618567655470,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "_selectId": "phTBk--iGUhgj7",
+      "parentVersion": "kaOrK0qINxRnn1"
     }
   ],
-  "_modified": 1618402634000,
+  "_modified": 1618564056000,
   "components": "testing,card 2.0,conflicts,extra-layout,formprogress,navigation,richtext,confirmation,verification",
   "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
+    "_state": "",
     "instances": {
       "form": [
         {
@@ -4543,8 +4592,7 @@
           "doNotSendToCurrentUser": true
         }
       ]
-    },
-    "_state": ""
+    }
   },
   "companyName": "Some Supplier",
   "createOnNew": true,
@@ -4556,8 +4604,8 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "NnpcVvW7n-Rm9z",
-  "_parentVersion": "kaOrK0qINxRnn1",
+  "_activeVersion": "iixlKuyRZwFg7x",
+  "_parentVersion": "NnpcVvW7n-Rm9z",
   "currentVersion": {
     "live": "2.11",
     "development": "2.11"
