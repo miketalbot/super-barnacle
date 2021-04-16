@@ -1,5 +1,5 @@
 {
-  "__": "zgPqLSwivkuVNm",
+  "__": "1T9Y6V-KOG4AxD",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -187,11 +187,20 @@
       "delete": true,
       "update": true,
       "exposeAPI": true,
-      "getDemands": [],
-      "listDemands": [],
+      "getDemands": [
+        "SupplierAccount",
+        "SuperAdmin"
+      ],
+      "listDemands": [
+        "TSOAppAccess"
+      ],
       "patchDemands": [],
-      "createDemands": [],
-      "deleteDemands": [],
+      "createDemands": [
+        "ClientAppAccess"
+      ],
+      "deleteDemands": [
+        "admin"
+      ],
       "updateDemands": []
     }
   },
@@ -204,14 +213,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1618555860374,
+      "time": 1618558426916,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "1fkLeu5g0zzxaR",
+      "_selectId": "lvURaZ-gG7EyJk",
       "parentVersion": ""
     }
   ],
-  "_modified": 1618552261000,
+  "_modified": 1618554827000,
   "components": "",
   "navigation": [],
   "_behaviours": {
