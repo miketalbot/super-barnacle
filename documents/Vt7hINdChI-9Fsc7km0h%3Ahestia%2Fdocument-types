@@ -1,5 +1,5 @@
 {
-  "__": "ksMuV9ZE3UwInX",
+  "__": "0iAUWdBhDOVgkt",
   "_id": "Vt7hINdChI-9Fsc7km0h:hestia/document-types",
   "__id": "g5RTuQ7xES",
   "__ok": true,
@@ -184,6 +184,15 @@
   "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
+  "graphQL": {
+    "Bhe4xmGbBoO-jD": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
+    }
+  },
   "restApi": {
     "hDVINg29clRQ_1": {
       "get": true,
@@ -560,14 +569,14 @@
     {
       "id": "NnpcVvW7n-Rm9z",
       "name": "2.12",
-      "time": 1618567655470,
+      "time": 1618838454770,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "phTBk--iGUhgj7",
+      "_selectId": "0Wi0oLaBHm73YS",
       "parentVersion": "kaOrK0qINxRnn1"
     }
   ],
-  "_modified": 1618564056000,
+  "_modified": 1618834855000,
   "components": "testing,card 2.0,conflicts,extra-layout,formprogress,navigation,richtext,confirmation,verification",
   "isLockedBy": null,
   "navigation": [],
