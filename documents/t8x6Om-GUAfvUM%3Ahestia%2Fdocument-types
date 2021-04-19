@@ -1,5 +1,5 @@
 {
-  "__": "1T9Y6V-KOG4AxD",
+  "__": "n_Niwy6S8KJHUb",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -177,7 +177,18 @@
     }
   },
   "_client": "rsihYJKKDVyaYN",
-  "demands": [],
+  "demands": [
+    "all-clients"
+  ],
+  "graphQL": {
+    "Bhe4xmGbBoO-jD": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
+    }
+  },
   "restApi": {
     "hDVINg29clRQ_1": {
       "get": true,
@@ -188,19 +199,14 @@
       "update": true,
       "exposeAPI": true,
       "getDemands": [
-        "SupplierAccount",
-        "SuperAdmin"
+        "SupplierAccount"
       ],
       "listDemands": [
-        "TSOAppAccess"
+        "taskViewer"
       ],
       "patchDemands": [],
-      "createDemands": [
-        "ClientAppAccess"
-      ],
-      "deleteDemands": [
-        "admin"
-      ],
+      "createDemands": [],
+      "deleteDemands": [],
       "updateDemands": []
     }
   },
@@ -213,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1618558426916,
+      "time": 1618838445048,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "lvURaZ-gG7EyJk",
+      "_selectId": "4M-9dgtUkXtkOk",
       "parentVersion": ""
     }
   ],
-  "_modified": 1618554827000,
+  "_modified": 1618834845000,
   "components": "",
   "navigation": [],
   "_behaviours": {
