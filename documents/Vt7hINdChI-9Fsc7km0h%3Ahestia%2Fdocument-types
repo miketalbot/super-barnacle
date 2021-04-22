@@ -1,5 +1,5 @@
 {
-  "__": "0iAUWdBhDOVgkt",
+  "__": "RWqX8yTet2NE5i",
   "_id": "Vt7hINdChI-9Fsc7km0h:hestia/document-types",
   "__id": "g5RTuQ7xES",
   "__ok": true,
@@ -569,14 +569,14 @@
     {
       "id": "NnpcVvW7n-Rm9z",
       "name": "2.12",
-      "time": 1618838454770,
+      "time": 1619105771524,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "0Wi0oLaBHm73YS",
+      "_selectId": "bXXjCVXfr2-BwP",
       "parentVersion": "kaOrK0qINxRnn1"
     }
   ],
-  "_modified": 1618834855000,
+  "_modified": 1619102172000,
   "components": "testing,card 2.0,conflicts,extra-layout,formprogress,navigation,richtext,confirmation,verification",
   "isLockedBy": null,
   "navigation": [],
@@ -2375,10 +2375,11 @@
                   "iconOffsetY": "",
                   "dialogHeader": "Help",
                   "buttonCaption": "",
+                  "referenceType": "qtp5ZEvMXw-xkWJtZvh93:hestia/document-types",
                   "createTypeName": "Supplier Account",
                   "documentToLink": "{parentRecord}",
                   "questionHeight": "",
-                  "createIfMissing": true,
+                  "createIfMissing": false,
                   "questionLeftPad": "",
                   "questionRightPad": "",
                   "questionSpaceBefore": ""
