@@ -1,5 +1,5 @@
 {
-  "__": "vpN6EmV0it-q_w",
+  "__": "-M6JmZv1pXKKWu",
   "_id": "qtp5ZEvMXw-xkWJtZvh93:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -167,12 +167,38 @@
     "theme": "Alcumus",
     "permanentTheme": ""
   },
+  "$valid": true,
   "__warn": false,
   "client": "rsihYJKKDVyaYN",
+  "gitHub": {
+    "RNNWu-7iWGW2fV": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "hBWvI6RfjCiDN1": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    }
+  },
   "locked": false,
   "_client": "rsihYJKKDVyaYN",
   "demands": [],
+  "graphQL": {
+    "Bhe4xmGbBoO-jD": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
+    }
+  },
+  "restApi": {
+    "hDVINg29clRQ_1": {
+      "exposeAPI": ""
+    }
+  },
   "$creator": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
+  "$invalid": false,
   "_created": 1618298746000,
   "_deleted": 0,
   "database": "ss_SupplierAccount",
@@ -497,6 +523,7 @@
       "time": 1618319052510,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "3X0TZeBy-54Tsx",
       "parentVersion": "ELV15qHHIo_6Q5"
     },
     {
@@ -505,6 +532,7 @@
       "time": 1618319150965,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "TVKXEZA5_vOUJt",
       "parentVersion": "LOqAmL4sZolzUD"
     },
     {
@@ -513,6 +541,7 @@
       "time": 1618319231263,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "J8FzbFitPvvd4S",
       "parentVersion": "49O8NvROui9FS-"
     },
     {
@@ -521,6 +550,7 @@
       "time": 1618319476667,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "YdDdcR8FLofy_k",
       "parentVersion": "JvyvObyhsc-7ah"
     },
     {
@@ -529,6 +559,7 @@
       "time": 1618320288578,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "OXZya56AHyAwJA",
       "parentVersion": "y14fYFOSyUfbEg"
     },
     {
@@ -537,6 +568,7 @@
       "time": 1618320833900,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "RkmmMmmrzHsYo3",
       "parentVersion": "sx5ZvSNCH0ZVDl"
     },
     {
@@ -545,6 +577,7 @@
       "time": 1618320957771,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "sGIbb5QltfqIW4",
       "parentVersion": "oa2I-gdYunLL77"
     },
     {
@@ -553,6 +586,7 @@
       "time": 1618335885885,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "EWoerxMrAFeq1Y",
       "parentVersion": "97Tjx-gK_7J0G1"
     },
     {
@@ -561,6 +595,7 @@
       "time": 1618337312464,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "oL-tHSU1ktgfJS",
       "parentVersion": "BbGdMN17KvcxRc"
     },
     {
@@ -569,14 +604,25 @@
       "time": 1618406231393,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "54aCe4HYfyO-eR",
       "parentVersion": "Za8E1PQ9Pv_qvc"
+    },
+    {
+      "id": "xiXf23ofJtwTAg",
+      "name": "v1.0",
+      "time": 1619104465526,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "_selectId": "z-G3kzDBDA0HGi",
+      "parentVersion": "_Vstrts9vgCgEB"
     }
   ],
-  "_modified": 1618402636000,
+  "_modified": 1619100865000,
   "components": "card 2.0,extra-layout,formprogress,sync,helptext,richtext,conflicts",
   "isLockedBy": null,
   "navigation": [],
   "_behaviours": {
+    "_state": "",
     "instances": {
       "form": [
         {
@@ -4458,8 +4504,7 @@
           "_selectId": "Tw7m2R2qzwgLLj"
         }
       ]
-    },
-    "_state": ""
+    }
   },
   "createOnNew": true,
   "description": "",
@@ -4471,8 +4516,8 @@
   "tabsSelected": "#009fda",
   "__warnReasons": [],
   "documentColor": "#333",
-  "_activeVersion": "xiXf23ofJtwTAg",
-  "_parentVersion": "_Vstrts9vgCgEB",
+  "_activeVersion": "dRZquCQasPADCZ",
+  "_parentVersion": "xiXf23ofJtwTAg",
   "currentVersion": {
     "live": "2.11",
     "development": "2.11"
