@@ -1,5 +1,5 @@
 {
-  "__": "LR6UzxWtfpUmwL",
+  "__": "Svpy8-DFzqnvgX",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1619189192389,
+      "time": 1619189259796,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "bClAQaisbkXDju",
+      "_selectId": "0M9PX4olyY1JIj",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619185592000,
+  "_modified": 1619185660000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -419,6 +419,29 @@
               "variant": "text",
               "_selectId": "NwmWNhP2R9c7Ir",
               "condition": "requiredData",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "hXjwG5poVna3Od",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Save",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "gAlTQV643UNHhk",
+              "condition": "",
               "endOfLine": "",
               "navigateTo": "",
               "properties": [],
