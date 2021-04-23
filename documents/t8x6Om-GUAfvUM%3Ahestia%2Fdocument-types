@@ -1,5 +1,5 @@
 {
-  "__": "n_Niwy6S8KJHUb",
+  "__": "LR6UzxWtfpUmwL",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1618838445048,
+      "time": 1619189192389,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "4M-9dgtUkXtkOk",
+      "_selectId": "bClAQaisbkXDju",
       "parentVersion": ""
     }
   ],
-  "_modified": 1618834845000,
+  "_modified": 1619185592000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -247,7 +247,9 @@
                   "id": "gsqctenxVfAva3",
                   "name": "test1",
                   "type": "text",
-                  "hints": {},
+                  "hints": {
+                    "required": true
+                  },
                   "maxWidth": "",
                   "question": "",
                   "_selectId": "Uq4zIw-wX7royM",
@@ -326,6 +328,63 @@
           "condition": "",
           "description": "",
           "duplicateNames": {}
+        },
+        {
+          "id": "VsEqIFmYqQ7hmg",
+          "name": "Form 2",
+          "sections": [
+            {
+              "id": "1619189074642-Z4toTHJMusUZ0A",
+              "_id": "1619189074642-Z4toTHJMusUZ0A:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "bOW5NIVg5kYVZM",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "xt_sRiUhQ9287s",
+                  "name": "textOnForm2",
+                  "type": "text",
+                  "hints": {
+                    "required": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "7RPg9M4h1KyTxA",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "gGTh8hR1votQVL",
+                  "name": "conditionalText",
+                  "type": "text",
+                  "hints": {
+                    "required": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "nr-Nw0m42rPtam",
+                  "condition": "test1 = one",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "5IY7h4qWWWr_1r",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
         }
       ],
       "formAction": [
@@ -356,10 +415,10 @@
               "goBack": true,
               "caption": "Submit",
               "command": "setData",
-              "toState": "New",
+              "toState": "Submitted",
               "variant": "text",
               "_selectId": "NwmWNhP2R9c7Ir",
-              "condition": "",
+              "condition": "requiredData",
               "endOfLine": "",
               "navigateTo": "",
               "properties": [],
@@ -377,6 +436,57 @@
           ],
           "visibleDemands": [],
           "backgroundColor": "#03a9f4"
+        },
+        {
+          "id": "7_jmfM_LbpNEfD",
+          "name": "Submitted",
+          "forms": [
+            {
+              "id": "AE-14HiOIASAHh",
+              "form": "RRFyKvg9X-tAWJ",
+              "readOnly": false,
+              "_selectId": "ARFSIK8AtiY1WD"
+            },
+            {
+              "id": "nLMJFfzPQs0i_1",
+              "form": "VsEqIFmYqQ7hmg",
+              "readOnly": false,
+              "_selectId": "dmhi7fi4d8XRa3"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "VbnGOkm0-iHPjI",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "3rDUtxJGF5Fdgz",
+              "condition": "requiredData",
+              "endOfLine": false,
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "9MF-DLWrsnlo5E",
+          "editDemands": [],
+          "inputStates": [
+            "Submitted"
+          ],
+          "visibleDemands": []
         }
       ]
     }
