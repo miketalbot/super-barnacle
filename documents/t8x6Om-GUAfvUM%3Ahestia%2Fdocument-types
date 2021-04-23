@@ -1,5 +1,5 @@
 {
-  "__": "Svpy8-DFzqnvgX",
+  "__": "pKsrMwI2Z-FjIa",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1619189259796,
+      "time": 1619198302922,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "0M9PX4olyY1JIj",
+      "_selectId": "QKdbf_Z4fk7XAm",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619185660000,
+  "_modified": 1619194703000,
   "components": "",
   "navigation": [],
   "_behaviours": {
@@ -501,6 +501,29 @@
               "backgroundColor": "#03a9f4",
               "visibleCondition": "",
               "notificationToast": ""
+            },
+            {
+              "id": "fNorsITDYXz30g",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Close",
+              "command": "setData",
+              "toState": "Closed",
+              "variant": "text",
+              "_selectId": "_M5p7ptAmCxGnq",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
             }
           ],
           "storeIn": "",
@@ -508,6 +531,20 @@
           "editDemands": [],
           "inputStates": [
             "Submitted"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "UAXceQE1JKw2Ln",
+          "name": "Closed",
+          "forms": [],
+          "inline": true,
+          "actions": [],
+          "storeIn": "",
+          "_selectId": "DMA7r1Ug5_FXiN",
+          "editDemands": [],
+          "inputStates": [
+            "Closed"
           ],
           "visibleDemands": []
         }
