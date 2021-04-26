@@ -1,5 +1,5 @@
 {
-  "__": "Gv_QQw5Sk59ge2",
+  "__": "5nG1oQs9-fC8zs",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1619432449716,
+      "time": 1619434105171,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "gT6gv_MAVc5rgt",
+      "_selectId": "5eVPR3Re5hGGOy",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619428849000,
+  "_modified": 1619430505000,
   "components": "graph-ql",
   "navigation": [],
   "_behaviours": {
@@ -614,7 +614,7 @@
             {
               "id": "hFpMmgE6ToMi78",
               "name": "linkedAdded",
-              "when": "whenEntering",
+              "when": "entering",
               "inState": "<Created>",
               "onField": "idFromAccount",
               "raiseOn": "LVXn6NLGMR:hestia/document-types",
@@ -634,7 +634,7 @@
                 }
               ],
               "raiseOnName": "Conversation",
-              "raiseOnSelf": true,
+              "raiseOnSelf": "global",
               "subscriptionName": ""
             },
             {
