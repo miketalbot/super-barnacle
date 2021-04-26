@@ -1,5 +1,5 @@
 {
-  "__": "_gaJaeTRvxCjqD",
+  "__": "Gv_QQw5Sk59ge2",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1619431524941,
+      "time": 1619432449716,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "wOg3j49O0qukqh",
+      "_selectId": "gT6gv_MAVc5rgt",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619427925000,
+  "_modified": 1619428849000,
   "components": "graph-ql",
   "navigation": [],
   "_behaviours": {
@@ -653,7 +653,7 @@
     }
   },
   "createOnNew": false,
-  "description": "<p>This is <strong>some</strong> text</p>\n",
+  "description": "<p></p>\n",
   "displayName": "Test",
   "defaultState": "New",
   "sidebarColor": "#333",
