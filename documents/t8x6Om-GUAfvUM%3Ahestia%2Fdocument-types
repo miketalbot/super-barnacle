@@ -1,5 +1,5 @@
 {
-  "__": "qO7NLu5hJMMRg6",
+  "__": "kmYHB-H36rC2Hk",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1619431076276,
+      "time": 1619431089662,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "HWrax8D6xhDv95",
+      "_selectId": "EhetLu3EAAoLvO",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619427476000,
+  "_modified": 1619427489000,
   "components": "graph-ql",
   "navigation": [],
   "_behaviours": {
@@ -248,7 +248,6 @@
                   "name": "test1",
                   "type": "text",
                   "hints": {
-                    "hidden": true,
                     "required": true
                   },
                   "maxWidth": "",
