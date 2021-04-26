@@ -1,5 +1,5 @@
 {
-  "__": "kmYHB-H36rC2Hk",
+  "__": "yr3qN_rDVKU34C",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1619431089662,
+      "time": 1619431333121,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "EhetLu3EAAoLvO",
+      "_selectId": "LVdy4Add-c8ZlW",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619427489000,
+  "_modified": 1619427733000,
   "components": "graph-ql",
   "navigation": [],
   "_behaviours": {
@@ -318,6 +318,36 @@
                   "questionHeight": "",
                   "questionLeftPad": "",
                   "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "ABxMg0mMbYmH2c",
+                  "icon": "",
+                  "name": "notes",
+                  "type": "childRecord",
+                  "color": "",
+                  "embed": false,
+                  "hints": {},
+                  "width": "",
+                  "height": "",
+                  "maximum": "",
+                  "minimum": "",
+                  "variant": "text",
+                  "question": "",
+                  "_selectId": "RxxMEQ3Rni5UZQ",
+                  "condition": "",
+                  "buttonIcon": {},
+                  "contextMap": {},
+                  "createType": "t09ZQa0scaGusn:hestia/document-types",
+                  "buttonCaption": "Add Note",
+                  "displayFields": [],
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "backgroundImage": "",
+                  "questionLeftPad": "",
+                  "contextVariables": "",
+                  "questionRightPad": "",
+                  "backgroundPosition": "",
                   "questionSpaceBefore": ""
                 }
               ],
