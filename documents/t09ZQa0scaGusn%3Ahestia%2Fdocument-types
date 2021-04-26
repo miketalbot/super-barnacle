@@ -1,5 +1,5 @@
 {
-  "__": "HXacVgDl6UVMV1",
+  "__": "K1gIRHBQMk2Yo1",
   "_id": "t09ZQa0scaGusn:hestia/document-types",
   "icon": "",
   "name": "Note",
@@ -197,14 +197,14 @@
     {
       "id": "b6l9JWkdvwaJf1",
       "name": "1.0",
-      "time": 1619432400882,
+      "time": 1619432432079,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "y7uWkzl5MrXex1",
+      "_selectId": "0rBxrZxUjboe-Q",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619428801000,
+  "_modified": 1619428832000,
   "components": "graph-ql",
   "navigation": [],
   "_behaviours": {
@@ -347,7 +347,7 @@
     }
   },
   "createOnNew": false,
-  "description": "",
+  "description": "<p>Some kind of note for a linked document</p>\n",
   "displayName": "Note",
   "defaultState": "New",
   "sidebarColor": "#333",
