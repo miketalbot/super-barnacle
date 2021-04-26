@@ -1,5 +1,5 @@
 {
-  "__": "yr3qN_rDVKU34C",
+  "__": "_gaJaeTRvxCjqD",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1619431333121,
+      "time": 1619431524941,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "LVdy4Add-c8ZlW",
+      "_selectId": "wOg3j49O0qukqh",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619427733000,
+  "_modified": 1619427925000,
   "components": "graph-ql",
   "navigation": [],
   "_behaviours": {
@@ -613,33 +613,33 @@
           "subscriptions": [
             {
               "id": "hFpMmgE6ToMi78",
-              "name": "testThisOut",
-              "when": "entering",
-              "inState": "New",
+              "name": "linkedAdded",
+              "when": "whenEntering",
+              "inState": "<Created>",
               "onField": "idFromAccount",
               "raiseOn": "LVXn6NLGMR:hestia/document-types",
               "localField": "_id",
               "properties": [
                 {
                   "id": "kbyOTqtnu3y2H2",
-                  "field": "test",
-                  "value": "{test2}",
+                  "field": "test1",
+                  "value": "{test1}",
                   "defaultValue": ""
                 },
                 {
                   "id": "w8X7v_J71Dw6Ig",
-                  "field": "Banana",
+                  "field": "state",
                   "value": "{$state}",
                   "defaultValue": ""
                 }
               ],
               "raiseOnName": "Conversation",
-              "raiseOnSelf": false,
+              "raiseOnSelf": true,
               "subscriptionName": ""
             },
             {
               "id": "TwiOdI3Qjhw3iz",
-              "name": "thisIsAMuchLongerName",
+              "name": "linkedClosed",
               "when": "in",
               "inState": "Closed",
               "localField": "_id",
