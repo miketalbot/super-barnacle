@@ -1,5 +1,5 @@
 {
-  "__": "vD4PHJDQUytQM5",
+  "__": "qO7NLu5hJMMRg6",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,15 +219,15 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1619199440985,
+      "time": 1619431076276,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "r4PjuPkI82FCDk",
+      "_selectId": "HWrax8D6xhDv95",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619195841000,
-  "components": "",
+  "_modified": 1619427476000,
+  "components": "graph-ql",
   "navigation": [],
   "_behaviours": {
     "_state": "",
@@ -248,6 +248,7 @@
                   "name": "test1",
                   "type": "text",
                   "hints": {
+                    "hidden": true,
                     "required": true
                   },
                   "maxWidth": "",
@@ -571,6 +572,53 @@
             "Closed"
           ],
           "visibleDemands": []
+        }
+      ],
+      "graphQLSubscription": [
+        {
+          "id": "AYs21zewAIKk1f",
+          "name": "Main Subs",
+          "__init": true,
+          "basePath": "",
+          "_selectId": "TMy8-Ea8G5v0dx",
+          "subscriptions": [
+            {
+              "id": "hFpMmgE6ToMi78",
+              "name": "testThisOut",
+              "when": "entering",
+              "inState": "New",
+              "onField": "idFromAccount",
+              "raiseOn": "LVXn6NLGMR:hestia/document-types",
+              "localField": "_id",
+              "properties": [
+                {
+                  "id": "kbyOTqtnu3y2H2",
+                  "field": "test",
+                  "value": "{test2}",
+                  "defaultValue": ""
+                },
+                {
+                  "id": "w8X7v_J71Dw6Ig",
+                  "field": "Banana",
+                  "value": "{$state}",
+                  "defaultValue": ""
+                }
+              ],
+              "raiseOnName": "Conversation",
+              "raiseOnSelf": false,
+              "subscriptionName": ""
+            },
+            {
+              "id": "TwiOdI3Qjhw3iz",
+              "name": "thisIsAMuchLongerName",
+              "when": "in",
+              "inState": "Closed",
+              "localField": "_id",
+              "properties": [],
+              "raiseOnSelf": true,
+              "subscriptionName": ""
+            }
+          ]
         }
       ]
     }
