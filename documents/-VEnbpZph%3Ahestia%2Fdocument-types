@@ -1,5 +1,5 @@
 {
-  "__": "MvcITiAAXsEL8I",
+  "__": "DQriVgYUp821zd",
   "_id": "-VEnbpZph:hestia/document-types",
   "__ok": true,
   "icon": "",
@@ -266,6 +266,7 @@
       "time": 1615912066594,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "WutKO8qyn7z-bt",
       "parentVersion": "bDfqhFG9nj0OL6"
     },
     {
@@ -274,6 +275,7 @@
       "time": 1616084218607,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "tbpOWXURMu_CrP",
       "parentVersion": "ieukBokAg43Whg"
     },
     {
@@ -282,6 +284,7 @@
       "time": 1616402516529,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "u0x8_Iq87aHmlc",
       "parentVersion": "gqrIhsaRpOkXtY"
     },
     {
@@ -290,6 +293,7 @@
       "time": 1616582160426,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "gqHrL3B-3Iq02a",
       "parentVersion": "lyxxL7X8r5SrLL"
     },
     {
@@ -298,6 +302,7 @@
       "time": 1616601217840,
       "user": "15b779b1-e135-4313-b0b7-6dac1755adb8",
       "locked": true,
+      "_selectId": "sA5VnquH7oIojB",
       "parentVersion": "2nAQBBxDeQpD6G"
     },
     {
@@ -306,6 +311,7 @@
       "time": 1617701913281,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "yZ-12IxNqcjvyU",
       "parentVersion": "oySPGrTyojgLTP"
     },
     {
@@ -314,6 +320,7 @@
       "time": 1617706961508,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "Y3azrClDxb3vyp",
       "parentVersion": "exnsamtKp9eumT"
     },
     {
@@ -322,6 +329,7 @@
       "time": 1617868809335,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "OU3yV74RPCJjxj",
       "parentVersion": "WAHH0B-hi_K-T1"
     },
     {
@@ -330,6 +338,7 @@
       "time": 1617957430791,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "hKlwvn6nw_0nRl",
       "parentVersion": "baUdURKltGMcWY"
     },
     {
@@ -338,6 +347,7 @@
       "time": 1618213619348,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "4sNbubUwBuCXy4",
       "parentVersion": "BZ3vyzoZunzZ08"
     },
     {
@@ -346,6 +356,7 @@
       "time": 1618221067963,
       "user": "f389cfaa-0b2a-4653-8c35-32aa5486efe7",
       "locked": true,
+      "_selectId": "1cissxOK9nKeHc",
       "parentVersion": "nTb4usTgQn2ugs"
     },
     {
@@ -354,6 +365,7 @@
       "time": 1618318819734,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": true,
+      "_selectId": "MNU4cvudD24e9r",
       "parentVersion": "7A4MGGxUuq60T3"
     },
     {
@@ -467,14 +479,14 @@
     {
       "id": "8kbQiOnsvrdFHP",
       "name": "1.0",
-      "time": 1620132883343,
+      "time": 1620133133805,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "5oSDcP2FlxnI1Y",
+      "_selectId": "Xh94UZAcr1Y8V1",
       "parentVersion": "9rn_zXlyaWG7Ov"
     }
   ],
-  "_modified": 1620129284000,
+  "_modified": 1620129534000,
   "components": "",
   "isLockedBy": null,
   "navigation": [],
@@ -739,8 +751,9 @@
   "_activeVersion": "jliAIgttZgMKRI",
   "_parentVersion": "8kbQiOnsvrdFHP",
   "currentVersion": {
-    "live": "2.11",
-    "development": "2.11"
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
   },
   "tabsBackground": "#f4f4f4",
   "tabsForeground": "#555",
