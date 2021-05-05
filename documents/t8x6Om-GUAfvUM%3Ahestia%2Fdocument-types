@@ -1,5 +1,5 @@
 {
-  "__": "5nG1oQs9-fC8zs",
+  "__": "IVoauJiIKe74ce",
   "_id": "t8x6Om-GUAfvUM:hestia/document-types",
   "icon": "",
   "name": "Test Linked",
@@ -219,14 +219,14 @@
     {
       "id": "uPSbuUf-2yLf7M",
       "name": "1.0",
-      "time": 1619434105171,
+      "time": 1620204012986,
       "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
       "locked": false,
-      "_selectId": "5eVPR3Re5hGGOy",
+      "_selectId": "dVT_76CeKS7Ztb",
       "parentVersion": ""
     }
   ],
-  "_modified": 1619430505000,
+  "_modified": 1620200413000,
   "components": "graph-ql",
   "navigation": [],
   "_behaviours": {
@@ -633,6 +633,7 @@
                   "defaultValue": ""
                 }
               ],
+              "description": "Notify when a test linked document is added",
               "raiseOnName": "Conversation",
               "raiseOnSelf": "global",
               "subscriptionName": ""
@@ -644,6 +645,7 @@
               "inState": "Closed",
               "localField": "_id",
               "properties": [],
+              "description": "Notify when a test linked document is closed down",
               "raiseOnSelf": true,
               "subscriptionName": ""
             }
@@ -652,6 +654,7 @@
       ]
     }
   },
+  "_components": {},
   "createOnNew": false,
   "description": "<p></p>\n",
   "displayName": "Test",
