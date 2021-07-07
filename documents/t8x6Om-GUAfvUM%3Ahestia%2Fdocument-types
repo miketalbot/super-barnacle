@@ -1,0 +1,682 @@
+{
+  "__": "2LqcBHIOthn9QC",
+  "_id": "t8x6Om-GUAfvUM:hestia/document-types",
+  "icon": "",
+  "name": "Test Linked",
+  "tags": [],
+  "table": "linked",
+  "theme": {
+    "other": {
+      "opacity": {
+        "AlcOpacity_001": "10%",
+        "AlcOpacity_002": "25%",
+        "AlcOpacity_003": "50%",
+        "AlcOpacity_004": "75%"
+      },
+      "palette": {
+        "gold": "gold",
+        "type": "light",
+        "bronze": "#853",
+        "silver": "silver",
+        "primary": {
+          "main": "#1da7e0",
+          "contrastText": "#fff"
+        },
+        "AlcSys_001": "#FFFFFF",
+        "AlcSys_002": "#F7F8F9",
+        "AlcSys_003": "#F4F5F6",
+        "AlcSys_004": "#EBEBED",
+        "AlcSys_005": "#CCCCCC",
+        "AlcSys_006": "rgba(125, 125, 125, 1)",
+        "AlcSys_007": "#263836",
+        "AlcSys_008": "#000000",
+        "AlcBrand_001": "#1da7e0",
+        "AlcBrand_002": "#0081AF",
+        "AlcBrand_003": "#294A76",
+        "AlcBrand_004": "#0099B3",
+        "AlcBrand_005": "#604696",
+        "AlcBrand_006": "#D26A37",
+        "AlcBrand_007": "#679861",
+        "AlcBrand_008": "#EBBA00",
+        "AlcBrand_009": "#8C1D82",
+        "AlcBrand_010": "#DC840A",
+        "AlcSys_006_10": "rgba(125, 125, 125, .1)",
+        "AlcSys_006_25": "rgba(125, 125, 125, .25)",
+        "AlcSys_006_50": "rgba(125, 125, 125, .50)",
+        "AlcSys_006_75": "rgba(125, 125, 125, .75)",
+        "AlcSys_Grad001": "linear-gradient(55deg, #F7F8F9 100%, #F4F5F6 100%)",
+        "AlcSys_Grad002": "linear-gradient(55deg, #1da7e0 100%, #604696 100%)",
+        "AlcSysState_prog": "rgba(235, 186, 0, 1)",
+        "AlcSysState_risk": "rgba(233, 75, 75, 1)",
+        "AlcSysState_green": "rgba(63, 195, 128, 1)",
+        "AlcSysState_issue": "rgba(233, 165, 75, 1)",
+        "AlcSysState_prog_10": "rgba(235, 186, 0, .1)",
+        "AlcSysState_prog_25": "rgba(235, 186, 0,.251)",
+        "AlcSysState_prog_50": "rgba(235, 186, 0,.5)",
+        "AlcSysState_prog_75": "rgba(235, 186, 0, .75)",
+        "AlcSysState_risk_10": "rgba(233, 75, 75, .1)",
+        "AlcSysState_risk_25": "rgba(233, 75, 75, .25)",
+        "AlcSysState_risk_50": "rgba(233, 75, 75, .50)",
+        "AlcSysState_risk_75": "rgba(233, 75, 75, .75)",
+        "AlcSysState_green_10": "rgba(63, 195, 128, 0.1)",
+        "AlcSysState_green_25": "rgba(63, 195, 128, 0.25)",
+        "AlcSysState_green_50": "rgba(63, 195, 128, 0.5)",
+        "AlcSysState_green_75": "rgba(63, 195, 128, 0.75)",
+        "AlcSysState_issue_10": "rgba(233, 165, 75, .1)",
+        "AlcSysState_issue_25": "rgba(233, 165, 75, .25)",
+        "AlcSysState_issue_50": "rgba(233, 165, 75, .50)",
+        "AlcSysState_issue_75": "rgba(233, 165, 75, .75)"
+      },
+      "document": {
+        "form": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "child": {
+          "fontSize": 16,
+          "fontFamily": "Roboto, sans-serif"
+        },
+        "fontSize": 16,
+        "fontFamily": "Roboto, sans-serif"
+      },
+      "typography": {
+        "h1": {
+          "fontSize": "2.8em",
+          "fontFamily": "Montserrat, sans-serif",
+          "fontWeight": 700
+        },
+        "h2": {
+          "fontSize": "2.3em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h3": {
+          "fontSize": "2em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "h4": {
+          "fontSize": "1.667em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h5": {
+          "fontSize": "1.333em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "h6": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 400
+        },
+        "body1": {
+          "fontSize": "1.167em",
+          "fontFamily": "Roboto"
+        },
+        "body2": {
+          "fontSize": "1em",
+          "fontFamily": "Roboto"
+        },
+        "body3": {
+          "fontSize": "0.9em",
+          "fontFamily": "Roboto"
+        },
+        "body4": {
+          "fontSize": "14px",
+          "fontFamily": "Roboto"
+        },
+        "overline": {
+          "fontSize": "0.917em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500,
+          "textTransform": "uppercase"
+        },
+        "Action1_Medium": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action2_Medium": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 500
+        },
+        "Action1_Regular": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat"
+        },
+        "Action2_Regular": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat"
+        },
+        "Action1_SemiBold": {
+          "fontSize": "1.167em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        },
+        "Action2_SemiBold": {
+          "fontSize": "1em",
+          "fontFamily": "Montserrat",
+          "fontWeight": 600
+        }
+      }
+    },
+    "theme": "Alcumus",
+    "permanentTheme": ""
+  },
+  "$valid": true,
+  "gitHub": {
+    "RNNWu-7iWGW2fV": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    },
+    "hBWvI6RfjCiDN1": {
+      "publishDocs": "",
+      "gitHubPublish": true
+    }
+  },
+  "_client": "rsihYJKKDVyaYN",
+  "demands": [
+    "all-clients"
+  ],
+  "graphQL": {
+    "Bhe4xmGbBoO-jD": {
+      "read": true,
+      "write": true,
+      "exposeAPI": true,
+      "readDemands": [],
+      "writeDemands": []
+    }
+  },
+  "restApi": {
+    "hDVINg29clRQ_1": {
+      "get": true,
+      "list": true,
+      "patch": true,
+      "create": true,
+      "delete": true,
+      "update": true,
+      "exposeAPI": true,
+      "getDemands": [
+        "SupplierAccount"
+      ],
+      "listDemands": [
+        "taskViewer"
+      ],
+      "patchDemands": [],
+      "createDemands": [],
+      "deleteDemands": [],
+      "updateDemands": []
+    }
+  },
+  "$invalid": false,
+  "_created": 1618470472000,
+  "_deleted": 0,
+  "database": "test",
+  "maxWidth": 1000,
+  "versions": [
+    {
+      "id": "uPSbuUf-2yLf7M",
+      "name": "1.0",
+      "time": 1620206851062,
+      "user": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+      "locked": false,
+      "_selectId": "OxC0vpJUq7jj2y",
+      "parentVersion": ""
+    }
+  ],
+  "_modified": 1620203251000,
+  "components": "graph-ql",
+  "navigation": [],
+  "_behaviours": {
+    "_state": "",
+    "instances": {
+      "form": [
+        {
+          "id": "RRFyKvg9X-tAWJ",
+          "name": "Main",
+          "sections": [
+            {
+              "name": "Main",
+              "_expanded": true,
+              "_selectId": "oTr7MMxxWbLmnr",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "gsqctenxVfAva3",
+                  "name": "test1",
+                  "type": "text",
+                  "hints": {
+                    "required": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "Uq4zIw-wX7royM",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "RMADIk4F4llZde",
+                  "name": "test2",
+                  "type": "text",
+                  "hints": {},
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "N9PT256zeXkXqE",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "9vlXmzMWMfUWen",
+                  "name": "choice1",
+                  "type": "choice",
+                  "hints": {},
+                  "choices": [
+                    {
+                      "label": "one",
+                      "value": "1"
+                    },
+                    {
+                      "label": "two",
+                      "value": "2"
+                    },
+                    {
+                      "label": "three",
+                      "value": "3"
+                    }
+                  ],
+                  "question": "",
+                  "_selectId": "AmK37VJbUYpsJn",
+                  "condition": "",
+                  "inputLabel": "",
+                  "choiceOptions": {
+                    "1": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "2": {
+                      "icon": "",
+                      "colour": ""
+                    },
+                    "3": {
+                      "icon": "",
+                      "colour": ""
+                    }
+                  },
+                  "defaultChoices": [],
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "ABxMg0mMbYmH2c",
+                  "icon": "",
+                  "name": "notes",
+                  "type": "childRecord",
+                  "color": "",
+                  "embed": false,
+                  "hints": {},
+                  "width": "",
+                  "height": "",
+                  "maximum": "",
+                  "minimum": "",
+                  "variant": "text",
+                  "question": "",
+                  "_selectId": "RxxMEQ3Rni5UZQ",
+                  "condition": "",
+                  "buttonIcon": {},
+                  "contextMap": {},
+                  "createType": "t09ZQa0scaGusn:hestia/document-types",
+                  "buttonCaption": "Add Note",
+                  "displayFields": [],
+                  "questionHeight": "",
+                  "backgroundColor": "",
+                  "backgroundImage": "",
+                  "questionLeftPad": "",
+                  "contextVariables": "",
+                  "questionRightPad": "",
+                  "backgroundPosition": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "ET8FBLrnCXWuEq",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        },
+        {
+          "id": "VsEqIFmYqQ7hmg",
+          "name": "Form 2",
+          "sections": [
+            {
+              "id": "1619189074642-Z4toTHJMusUZ0A",
+              "_id": "1619189074642-Z4toTHJMusUZ0A:hestia/form-sections",
+              "name": "...",
+              "_expanded": true,
+              "_selectId": "bOW5NIVg5kYVZM",
+              "condition": "",
+              "questions": [
+                {
+                  "id": "xt_sRiUhQ9287s",
+                  "name": "textOnForm2",
+                  "type": "text",
+                  "hints": {
+                    "required": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "7RPg9M4h1KyTxA",
+                  "condition": "",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                },
+                {
+                  "id": "gGTh8hR1votQVL",
+                  "name": "conditionalText",
+                  "type": "text",
+                  "hints": {
+                    "required": true
+                  },
+                  "maxWidth": "",
+                  "question": "",
+                  "_selectId": "nr-Nw0m42rPtam",
+                  "condition": "test1 = one",
+                  "inputLabel": "",
+                  "defaultValue": "",
+                  "questionHeight": "",
+                  "questionLeftPad": "",
+                  "questionRightPad": "",
+                  "questionSpaceBefore": ""
+                }
+              ],
+              "description": ""
+            }
+          ],
+          "_selectId": "5IY7h4qWWWr_1r",
+          "condition": "",
+          "description": "",
+          "duplicateNames": {}
+        }
+      ],
+      "formAction": [
+        {
+          "id": "XBa9HYV0IEemZi",
+          "name": "Main",
+          "_init": 1618474072475,
+          "color": "#fff",
+          "forms": [
+            {
+              "id": "_t47urcuvUt8h_",
+              "form": "RRFyKvg9X-tAWJ",
+              "readOnly": "",
+              "_selectId": "SZPLlTzNla3rfX"
+            }
+          ],
+          "action": "",
+          "inline": true,
+          "actions": [
+            {
+              "id": "fiImreEUvRLCW7",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": true,
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "Submitted",
+              "variant": "text",
+              "_selectId": "NwmWNhP2R9c7Ir",
+              "condition": "requiredData",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "hXjwG5poVna3Od",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Save",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "gAlTQV643UNHhk",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "dHZ9fAR-WNovbh",
+          "editDemands": [],
+          "inputStates": [
+            "New"
+          ],
+          "visibleDemands": [],
+          "backgroundColor": "#03a9f4"
+        },
+        {
+          "id": "7_jmfM_LbpNEfD",
+          "name": "Submitted",
+          "forms": [
+            {
+              "id": "AE-14HiOIASAHh",
+              "form": "RRFyKvg9X-tAWJ",
+              "readOnly": false,
+              "_selectId": "ARFSIK8AtiY1WD"
+            },
+            {
+              "id": "nLMJFfzPQs0i_1",
+              "form": "VsEqIFmYqQ7hmg",
+              "readOnly": false,
+              "_selectId": "dmhi7fi4d8XRa3"
+            }
+          ],
+          "inline": true,
+          "actions": [
+            {
+              "id": "VbnGOkm0-iHPjI",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "3rDUtxJGF5Fdgz",
+              "condition": "requiredData",
+              "endOfLine": false,
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            },
+            {
+              "id": "fNorsITDYXz30g",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Close",
+              "command": "setData",
+              "toState": "Closed",
+              "variant": "text",
+              "_selectId": "_M5p7ptAmCxGnq",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "9MF-DLWrsnlo5E",
+          "editDemands": [],
+          "inputStates": [
+            "Submitted"
+          ],
+          "visibleDemands": []
+        },
+        {
+          "id": "UAXceQE1JKw2Ln",
+          "name": "Closed",
+          "forms": [],
+          "inline": true,
+          "actions": [
+            {
+              "id": "ud66uj6TYtwtm8",
+              "blur": "",
+              "icon": "",
+              "color": "#fff",
+              "modal": {
+                "enabled": false
+              },
+              "goBack": "",
+              "caption": "Submit",
+              "command": "setData",
+              "toState": "New",
+              "variant": "text",
+              "_selectId": "jfCO918a0q7uv-",
+              "condition": "",
+              "endOfLine": "",
+              "navigateTo": "",
+              "properties": [],
+              "changeState": true,
+              "backgroundColor": "#03a9f4",
+              "visibleCondition": "",
+              "notificationToast": ""
+            }
+          ],
+          "storeIn": "",
+          "_selectId": "DMA7r1Ug5_FXiN",
+          "editDemands": [],
+          "inputStates": [
+            "Closed"
+          ],
+          "visibleDemands": []
+        }
+      ],
+      "graphQLSubscription": [
+        {
+          "id": "AYs21zewAIKk1f",
+          "name": "Main Subs",
+          "__init": true,
+          "basePath": "",
+          "_selectId": "TMy8-Ea8G5v0dx",
+          "subscriptions": [
+            {
+              "id": "hFpMmgE6ToMi78",
+              "name": "linkedAdded",
+              "when": "entering",
+              "inState": "<Created>",
+              "onField": "idFromAccount",
+              "raiseOn": "LVXn6NLGMR:hestia/document-types",
+              "localField": "_id",
+              "properties": [
+                {
+                  "id": "kbyOTqtnu3y2H2",
+                  "field": "test1",
+                  "value": "{test1}",
+                  "defaultValue": ""
+                },
+                {
+                  "id": "w8X7v_J71Dw6Ig",
+                  "field": "state",
+                  "value": "{$state}",
+                  "defaultValue": ""
+                }
+              ],
+              "description": "Notify when a test linked document is added",
+              "raiseOnName": "Conversation",
+              "raiseOnSelf": "global",
+              "subscriptionName": ""
+            },
+            {
+              "id": "TwiOdI3Qjhw3iz",
+              "name": "linkedClosed",
+              "when": "in",
+              "inState": "Closed",
+              "localField": "_id",
+              "properties": [],
+              "description": "Notify when a test linked document is closed down",
+              "raiseOnSelf": true,
+              "subscriptionName": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_components": {},
+  "createOnNew": false,
+  "description": "<p></p>\n",
+  "displayName": "Test",
+  "defaultState": "New",
+  "sidebarColor": "#333",
+  "tabsSelected": "#009fda",
+  "documentColor": "#333",
+  "_activeVersion": "qUMX8C2OyvheHk",
+  "_parentVersion": "uPSbuUf-2yLf7M",
+  "currentVersion": {
+    "live": "1.0",
+    "testing": "1.0",
+    "development": "1.0"
+  },
+  "tabsBackground": "#f4f4f4",
+  "tabsForeground": "#555",
+  "_lastModifiedBy": "59940924-a38e-4fae-9454-c1b9c8b7eb59",
+  "defaultActivity": "XBa9HYV0IEemZi",
+  "devices-allowed": "",
+  "sideBarMinWidth": 150,
+  "documentBackdrop": "#f4f4f4",
+  "sidebarBackground": "#fff",
+  "documentBackground": "#f4f4f4",
+  "devices-allowed-html": ""
+}
